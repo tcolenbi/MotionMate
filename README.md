@@ -6,7 +6,7 @@
 Datum
 
 ## Samenvatting
-Max 400 woorden. Beschrijf je project in het kort, waarbij je deze vragen zeker beantwoordt:
+Max 200 woorden. Beschrijf je project in het kort, waarbij je deze vragen zeker beantwoordt:
 
 - Wat is het probleem?
 - Hoe heb je dit onderzocht?
@@ -15,15 +15,15 @@ Max 400 woorden. Beschrijf je project in het kort, waarbij je deze vragen zeker 
 - Hero sketch/render/image
 
 ## Introductie
-Max 600 woorden.
+Max 300 woorden.
 Kader je project. Introduceer het probleem en jouw doelstellingen (inclusief boundary conditions).
 Maak gebruik van bronverwijzingen ([zie APA stijl](https://www.scribbr.nl/category/apa-stijl/)).
 
 ## Methdologie
-Max 600 woorden. Beschrijf je methodologie (enkel SEM1, zie les methodologie). Maak hierbij gebruik van een afbeelding om je tijdlijn weer te geven. Op deze tijdlijn moeten minimaal een tijdsincatie te zien zijn, moeten fasen te zien zijn en moeten activiteiten te zien zijn.
+Max 400 woorden. Beschrijf je methodologie (enkel SEM1, zie les methodologie). Maak hierbij gebruik van een afbeelding om je tijdlijn weer te geven. Op deze tijdlijn moeten minimaal een tijdsincatie te zien zijn, moeten fasen te zien zijn en moeten activiteiten te zien zijn.
 
 ## Discovery
-Max. 1500 woorden
+Max. 1000 woorden
 ### Doestellingen
 Wat wilde je bereiken?
 ### Materiaal & methoden
@@ -34,7 +34,7 @@ Rapporteer over de resultaten (incl. foto's, quotes, analyseframeworks, ...)
 Definieer de belangrijkste besignbeslissingen
 
 ## Definition
-Max. 1500 woorden
+Max. 1000 woorden
 ### Doestellingen
 Wat wilde je bereiken?
 ### Materiaal & methoden
@@ -56,7 +56,7 @@ Definieer de belangrijkste besignbeslissingen
 - Prototype
 
 ## Kritische reflectie
-Max. 1000 woorden
+Max. 500 woorden
 
 ## Bronnen
 Voeg je volledige bibliografie toe van bronnen naarwaar je verwees.
