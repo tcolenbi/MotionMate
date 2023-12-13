@@ -31,7 +31,7 @@ Hoe onderzocht je dit? Wees volledig.
 ### Resultaten
 Rapporteer over de resultaten (incl. foto's, quotes, analyseframeworks, ...)
 ### Conclusies & implicaties
-Definieer de belangrijkste besignbeslissingen
+Definieer de belangrijkste designbeslissingen
 
 ## Definition
 Max. 1000 woorden
@@ -42,7 +42,7 @@ Hoe onderzocht je dit? Wees volledig.
 ### Resultaten
 Rapporteer over de resultaten (incl. foto's, quotes, analyseframeworks, ...)
 ### Conclusies & implicaties
-Definieer de belangrijkste besignbeslissingen
+Definieer de belangrijkste designbeslissingen
 
 ## Bill of materials
 - Welk
