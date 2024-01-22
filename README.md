@@ -1,11 +1,17 @@
-# Projecttitel
-*Omschrijving van je concept in 1 zin* 
+# Sport&Tech
+*Via realtime biofeedback in een kous, kan de loopstijl van mensen verbeteren en blessures vermeden worden* 
 
-*Projectteam: Naam 1; Naam 2*
+*Groep 12: Mathijs Bekaert; Tessa Colenbier*
 
-Datum
+22/01/2024
 
 ## Samenvatting
+Er zijn veel sporters die ooit al een blessure hebben gehad of er nog altijd mee sukkelen, en vaak stoppen ze daardoor met lopen of hebben ze schrik om terug op te starten. Dit probleem is grondig onderzocht en onderbouwd door onderzoekers aan de UGent. Daaruit bleek dat lopers onbewust hun loopstijl aanpassen wanneer er realtime feedback wordt gegeven aan de hand van ruis over de muziek die opkomt wanneer door een sensor de schok dat het been opvangt te groot is. Wij zullen verderwerken op dit onderzoek. 
+
+We gaan de sensor in een kous/beenwarmer/steunverband verwerken om de sensor altijd op juiste plek te kunnen houden en makkelijk aan te kunnen brengen.
+Ook het feedbacksyteem zullen we aanpassen, we gaan gebruikmaken van trillingen zodat ook mensen die zonder muziek lopen gebruik kunnen maken van dit systeem. Daarnaast zal er ook een app gemaakt worden, waarin alle statistieken en verbeteringen in loopstijl te vinden zullen zijn. Via de app zouden we de loper ook willen motiveren om meer te gaan en durven lopen
+Aan de hand van de sensor en het feedbacksysteem zal de loper uiteindelijk zijn loopstijl kunnen verbeteren, beter kunnen revalideren met meer duidelijke informatie en mogelijke blessures kunnen vermijden.
+
 Max 200 woorden. Beschrijf je project in het kort, waarbij je deze vragen zeker beantwoordt:
 
 - Wat is het probleem?
