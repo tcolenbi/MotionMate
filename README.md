@@ -1,4 +1,4 @@
-# Sport&Tech
+# Sport & Tech
 *Via realtime biofeedback in een kous, kan de loopstijl van mensen verbeteren en blessures vermeden worden* 
 
 *Groep 12: Mathijs Bekaert; Tessa Colenbier*
@@ -10,7 +10,7 @@ Er zijn veel sporters die ooit al een blessure hebben gehad of er nog altijd mee
 
 We gaan de sensor in een kous/beenwarmer/steunverband verwerken om de sensor altijd op de juiste plek te kunnen houden en makkelijk aan te kunnen brengen.
 Ook het feedbacksysteem zullen we aanpassen, we gaan trillingen gebruiken zodat ook mensen die zonder muziek lopen gebruik kunnen maken van dit systeem. Daarnaast zal er ook een app gemaakt worden waarin alle statistieken en verbeteringen in de loopstijl te vinden zullen zijn. Via de app zouden we de loper ook willen motiveren om meer te gaan en durven lopen
-Aan de hand van de sensor en het feedbacksysteem zal de loper uiteindelijk zijn loopstijl kunnen verbeteren, beter kunnen revalideren met duidelijke informatie en blessures kunnen vermijden.
+Aan de hand van de sensor en het feedback systeem zal de loper uiteindelijk zijn loopstijl kunnen verbeteren, beter kunnen revalideren met duidelijke informatie en blessures kunnen vermijden.
 
 - Hero sketch/render/image
 
@@ -22,12 +22,13 @@ UGent over het onbewust verbeteren van hun aan de hand van realtime feedback, De
 ## Methodologie
 We zijn elk apart gedurende 7 weken gestart met het ontwikkelen van een idee, daarvoor hebben we veel research gedaan en heel divergerend gebrainstormd. Ook zijn de eerste interviews gedaan met de gebruikers en zijn er nog belangrijke problemen naar boven gekomen. Na deze brainstorm, research en interviews zijn we beginnen convergeren naar een duidelijk concept om te pitchen. Na deze pitches is er 1 idee gekozen en is het team samengesteld. Dan hebben we onze beide ideeën samengebracht en weer verder gedivergeerd binnen het concept. Na deze sessies zijn we tot een duidelijk concept gekomen dat we al eens aan meerdere mensen konden voorleggen, waaronder de stakeholders maar ook studenten met een meer wettelijke en economische kijk. Hieruit kunnen we ook veel inspiratie halen om het idee volgend semester verder aan te pakken, en wat mogelijks belangrijke aspecten kunnen worden. Daarna zijn we begonnen met een eerste wave van 'quick and dirty' prototypes die getest werden met de gebruiker. Rekening houdend met deze feedback werd er een tweede wave aan prototypes gemaakt. Waarna deze nogmaals getest werden met de gebruikers, daarmee kunnen we verder gaan in het tweede semester. Met al deze informatie en data wordt tijdens het examen het huidige concept gepitcht.
 
-- tijdlijn
+![Tijdlijn methodologie](https://github.com/tcolenbi/UCD_SEM1/assets/157377776/6e477391-6058-468b-bee1-ff8ea09c9d25)
+
 
 
 ## Discovery
 Max. 1000 woorden
-### Doestellingen
+### Doelstellingen
 Wat wilde je bereiken?
 ### Materiaal & methoden
 Hoe onderzocht je dit? Wees volledig.
@@ -38,7 +39,7 @@ Definieer de belangrijkste designbeslissingen
 
 ## Definition
 Max. 1000 woorden
-### Doestellingen
+### Doelstellingen
 Wat wilde je bereiken?
 ### Materiaal & methoden
 Hoe onderzocht je dit? Wees volledig.
@@ -64,6 +65,6 @@ Max. 500 woorden
 ## Bronnen
 [1] De Mey, K. (2022, 21 januari). Music-based biofeedback system for lower impact running - Victoris - Ghent University. Victoris - Ghent University. https://www.victoris.be/lower-impact-running/
 
-Voeg je volledige bibliografie toe van bronnen naarwaar je verwees.
+Voeg je volledige bibliografie toe van bronnen naar waar je verwees.
 
 ## Bijlagen
