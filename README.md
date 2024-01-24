@@ -1,7 +1,7 @@
 # Sport & Tech
-*Via realtime biofeedback in een kous, kan de loopstijl van mensen verbeteren en blessures vermeden worden.g* 
+*Via realtime biofeedback in een kous, kan de loopstijl van mensen verbeteren en blessures vermeden worden.* 
 
-*Groep 12: Mathijs Bekaert; Tessa Colenbier*
+*Groep 12: Mathijs Bekaert; Tessa Colenbier* →
 
 22/01/2024
 
@@ -63,15 +63,17 @@ Definieer de belangrijkste designbeslissingen
 Max. 500 woorden
 
 ## Bronnen
-[1] De Mey, K. (2022, 21 januari). Music-based biofeedback system for lower impact running - Victoris - Ghent University. Victoris - Ghent University. https://www.victoris.be/lower-impact-running/
+De Mey, K. (2022, 21 januari). Music-based biofeedback system for lower impact running - Victoris - Ghent University. Victoris - Ghent University.                               https://www.victoris.be/lower-impact-running/
+De Cleene, D. (2024, januari 15). ‘Leer te lopen met minder impact’: met dit advies verlaag je het risico op blessures tijdens het lopen. _DeMorgen: Het vrije leven_. 5.
 
-Voeg je volledige bibliografie toe van bronnen naar waar je verwees.
 
 ## Bijlagen
+- [Foto artikel](https://drive.google.com/file/d/14z9DMBd4uKEKwwcEzfh-XkQDCOTmf4BB/view?usp=drive_link)
 - [Persona van Mathijs](https://drive.google.com/file/d/12pkDKHYn6zWojfM5EDjRplBVJw37yGEW/view?usp=drive_link)
 - [Persona van Tessa](https://drive.google.com/file/d/1-0DA9HMiO-3hkYItPV0rXh27SynvYopr/view?usp=drive_link)
 - [Competitors analysis](https://drive.google.com/file/d/1e5ZoisK853LMhDKS5D_No8TOHjtcOHgX/view?usp=drive_link)
 - [Problem-solution matrix](https://drive.google.com/file/d/154jQga24NAxNTVJQf_tu2-K4xni9j5MW/view?usp=drive_link)
 - [Template discovery Mathijs](https://drive.google.com/file/d/1K9L9JFScOa3DyBjOPpdi7-14beypFW8O/view?usp=drive_link)
 - [Template discovery Tessa](https://drive.google.com/file/d/1ASLiXcCsZ0tfAfVYd7e2Tav3FEt7bGNU/view?usp=drive_link)
-- [Template definition]()
+- [Template definition](https://drive.google.com/file/d/1hVIPGicSQEgyLsgtS43RXkHbNTDF6vLR/view?usp=drive_link)
+
