@@ -1,5 +1,5 @@
 # Sport & Tech
-*Via realtime biofeedback in een kous, kan de loopstijl van mensen verbeteren en blessures vermeden worden* 
+*Via realtime biofeedback in een kous, kan de loopstijl van mensen verbeteren en blessures vermeden worden.g* 
 
 *Groep 12: Mathijs Bekaert; Tessa Colenbier*
 
@@ -68,3 +68,5 @@ Max. 500 woorden
 Voeg je volledige bibliografie toe van bronnen naar waar je verwees.
 
 ## Bijlagen
+- [Persona van Mathijs](https://drive.google.com/file/d/12pkDKHYn6zWojfM5EDjRplBVJw37yGEW/view?usp=drive_link)
+- [Persona van Tessa](https://drive.google.com/file/d/1-0DA9HMiO-3hkYItPV0rXh27SynvYopr/view?usp=drive_link)
