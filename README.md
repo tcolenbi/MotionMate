@@ -192,6 +192,7 @@ Er is dus nog veel werk aan de winkel voor volgend semester, maar we hebben er z
 
 ## Bronnen
 De Mey, K. (2022, 21 januari). Music-based biofeedback system for lower impact running - Victoris - Ghent University. Victoris - Ghent University.                               https://www.victoris.be/lower-impact-running/
+
 De Cleene, D. (2024, januari 15). ‘Leer te lopen met minder impact’: met dit advies verlaag je het risico op blessures tijdens het lopen. _DeMorgen: Het vrije leven_. 5.
 
 
