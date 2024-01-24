@@ -1,77 +1,194 @@
 # Sport & Tech
 *Via realtime biofeedback in een kous, kan de loopstijl van mensen verbeteren en blessures vermeden worden.* 
 
-*Groep 12: Mathijs Bekaert; Tessa Colenbier* →
+*Groep 12: Mathijs Bekaert; Tessa Colenbier* 
 
 22/01/2024
 
 ## Samenvatting
-Er zijn veel sporters die ooit al een blessure hebben gehad of er nog altijd mee sukkelen, en vaak stoppen ze daardoor met lopen of hebben ze schrik om terug op te starten. Dit probleem is grondig onderzocht en onderbouwd door onderzoekers aan de UGent. Daaruit bleek dat lopers onbewust hun loopstijl aanpassen wanneer er realtime feedback wordt gegeven aan de hand van ruis over de muziek, wanneer er door een sensor er een te grote schok gemeten wordt. Wij zullen verder werken met dit onderzoek. 
+Er zijn veel sporters die ooit al een blessure hebben gehad of er nog altijd mee sukkelen, vaak stoppen ze daardoor met lopen of hebben ze schrik om terug op te starten. 
+Dit probleem is grondig onderzocht en onderbouwd door onderzoekers aan de UGent. Daaruit bleek dat lopers onbewust hun loopstijl aanpassen, door realtime feedback te geven aan de hand van ruis via muziek en wanneer er door een sensor een te grote schok gemeten wordt. Wij zullen verder werken met dit onderzoek. 
 
 We gaan de sensor in een kous/beenwarmer/steunverband verwerken om de sensor altijd op de juiste plek te kunnen houden en makkelijk aan te kunnen brengen.
 Ook het feedbacksysteem zullen we aanpassen, we gaan trillingen gebruiken zodat ook mensen die zonder muziek lopen gebruik kunnen maken van dit systeem. Daarnaast zal er ook een app gemaakt worden waarin alle statistieken en verbeteringen in de loopstijl te vinden zullen zijn. Via de app zouden we de loper ook willen motiveren om meer te gaan en durven lopen
 Aan de hand van de sensor en het feedback systeem zal de loper uiteindelijk zijn loopstijl kunnen verbeteren, beter kunnen revalideren met duidelijke informatie en blessures kunnen vermijden.
 
-<p float="left">
-  <img src="/img1.png" width="100" />
-  <img src="/img2.png" width="100" /> 
-  <img src="/img3.png" width="100" />
-</p>
-<table>
-  <tr>
-    <td>![hero sketch](https://github.com/tcolenbi/UCD_SEM1/assets/157377776/5063c007-28e4-4d91-ba8e-f1607f0aa4da)</td>
-    <td>![trilling](https://github.com/tcolenbi/UCD_SEM1/assets/157377776/18750ee5-119f-40ee-8780-4860f1009911)</td>
-    <td>![interface](https://github.com/tcolenbi/UCD_SEM1/assets/157377776/16f0e0df-77c5-44a1-858f-bf5c941e3865)</td>
-  </tr>
-</table>
+![hero sketch_kleiner](https://github.com/tcolenbi/UCD_SEM1/assets/157377776/1ad681a9-3d43-43b5-a5ca-31bbfff12580)
+![trilling](https://github.com/tcolenbi/UCD_SEM1/assets/157377776/18750ee5-119f-40ee-8780-4860f1009911)
+![interface_kleiner](https://github.com/tcolenbi/UCD_SEM1/assets/157377776/fbd70103-b48b-4641-8a27-62fc7f05d2e5)
+
+
 
 ## Introductie
-Wanneer lopers geblesseerd worden of zijn geweest, hebben ze vaak schrik om terug op te starten en zo terug geblesseerd te raken. Wij hebben daar een oplossing voor. Via een onderzoek dat is gebeurt aan de 
-UGent over het onbewust verbeteren van hun aan de hand van realtime feedback, De Mey (2022). Onze doelgroep is revaliderende lopers of sporters die ooit een blessure hebben gehad. Zij zijn eerder geneigd om terug te willen starten met lopen, maar zijn gevoeliger aan blessures. Wij willen deze mensen zeer graag helpen terug op te starten en zonder schrik te gaan lopen.  
+Wanneer lopers geblesseerd worden of zijn geweest, hebben ze vaak schrik om terug op te starten en zo terug geblesseerd te raken. Wij hebben daar een oplossing voor. Via een onderzoek dat is gedaan aan de UGent over het onbewust verbeteren van hun loopstijl aan de hand van realtime feedback, De Mey (2022). Onze doelgroep is revaliderende lopers of sporters die ooit een blessure hebben gehad. Zij zijn eerder geneigd om terug te willen starten met lopen, maar zijn gevoeliger aan blessures. Wij willen deze mensen zeer graag helpen terug op te starten en zonder schrik te gaan lopen.
+
 
 
 ## Methodologie
-We zijn elk apart gedurende 7 weken gestart met het ontwikkelen van een idee, daarvoor hebben we veel research gedaan en heel divergerend gebrainstormd. Ook zijn de eerste interviews gedaan met de gebruikers en zijn er nog belangrijke problemen naar boven gekomen. Na deze brainstorm, research en interviews zijn we beginnen convergeren naar een duidelijk concept om te pitchen. Na deze pitches is er 1 idee gekozen en is het team samengesteld. Dan hebben we onze beide ideeën samengebracht en weer verder gedivergeerd binnen het concept. Na deze sessies zijn we tot een duidelijk concept gekomen dat we al eens aan meerdere mensen konden voorleggen, waaronder de stakeholders maar ook studenten met een meer wettelijke en economische kijk. Hieruit kunnen we ook veel inspiratie halen om het idee volgend semester verder aan te pakken, en wat mogelijks belangrijke aspecten kunnen worden. Daarna zijn we begonnen met een eerste wave van 'quick and dirty' prototypes die getest werden met de gebruiker. Rekening houdend met deze feedback werd er een tweede wave aan prototypes gemaakt. Waarna deze nogmaals getest werden met de gebruikers, daarmee kunnen we verder gaan in het tweede semester. Met al deze informatie en data wordt tijdens het examen het huidige concept gepitcht.
+We zijn elk apart gedurende 7 weken gestart met het ontwikkelen van een idee, daarvoor hebben we veel research gedaan en heel divergerend gebrainstormd. Ook zijn de eerste interviews gedaan met de gebruikers en zijn er nog belangrijke problemen naar boven gekomen. Na deze brainstorm, research en interviews zijn we beginnen convergeren naar een duidelijk concept om te pitchen. Na deze pitches is er 1 idee gekozen en is het team samengesteld. 
+
+Dan hebben we onze beide ideeën samengebracht en weer verder gedivergeerd binnen het concept. Na deze sessies zijn we tot een duidelijk concept gekomen dat we al eens aan meerdere mensen konden voorleggen, waaronder de stakeholders maar ook studenten met een meer wettelijke en economische kijk. Hieruit kunnen we ook veel inspiratie halen om het idee volgend semester verder aan te pakken, en wat mogelijks belangrijke aspecten kunnen worden. 
+
+Daarna zijn we begonnen met een eerste wave van 'quick and dirty' prototypes die getest werden met de gebruiker. Rekening houdend met deze feedback werd er een tweede wave aan prototypes gemaakt. Al deze prototypes werden getest met de gebruikers, daarmee kunnen we verder gaan in het tweede semester. Met al deze informatie en data wordt tijdens het examen het huidige concept gepitcht.
 
 ![Tijdlijn methodologie](https://github.com/tcolenbi/UCD_SEM1/assets/157377776/6e477391-6058-468b-bee1-ff8ea09c9d25)
 
 
-
 ## Discovery
-Max. 1000 woorden
+De discovery fase gebeurde toen we nog individueel werkten. We hebben beiden 2 afzonderlijke concepten uitgedacht en ons persoonlijk onderzoek gedaan. Dit onderzoek is sowieso kennis die in de volgende fases van pas komt en doordat we toen apart werkten hebben we nu nog meer kennis, dan we alleen zouden hebben.
 ### Doelstellingen
-Wat wilde je bereiken?
+Tijdens de discovery fase was het belangrijk om de opdracht zo ver mogelijk open te trekken om “out of the box” te kunnen denken en zo veel ideeën te hebben over mogelijke oplossingen. Dus er werd veel onderzoek gedaan. Het was dus belangrijk om veel informatie te verzamelen om het proces te vorderen en daaruit inspiratie te halen.
+
+De doelen waren om een duidelijk idee te krijgen hoe we de sensor zouden bevestigen, wat belangrijke informatie was die in de app nodig is en hoe we de feedback best zouden kunnen doorgeven. Ook was het belangrijk om te zien wat al bestaande producten zijn. Gelijkaardig waar we inspiratie uit kunnen halen of verbeteringen en extra’s kunnen toevoegen die een meerwaarde zijn voor de gebruikers binnen onze doelgroep.
 ### Materiaal & methoden
-Hoe onderzocht je dit? Wees volledig.
+Eerst werd de doelgroep bepaald, deze was voor ons allebei ongeveer hetzelfde. Het zijn voornamelijk revaliderende lopers die onlangs geblesseerd zijn geweest. Maar ook lopers die ooit een blessure hebben gehad en nog altijd sukkelen met de blessure of schrik hebben om terug het lopen op te starten.
+
+Naast het zoeken naar informatie via artikels werd er ook gebruikgemaakt van benchmarking van bestaande sensoren en apps in ongeveer dezelfde branche van de opdracht. Soms werd er ook buiten de branche gekeken om wat inspiratie te krijgen om het op andere manieren te kunnen bekijken en ontwerpen. Verder hebben we allebei twee gebruikersinterviews gedaan. Daarvoor hebben we een protocol opgesteld en reports over gedaan waar we dan mee verder konden.
 ### Resultaten
-Rapporteer over de resultaten (incl. foto's, quotes, analyseframeworks, ...)
+Uit de interviews en benchmarking hebben we dus 2 persona’s, reports van de interviews, competitorsanalysis en een problem-solution matrix kunnen maken. Deze zijn allemaal te vinden in de bijlagen.
+
+Bepaalde key insights van de interviews waren dat de sensor sowieso niet ten laste mag zijn tijdens het lopen, en dus eigenlijk niet echt voelbaar mag zijn tijdens het lopen. Het voornaamste is ook dat de sensor goed vastzit en niet zomaar los kan komen. Ook dat een sporthorloge een makkelijke en vrij logisch onderdeel zou zijn om mee te werken, aangezien er al veel mensen zijn die er al één hebben en dagelijks dragen. 
+
+We gaan ook over naar een soort kous om de sensor aan te kunnen bevestigen, in plaats van een bandje wat het originele onderzoek gebruikt. Het bandje heeft een beetje het stigma dat je met een enkelband aan het lopen bent en zou zo misschien ervoor zorgen dat de gebruikers er niet mee naar buiten zouden durven gaan lopen. Dit zou zeker niet de bedoeling mogen zijn, de gebruikers moeten ermee naar buiten durven gaan, wetend dat ze hun loopstijl aan het verbeteren zijn. 
+
+Uit de vragen en benchmarking naar apps kwam Strava naar boven als een app die veel gebruikt, ook de apps die gelinkt zijn aan het sporthorloge worden vaak gebruikt. Het bleek ook dat de meeste basisfuncties die een standaard sport- / loopapp heeft, een meerwaarde zijn. Rewards en communities zijn vaak ook een meerwaarde, maar zeker niet voor iedereen. De jongere generatie vindt dit eerder wel een meerwaarde dan de oudere generatie.
+
 ### Conclusies & implicaties
-Definieer de belangrijkste designbeslissingen
+Voor het doorgeven van de feedback bleek dat gebruik van trillingen de beste keuze zou zijn, aangezien er sommige lopers zonder muziek lopen en volume-aanpassingen dan niet mogelijk zijn. Zo maken we ons product bruikbaar voor meer mensen. 
+
+Voor de app zou het handig zijn dat al de functies die een normale loop-app heeft er op staan. Maar een medisch tabblad waar de evolutie van de loper te zien is, aan de hand van grafieken en advies blijkt zeker een meerwaarde te zijn voor onze doelgroep. Door dit toe te voegen krijgen de gebruikers een duidelijk idee dat ze beter aan het lopen zijn en zo ook meer motivatie krijgen om te lopen. Ook kan het een mogelijkheid zijn om dit door te kunnen geven aan de kinesisten. Zij kunnen uit bepaalde data die pijn bijhoudt mogelijks een betere behandeling geven.
+
 
 ## Definition
-Max. 1000 woorden
 ### Doelstellingen
-Wat wilde je bereiken?
+Ons doel voor de definition fase was om te kijken naar wat de gebruiker liever heeft om aan te doen. Wat ze zeker niet willen of wat ze al dragen in het echte leven, enzovoort. Ook gaan we op zoek naar hoe we het best de sensor aan onze kous kunnen hangen en hoe de mens daarop reageert.
+
 ### Materiaal & methoden
-Hoe onderzocht je dit? Wees volledig.
+Uit die gebruikersinterviews kregen we heel wat informatie van wat de gebruiker gebruikt en niet gebruikt. Wat hun bevindingen zijn, wat ze niet graag doen, enz… . 
+We besloten dan hier ook om te werken met een soort compressiekous waar de sensor bevestigd zal zijn. Hieruit werden dan al een paar prototypes ontworpen, waarin we op zoek gingen naar wat de mens graag heeft van soort kous. 
+
+Ook gingen we op zoek naar een manier om gemakkelijk de sensor aan de kous te hangen, zodat hij ook afhaalbaar is en gewassen kan worden na het sporten. Dit bracht ons dan bij het eerste en tweede prototype, waarbij we voetbalkousen hebben omgevormd. Hier werd voor de ene foam en tandenstokers gebruikt voor het bevestigen van de sensor en bij de ander een magneet met een klein metalen plaatje. Bij de tweede werd er ook een stuk van de kous afgesneden om te kijken wat gemakkelijker is voor de gebruiker. 
+
+Vervolgens hadden we dan een gesprek met studenten van Gent, waar we ook veel tips en tricks kregen. Deze waren vooral voor in de toekomst op wettelijk en financieel vlak, maar er zaten ook dingen in die handig waren voor het ontwerp. Met die 2 prototypes werden dan eens gebruikerstesten uitgevoerd en werd vervolgens een eerste analyse gemaakt. 
+
+Hieruit werden dan weer 2 prototypes ontworpen. De kousen zijn nu geen voetbalkousen, maar gewone waar we drukknoppen aan de buitenkant en ook eens aan de binnenkant hebben vastgenaaid. Dit zorgde ervoor dat we nu met deze 4 prototypes onze tweede gebruikerstesten konden uitvoeren. Hier werden de eerste 2 ook nog eens getest om nog een extra evaluatie te krijgen. In deze testen keken we vooral hoe men de prototypes begrijpt, wat hun reacties zijn daarop en wat de eventuele problemen zijn. Tenslotte werd er op het einde van de testen nog een kleine reflectieblad gegeven, waarin ze hun bevindingen eens op papier mogen zetten. Dit werd wel alleen gedaan bij wave 2. Ook hieruit konden we dan een tweede analyse maken.
+
 ### Resultaten
-Rapporteer over de resultaten (incl. foto's, quotes, analyseframeworks, ...)
+Uit beide analyses kunnen we nu concluderen dat prototype 1 het minst aantrekkelijke ontwerp was. Dit was ook het simpelste, waar het kliksysteem het slechtste was. De vorm van kous was wel nog goed, maar ook hier zijn enkele problemen aangekaart. Hieronder de gemaakte opmerkingen of observaties van de gebruikers.
+
+**Prototype 1:**
+
+![prototype1 2](https://github.com/tcolenbi/UCD_SEM1/assets/157377776/e312c0a8-d868-465a-9e74-eda0bfa26683)
+![prototype1](https://github.com/tcolenbi/UCD_SEM1/assets/157377776/c318870c-a243-48e4-83bc-bfefc2e27c80)
+
+- twijfelend vooral over hoe zeker het blijft zitten (ligt een beetje aan het prototype zelf)
+- sensor moet er vaker afgehaald worden dan bij prototype 2 (magnetisch)
+- kous moet elke keer na gebruik gewassen worden (vaker dan prototype 2)
+- door een kous te gebruiken is het minder onesize
+  - zorgen voor een soort beenverwarmer (wel meer onesize)
+  - kan je ook korter maken voor bij warm weer
+- mensen hangen soms af van specifieke kousen en willen soms perse met deze lopen
+- blijft wel lijken op een kleine enkelband
+- was wat afgebroken tijdens het afdoen (was niet echt zo stevig)
+- zat wel gemakkelijk, maar door die extra voetstuk was het wat moeizamer om aan te doen (hierdoor plakker losgekomen)
+- eerste reactie was sensor zit net boven de enkel
+- positie van de sensor was wel direct te bepalen door foam blokje
+- het klikken was logisch en gemakkelijk
+- zit wel lekker in de voet, maar was een beetje te grote maat
+- steekt wel wat uit en lijkt daarom een beetje op een enkelband
+
+
+**Prototype 2:**
+
+![prototype2](https://github.com/tcolenbi/UCD_SEM1/assets/157377776/e0abf1ba-7b3b-4c7b-ba9e-25a815018a2f)
+![prototype2 2](https://github.com/tcolenbi/UCD_SEM1/assets/157377776/8f9e9fea-830c-4178-9657-76f71cf78b95)
+
+Bij prototype 2 kon afgeleid worden uit de testen dat deze zeer gemakkelijk is om aan te doen. De kous is voor een stuk afgesneden, waardoor je geen last hebt van de voetmaten. Dit was 1 van de favorieten, omdat de magneet ervoor zorgt dat je gemakkelijk de sensor kon aanbrengen en verwijderen. Hieronder enkele opmerkingen van prototype 2.
+- is wel een beetje onduidelijk waar welk uiteinde is
+- zorgen dat het vanbinnen zit of bedekt is (hard genoeg vasthangen)
+- schrik dat het niet vast genoeg zit, een soort zakje maken waar de magneet in kan klikken of schuiven
+  (hierdoor ook makkelijker te communiceren over juiste richting kous)
+- het klikt wel gemakkelijk, positie wordt door de magneet direct bepaalt
+- om de kous meer vast te laten zitten, gebruiken van een soort bandje, hiel los en voet grotendeels ook (inspiratie uit koersbroek)
+  - doordat het geen echte kous is, moet je het minder wassen
+  - zorgen voor een lichte stof, zodat het onder de kous kan zitten (vb. lycra)
+    beetje een soort steunverband
+- sensor was wel voelbaar aan de enkel werd er gezegd (je voelt het drukken), maar doet geen pijn
+- wordt niet gevoeld eenmaal je start met wandelen/lopen
+- het voelt ook raar om geen kous te dragen (tenen bloot), maar door het dragen van je eigen kousen kan het wel echt nice zijn.
+- voelt niet of de sensor afzakt.
+- kous ging zeer vlotjes en gemakkelijk aan
+- positie van de sensor t.o.v. de enkel was ook moeilijk doordat hij niet wist hoe ver hij kon trekken met de kous.
+- het klikken ging ook gemakkelijk (was een beetje automatisch door de magneet)
+- enkel kan nu veel meer bewegen door afgesneden kous (→ hierdoor is sensor ook weer beweegbaar)
+
+
+**Prototype 3:**
+
+![prototype3 jpg](https://github.com/tcolenbi/UCD_SEM1/assets/157377776/b3e85c37-1ac5-4699-966d-ecabd591833e)
+![prototype3 2 jpg](https://github.com/tcolenbi/UCD_SEM1/assets/157377776/2adc4407-976d-4a6e-bc66-142aeb77064c)
+
+Voor prototype 3 konden we zeggen dat als we alleen kijken naar de kous, deze de minst favoriete is. Het gevoel dat alleen de tenen bloot zijn, was behoorlijk raar. Op het kliksysteem was weinig op aan te merken. Dit was direct duidelijk hoe het moest. Er moest wel voorzichtig gewerkt worden, want het was genaaid.
+
+- Het heeft een raar gevoel door alleen de tenen bloot te hebben. (wist niet goed of hij nog een extra kous erover moest aandoen) 
+- zit iets minder comfortabel met alleen de tenen uit. (de rand was te voelen onderaan de voet)
+- kliksysteem ziet er nice en clean uit, maar sukkelde eerst een beetje met het inklikken. (vorm van je been zorgt ervoor dat je geen stabiele ondergrond hebt om het met 1 
+  hand te klikken)
+- was onduidelijk hoe ver de kous moest getrokken worden bij de tenen 
+- kliksysteem is veel beter dan bij prototype 1
+- sensor zal minder rap afvallen dan bij prototype 1 en 2
+- De kant waar de tenen uitkomen was ook iets te groot.
+
+
+**Prototype 4:**
+
+![prototype4 2 jpg](https://github.com/tcolenbi/UCD_SEM1/assets/157377776/bdb250b0-461e-4b17-8605-7b071ce2d22a)
+![prototype4 jpg](https://github.com/tcolenbi/UCD_SEM1/assets/157377776/dde12924-76df-4b77-935d-9c280c169f5a)
+
+Uit prototype 4 kan gezegd worden, dat het concept van de sensor aan de binnenkant van de kous, zeer origineel is. Dit was eigenlijk een van de punten die de studenten van Gent gaven aan ons. Dit idee kwam wel goed terecht bij de gebruikers. Ook de kous was niet mis, het was gewoon een normale sok met 2 gaten juist boven de enkel. Het nadeel hier was wel dat het inklikken wel moeilijker ging, doordat het omgekeerd in de kous zit. Hieronder enkele opmerkingen van de gebruikers.
+
+- wist direct hoe de sensor en waar de sensor geplaatst moest worden (maar dacht eerst even dat de gaten verder gescheurd waren)
+- Het inklikken is in het begin wel lastig omdat het aan de binnenkant zit.
+- sensor zakt ook niet af bij rondspringen. (kan wel nog verbeterd worden door eventueel een soort zakje in te bevestigen)
+- Het is handig dat je het van 2 kanten kan bereiken
+- De sensor zit niet echt ambetant, maar voor voetballen waarschijnlijk wel (waarschijnlijk zal het wel ambetant worden als we gebruik maken van de echte sensor)
+- vroeg direct of de sensor van binnen moest zitten (vragende/verrassende manier) 
+- is wel lastig om erin te klikken, maar is wel goed omdat het veel beter beschermd is van buitenaf. (het is minder zichtbaar voor anderen als je loopt)
+
+
 ### Conclusies & implicaties
-Definieer de belangrijkste designbeslissingen
+- ofwel zo weinig mogelijk voetdelen in de kous houden. (hiel en tenen erbuiten) → geen rekening houden met afmetingen, minder wassen
+  ofwel de hele kous gebruiken → wel rekening houden met maten (minst favoriet)
+- handig dat de sensor los kan → gemakkelijk om te wassen.
+- binnen in de kous wat antislip lijntjes hangen. → zit dan veel steviger
+- gebruik van magneten zorgen ervoor dat de positie bijna meteen bepaalt wordt, maar door trillingen van het lopen kan het loskomen. → houder maken voor de sensor op zijn     plaats te houden 
+- extra lap stof gebruiken om eventueel over de sensor te hangen → sensor is minder zichtbaar voor het blote oog.
+- sensor aan de binnenkant hangen en eventueel een zakje of iets anders gebruiken voor het precies op de juiste plaats te houden. (kan misschien met magneten)
+- trillingen gebruiken voor de feedback (keuze personen)
+- verschillende soorten trillingen gebruiken voor verschillende soorten feedback
+- app moet wel nog verder aan gewerkt worden (strava)
+
 
 ## Bill of materials
-- Welk
-- Materiaal
-- Heb
-- Je
-- Nu
-- Nodig
-- Voor
-- Je
-- Prototype
+- een dunne luchtige stof (lycra, stof van thermisch ondergoed …)
+- de sensor om mee te testen
+- SleeveIO om te kunnen testen met vibraties en de plaatsing ervan
+- een sporthorloge
+- magneten (+ verbindingsstuk voor de sensor)
+- kleine metalen plaatjes (voor de magneten)
+- vibration motor (voor te kunnen testen)
+
 
 ## Kritische reflectie
-Max. 500 woorden
+Na de discovery en definition fase zijn we vooral tot een vrij goed idee gekomen van hoe ons product eruit zal zien. Er zijn zeker nog verbeteringen aan mogelijk, maar die zullen gaandeweg volgend semester mee aangepast worden. Door toch een klein tijdsgebrek in de testing fase, hebben we niet alles kunnen testen wat we wilden doen.
+
+Zo is het testen van de trillingen een zeer belangrijk onderdeel waar we volgend semester mee zullen starten. Zowel de plaatsing als het feedbacksysteem zal getest moeten worden. Zo kunnen we bijvoorbeeld 1 trilling gebruiken als te snel gelopen wordt, 2 trillingen een slechte loopstijl….
+Maar we kunnen ook een langdurige trilling gebruiken als het probleem blijft aanhouden, dit moet nog getest worden of het niet eerder een negatieve impact zal hebben op de gebruiker. Ook de plaatsing zal ook bij de volgende testen aan de pas komen, dit kan overal zijn; het logische via polshorloge, aan het been, de vingers… .
+Ook is de app een zeer belangrijk onderdeel dat nog getest moet worden op de user interface en belangrijke functies die erin moeten zitten. Daarmee zullen we onze sensor en ‘kous’ linken met het trillingssysteem en zal dit samen kunnen komen tot 1 groot geheel, aangezien het nu vooral nog wat aparte onderdelen zijn.
+
+Wat ook belangrijk zal blijken in de volgende fase, is het wettelijke en economische aspect. Dus daar zullen we zeker rekening mee moeten houden.
+Er is dus nog veel werk aan de winkel voor volgend semester, maar we hebben er zeker het vertrouwen in dat dit zal lukken met een goede planning en afspraken.
+
 
 ## Bronnen
 De Mey, K. (2022, 21 januari). Music-based biofeedback system for lower impact running - Victoris - Ghent University. Victoris - Ghent University.                               https://www.victoris.be/lower-impact-running/
