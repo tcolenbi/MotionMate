@@ -35,7 +35,7 @@ Daarna zijn we begonnen met een eerste wave van 'quick and dirty' prototypes die
 
 
 ## Discovery
-De discovery fase gebeurde toen we nog individueel werkten. We hebben beiden 2 afzonderlijke concepten uitgedacht en ons persoonlijk onderzoek gedaan. Dit onderzoek is sowieso kennis die in de volgende fases van pas komt en doordat we toen apart werkten hebben we nu nog meer kennis, dan we alleen zouden hebben.
+De discovery fase gebeurde toen we nog individueel werkten. We hebben beiden 2 afzonderlijke concepten uitgedacht en ons persoonlijk onderzoek gedaan. Dit onderzoek is sowieso kennis die in de volgende fases van pas komt.
 ### Doelstellingen
 Tijdens de discovery fase was het belangrijk om de opdracht zo ver mogelijk open te trekken om “out of the box” te kunnen denken en zo veel ideeën te hebben over mogelijke oplossingen. Dus er werd veel onderzoek gedaan. Het was dus belangrijk om veel informatie te verzamelen om het proces te vorderen en daaruit inspiratie te halen.
 
