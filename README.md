@@ -67,12 +67,12 @@ Voor de app zou het handig zijn dat al de functies die een normale loop-app heef
 
 
 ## Definition
-In deze fase werkten we samen aan de opdracht.
+Vanaf deze fase werkten we samen als team aan de opdracht.
 ### Doelstellingen
 Ons doel voor de definition fase was om te kijken naar wat de gebruiker liever heeft om aan te doen. Wat ze zeker niet willen of wat ze al dragen in het echte leven, enzovoort. Ook gaan we op zoek naar hoe we het best de sensor aan onze kous kunnen hangen en hoe de mens daarop reageert. Het concept van trillingen geven hebben we in deze fase een beetje achterwege gelaten, zodat we ons beter konden focussen op de gebruikers wensen.
 
 ### Materiaal & methoden
-Uit die gebruikersinterviews kregen we heel wat informatie van wat de gebruiker gebruikt en niet gebruikt. Wat hun bevindingen zijn, wat ze niet graag doen, enz… . 
+Uit die gebruikersinterviews kregen we heel wat informatie van wat de gebruiker gebruikt en niet gebruikt. Wat hun bevindingen zijn, wat ze niet graag doen, enz. 
 We besloten dan hier ook om te werken met een soort compressiekous waar de sensor aan bevestigd zal zijn. Hieruit werden dan al een paar prototypes ontworpen, waarin we op zoek gingen naar wat de gebruiker graag heeft van soort kous bij het sporten. 
 
 Ook gingen we op zoek naar een manier om gemakkelijk de sensor aan de kous te hangen, zodat hij ook afhaalbaar is en gewassen kan worden na het sporten. Dit bracht ons dan bij het eerste en tweede prototype, waarbij we voetbalkousen hebben omgevormd. Hier werd voor de ene foam en tandenstokers gebruikt voor het bevestigen van de sensor en bij de ander een magneet met een klein metalen plaatje. Bij de tweede werd er ook een stuk van de kous afgesneden om te kijken wat gemakkelijker is voor de gebruiker. 
