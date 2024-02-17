@@ -165,16 +165,19 @@ Uit prototype 4 kan gezegd worden, dat het concept van de sensor aan de binnenka
 
 
 ### Conclusies & implicaties
+Al deze data hebben we nu wat meer samengevat:
 - ofwel zo weinig mogelijk voetdelen in de kous houden. (hiel en tenen erbuiten) → geen rekening houden met afmetingen, minder wassen
   ofwel de hele kous gebruiken → wel rekening houden met maten (minst favoriet)
 - handig dat de sensor los kan → gemakkelijk om te wassen.
 - binnen in de kous wat antislip lijntjes hangen. → zit dan veel steviger
-- gebruik van magneten zorgen ervoor dat de positie bijna meteen bepaalt wordt, maar door trillingen van het lopen kan het loskomen. → houder maken voor de sensor op zijn     plaats te houden 
+- gebruik van magneten zorgen ervoor dat de positie bijna meteen bepaalt wordt, maar door trillingen van het lopen kan het loskomen. → houder maken voor de sensor op zijn plaats te houden 
 - extra lap stof gebruiken om eventueel over de sensor te hangen → sensor is minder zichtbaar voor het blote oog.
 - sensor aan de binnenkant hangen en eventueel een zakje of iets anders gebruiken voor het precies op de juiste plaats te houden. (kan misschien met magneten)
 - trillingen gebruiken voor de feedback (keuze personen)
 - verschillende soorten trillingen gebruiken voor verschillende soorten feedback
 - app moet wel nog verder aan gewerkt worden (strava)
+
+[Template definition](https://drive.google.com/file/d/1hVIPGicSQEgyLsgtS43RXkHbNTDF6vLR/view?usp=drive_link)
 
 
 ## Bill of materials
