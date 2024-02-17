@@ -4,14 +4,13 @@
 *Groep 12: Mathijs Bekaert; Tessa Colenbier* 
 
 22/01/2024
-TEST
 
 ## Samenvatting
 Er zijn veel sporters die ooit al een blessure hebben gehad of er nog altijd mee sukkelen, vaak stoppen ze daardoor met lopen of hebben ze schrik om terug op te starten. 
 Dit probleem is grondig onderzocht en onderbouwd door onderzoekers aan de UGent. Daaruit bleek dat lopers onbewust hun loopstijl aanpassen, door realtime feedback te geven aan de hand van ruis via muziek en wanneer er door een sensor een te grote schok gemeten wordt. Wij zullen verder werken met dit onderzoek. 
 
 We gaan de sensor in een kous/beenwarmer/steunverband verwerken om de sensor altijd op de juiste plek te kunnen houden en makkelijk aan te kunnen brengen.
-Ook het feedbacksysteem zullen we aanpassen, we gaan trillingen gebruiken zodat ook mensen die zonder muziek lopen gebruik kunnen maken van dit systeem. Daarnaast zal er ook een app gemaakt worden waarin alle statistieken en verbeteringen in de loopstijl te vinden zullen zijn. Via de app zouden we de loper ook willen motiveren om meer te gaan en durven lopen
+Ook het feedbacksysteem zullen we aanpassen, we gaan trillingen gebruiken zodat ook mensen die zonder muziek lopen gebruik kunnen maken van dit systeem. Daarnaast zal er ook een app gemaakt worden waarin alle statistieken en verbeteringen in de loopstijl te vinden zullen zijn. Via de app zouden we de loper ook willen motiveren om meer te gaan en durven lopen. 
 Aan de hand van de sensor en het feedback systeem zal de loper uiteindelijk zijn loopstijl kunnen verbeteren, beter kunnen revalideren met duidelijke informatie en blessures kunnen vermijden.
 
 ![hero sketch_kleiner](https://github.com/tcolenbi/UCD_SEM1/assets/157377776/1ad681a9-3d43-43b5-a5ca-31bbfff12580)
@@ -21,16 +20,16 @@ Aan de hand van de sensor en het feedback systeem zal de loper uiteindelijk zijn
 
 
 ## Introductie
-Wanneer lopers geblesseerd worden of zijn geweest, hebben ze vaak schrik om terug op te starten en zo terug geblesseerd te raken. Wij hebben daar een oplossing voor. Via een onderzoek dat is gedaan aan de UGent over het onbewust verbeteren van hun loopstijl aan de hand van realtime feedback, De Mey (2022). Onze doelgroep is revaliderende lopers of sporters die ooit een blessure hebben gehad. Zij zijn eerder geneigd om terug te willen starten met lopen, maar zijn gevoeliger aan blessures. Wij willen deze mensen zeer graag helpen terug op te starten en zonder schrik te gaan lopen.
+Wanneer lopers geblesseerd worden of zijn geweest, hebben ze vaak schrik om terug op te starten en zo terug geblesseerd te raken. Wij hebben daar een oplossing voor. Via een onderzoek dat is gedaan aan de UGent over het onbewust verbeteren van hun loopstijl aan de hand van realtime feedback, De Mey (2022). Onze doelgroep zijn revaliderende lopers of sporters die ooit een blessure hebben gehad. Zij zijn eerder geneigd om terug te willen starten met lopen, maar zijn gevoeliger aan blessures. Wij willen deze mensen zeer graag helpen terug op te starten en zonder schrik te gaan lopen.
 
 
 
 ## Methodologie
-We zijn elk apart gedurende 7 weken gestart met het ontwikkelen van een idee, daarvoor hebben we veel research gedaan en heel divergerend gebrainstormd. Ook zijn de eerste interviews gedaan met de gebruikers en zijn er nog belangrijke problemen naar boven gekomen. Na deze brainstorm, research en interviews zijn we beginnen convergeren naar een duidelijk concept om te pitchen. Na deze pitches is er 1 idee gekozen en is het team samengesteld. 
+We zijn elk apart gedurende 7 weken gestart met het ontwikkelen van een idee, daarvoor hebben we veel research gedaan en heel divergerend gebrainstormd. Ook zijn de eerste interviews gedaan met de gebruikers (elk 2) en zijn er nog belangrijke problemen naar boven gekomen. Na deze brainstorm, research en interviews zijn we beginnen convergeren naar een duidelijk concept om te pitchen. Na deze pitches is er 1 idee gekozen en is het team samengesteld. 
 
-Dan hebben we onze beide ideeën samengebracht en weer verder gedivergeerd binnen het concept. Na deze sessies zijn we tot een duidelijk concept gekomen dat we al eens aan meerdere mensen konden voorleggen, waaronder de stakeholders maar ook studenten met een meer wettelijke en economische kijk. Hieruit kunnen we ook veel inspiratie halen om het idee volgend semester verder aan te pakken, en wat mogelijks belangrijke aspecten kunnen worden. 
+Dan hebben we onze beide ideeën samengebracht en weer verder gedivergeerd binnen het concept. Na deze sessies zijn we tot een duidelijk concept gekomen dat we al eens aan meerdere mensen konden voorleggen, waaronder de stakeholders. Dit zijn vooral Bas en Yannick, maar ook Kristoff De Mey die gespecialiseerd is aan bewegings- en sportwetenschappen in Gent. Ook konden we ons idee voorstellen aan enkele studenten met een meer wettelijke en economische kijk op de wereld. Hieruit konden we veel inspiratie halen om het idee volgend semester verder aan te pakken, en wat mogelijks belangrijke aspecten kunnen worden. 
 
-Daarna zijn we begonnen met een eerste wave van 'quick and dirty' prototypes die getest werden met de gebruiker. Rekening houdend met deze feedback werd er een tweede wave aan prototypes gemaakt. Al deze prototypes werden getest met de gebruikers, daarmee kunnen we verder gaan in het tweede semester. Met al deze informatie en data wordt tijdens het examen het huidige concept gepitcht.
+Daarna zijn we begonnen met een eerste wave van 'quick and dirty' prototypes die getest werden met de gebruiker (2). Rekening houdend met deze feedback werd er een tweede wave aan prototypes gemaakt. Al deze prototypes werden getest met de gebruikers (2), daarmee kunnen we verder gaan in het tweede semester. Met al deze informatie en data wordt tijdens het examen het huidige concept gepitcht. Hier werden er 3 andere gebruikers gebruikt voor deze interviews. Dit zorgde ervoor dat men nog niet direct wist waarvoor het was. 
 
 ![Tijdlijn methodologie](https://github.com/tcolenbi/UCD_SEM1/assets/157377776/6e477391-6058-468b-bee1-ff8ea09c9d25)
 
@@ -42,37 +41,45 @@ Tijdens de discovery fase was het belangrijk om de opdracht zo ver mogelijk open
 
 De doelen waren om een duidelijk idee te krijgen hoe we de sensor zouden bevestigen, wat belangrijke informatie was die in de app nodig is en hoe we de feedback best zouden kunnen doorgeven. Ook was het belangrijk om te zien wat al bestaande producten zijn. Gelijkaardig waar we inspiratie uit kunnen halen of verbeteringen en extra’s kunnen toevoegen die een meerwaarde zijn voor de gebruikers binnen onze doelgroep.
 ### Materiaal & methoden
-Eerst werd de doelgroep bepaald, deze was voor ons allebei ongeveer hetzelfde. Het zijn voornamelijk revaliderende lopers die onlangs geblesseerd zijn geweest. Maar ook lopers die ooit een blessure hebben gehad en nog altijd sukkelen met de blessure of schrik hebben om terug het lopen op te starten.
+Eerst werd de doelgroep bepaald, deze was voor ons allebei ongeveer hetzelfde. Het zijn voornamelijk revaliderende lopers die onlangs geblesseerd zijn geweest. Maar ook lopers die ooit een blessure hebben gehad en nog altijd sukkelen met de blessure of schrik hebben om terug het lopen op te starten. Er wordt hier geen onderscheid gemaakt op leeftijd.
 
-Naast het zoeken naar informatie via artikels werd er ook gebruikgemaakt van benchmarking van bestaande sensoren en apps in ongeveer dezelfde branche van de opdracht. Soms werd er ook buiten de branche gekeken om wat inspiratie te krijgen om het op andere manieren te kunnen bekijken en ontwerpen. Verder hebben we allebei twee gebruikersinterviews gedaan. Daarvoor hebben we een protocol opgesteld en reports over gedaan waar we dan mee verder konden.
+Naast het zoeken naar informatie via artikels werd er ook gebruikgemaakt van benchmarking van bestaande sensoren en apps in ongeveer dezelfde branche van de opdracht. Ook is er een benchmarking naar bestaande sportproducten gebeurt. De reden daarvoor is, omdat we misschien functies van andere sportproducten eventueel kunnen overnemen. Hierdoor moeten we niet helemaal van start beginnen en weten we al de voor- en nadelen van het product. Soms werd er ook buiten de branche gekeken om wat inspiratie te krijgen om het op andere manieren te kunnen bekijken en ontwerpen. Verder hebben we allebei twee gebruikersinterviews gedaan. Daarvoor hebben we een protocol opgesteld en reports over gedaan waar we dan mee verder konden.
 ### Resultaten
-Uit de interviews en benchmarking hebben we dus 2 persona’s, reports van de interviews, competitorsanalysis en een problem-solution matrix kunnen maken. Deze zijn allemaal te vinden in de bijlagen.
+Uit deze interviews en benchmarking hebben we dus 2 persona’s, reports van de interviews, competitorsanalysis en een problem-solution matrix kunnen maken.
+- [Persona van Mathijs](https://drive.google.com/file/d/12pkDKHYn6zWojfM5EDjRplBVJw37yGEW/view?usp=drive_link)
+- [Persona van Tessa](https://drive.google.com/file/d/1-0DA9HMiO-3hkYItPV0rXh27SynvYopr/view?usp=drive_link)
+- [Competitors analysis](https://drive.google.com/file/d/1e5ZoisK853LMhDKS5D_No8TOHjtcOHgX/view?usp=drive_link)
+- [Problem-solution matrix](https://drive.google.com/file/d/154jQga24NAxNTVJQf_tu2-K4xni9j5MW/view?usp=drive_link)
 
 Bepaalde key insights van de interviews waren dat de sensor sowieso niet ten laste mag zijn tijdens het lopen, en dus eigenlijk niet echt voelbaar mag zijn tijdens het lopen. Het voornaamste is ook dat de sensor goed vastzit en niet zomaar los kan komen. Ook dat een sporthorloge een makkelijke en vrij logisch onderdeel zou zijn om mee te werken, aangezien er al veel mensen zijn die er al één hebben en dagelijks dragen. 
 
-We gaan ook over naar een soort kous om de sensor aan te kunnen bevestigen, in plaats van een bandje wat het originele onderzoek gebruikt. Het bandje heeft een beetje het stigma dat je met een enkelband aan het lopen bent en zou zo misschien ervoor zorgen dat de gebruikers er niet mee naar buiten zouden durven gaan lopen. Dit zou zeker niet de bedoeling mogen zijn, de gebruikers moeten ermee naar buiten durven gaan, wetend dat ze hun loopstijl aan het verbeteren zijn. 
+We gaan ook over naar een soort kous om de sensor aan te kunnen bevestigen, in plaats van een bandje wat het originele onderzoek (Kristof De Mey) gebruikt. Het bandje heeft een beetje het stigma dat je met een enkelband aan het lopen bent. Dit vond men niet prettig, afgeleid uit een interview. Hierdoor zou men misschien niet meer naar buiten zouden durven gaan lopen door z'n enkelband concept. Dit zou zeker niet de bedoeling mogen zijn, de gebruikers moeten ermee naar buiten durven gaan, wetend dat ze hun loopstijl aan het verbeteren zijn. 
 
 Uit de vragen en benchmarking naar apps kwam Strava naar boven als een app die veel gebruikt, ook de apps die gelinkt zijn aan het sporthorloge worden vaak gebruikt. Het bleek ook dat de meeste basisfuncties die een standaard sport- / loopapp heeft, een meerwaarde zijn. Rewards en communities zijn vaak ook een meerwaarde, maar zeker niet voor iedereen. De jongere generatie vindt dit eerder wel een meerwaarde dan de oudere generatie.
 
 ### Conclusies & implicaties
-Voor het doorgeven van de feedback bleek dat gebruik van trillingen de beste keuze zou zijn, aangezien er sommige lopers zonder muziek lopen en volume-aanpassingen dan niet mogelijk zijn. Zo maken we ons product bruikbaar voor meer mensen. 
+Voor het doorgeven van de feedback bleek dat gebruik van trillingen de beste keuze zou zijn, aangezien er sommige lopers zonder muziek lopen en volume-aanpassingen dan niet mogelijk zijn. Dit konden we afleiden uit onze gebruikerstesten. (Bijvoorbeeld als men niet alleen loopt of bij sportwedstrijden is er geen muziek toegelaten) Zo maken we ons product bruikbaar voor meer mensen. 
 
 Voor de app zou het handig zijn dat al de functies die een normale loop-app heeft er op staan. Maar een medisch tabblad waar de evolutie van de loper te zien is, aan de hand van grafieken en advies blijkt zeker een meerwaarde te zijn voor onze doelgroep. Door dit toe te voegen krijgen de gebruikers een duidelijk idee dat ze beter aan het lopen zijn en zo ook meer motivatie krijgen om te lopen. Ook kan het een mogelijkheid zijn om dit door te kunnen geven aan de kinesisten. Zij kunnen uit bepaalde data die pijn bijhoudt mogelijks een betere behandeling geven.
 
+- [Template discovery Mathijs](https://drive.google.com/file/d/1K9L9JFScOa3DyBjOPpdi7-14beypFW8O/view?usp=drive_link)
+- [Template discovery Tessa](https://drive.google.com/file/d/1ASLiXcCsZ0tfAfVYd7e2Tav3FEt7bGNU/view?usp=drive_link)
+
 
 ## Definition
+In deze fase werkten we samen aan de opdracht.
 ### Doelstellingen
-Ons doel voor de definition fase was om te kijken naar wat de gebruiker liever heeft om aan te doen. Wat ze zeker niet willen of wat ze al dragen in het echte leven, enzovoort. Ook gaan we op zoek naar hoe we het best de sensor aan onze kous kunnen hangen en hoe de mens daarop reageert.
+Ons doel voor de definition fase was om te kijken naar wat de gebruiker liever heeft om aan te doen. Wat ze zeker niet willen of wat ze al dragen in het echte leven, enzovoort. Ook gaan we op zoek naar hoe we het best de sensor aan onze kous kunnen hangen en hoe de mens daarop reageert. Het concept van trillingen geven hebben we in deze fase een beetje achterwege gelaten, zodat we ons beter konden focussen op de gebruikers wensen.
 
 ### Materiaal & methoden
 Uit die gebruikersinterviews kregen we heel wat informatie van wat de gebruiker gebruikt en niet gebruikt. Wat hun bevindingen zijn, wat ze niet graag doen, enz… . 
-We besloten dan hier ook om te werken met een soort compressiekous waar de sensor bevestigd zal zijn. Hieruit werden dan al een paar prototypes ontworpen, waarin we op zoek gingen naar wat de mens graag heeft van soort kous. 
+We besloten dan hier ook om te werken met een soort compressiekous waar de sensor aan bevestigd zal zijn. Hieruit werden dan al een paar prototypes ontworpen, waarin we op zoek gingen naar wat de gebruiker graag heeft van soort kous bij het sporten. 
 
 Ook gingen we op zoek naar een manier om gemakkelijk de sensor aan de kous te hangen, zodat hij ook afhaalbaar is en gewassen kan worden na het sporten. Dit bracht ons dan bij het eerste en tweede prototype, waarbij we voetbalkousen hebben omgevormd. Hier werd voor de ene foam en tandenstokers gebruikt voor het bevestigen van de sensor en bij de ander een magneet met een klein metalen plaatje. Bij de tweede werd er ook een stuk van de kous afgesneden om te kijken wat gemakkelijker is voor de gebruiker. 
 
-Vervolgens hadden we dan een gesprek met studenten van Gent, waar we ook veel tips en tricks kregen. Deze waren vooral voor in de toekomst op wettelijk en financieel vlak, maar er zaten ook dingen in die handig waren voor het ontwerp. Met die 2 prototypes werden dan eens gebruikerstesten uitgevoerd en werd vervolgens een eerste analyse gemaakt. 
+Vervolgens hadden we dan een gesprek met enkele studenten van Gent, waar we ook veel tips en tricks kregen. Deze waren vooral voor in de toekomst op wettelijk en financieel vlak, maar er zaten ook dingen in die handig waren voor het ontwerp. Met die 2 prototypes werden dan eens gebruikerstesten uitgevoerd en werd vervolgens een eerste analyse gemaakt. 
 
-Hieruit werden dan weer 2 prototypes ontworpen. De kousen zijn nu geen voetbalkousen, maar gewone waar we drukknoppen aan de buitenkant en ook eens aan de binnenkant hebben vastgenaaid. Dit zorgde ervoor dat we nu met deze 4 prototypes onze tweede gebruikerstesten konden uitvoeren. Hier werden de eerste 2 ook nog eens getest om nog een extra evaluatie te krijgen. In deze testen keken we vooral hoe men de prototypes begrijpt, wat hun reacties zijn daarop en wat de eventuele problemen zijn. Tenslotte werd er op het einde van de testen nog een kleine reflectieblad gegeven, waarin ze hun bevindingen eens op papier mogen zetten. Dit werd wel alleen gedaan bij wave 2. Ook hieruit konden we dan een tweede analyse maken.
+Hieruit werden dan weer 2 prototypes ontworpen. De kousen zijn nu geen voetbalkousen, maar gewone sportkousen waar we drukknoppen aan de buitenkant en ook eens aan de binnenkant hebben vastgenaaid. Het idee van de sensor aan de binnenkant te hangen, was namelijk van die studenten uit Gent. Dit zorgde ervoor dat we nu met deze 4 prototypes onze tweede gebruikerstesten konden uitvoeren. Hier werden de eerste 2 ook nog eens getest om nog een extra evaluatie te krijgen. In deze testen keken we vooral hoe men de prototypes begrijpt, wat hun reacties zijn daarop en wat de eventuele problemen zijn. Tenslotte werd er op het einde van de testen nog een kleine reflectieblad gegeven, waarin ze hun bevindingen eens op papier mogen zetten. Dit werd wel alleen gedaan bij wave 2. Ook hieruit konden we dan een tweede analyse maken.
 
 ### Resultaten
 Uit beide analyses kunnen we nu concluderen dat prototype 1 het minst aantrekkelijke ontwerp was. Dit was ook het simpelste, waar het kliksysteem het slechtste was. De vorm van kous was wel nog goed, maar ook hier zijn enkele problemen aangekaart. Hieronder de gemaakte opmerkingen of observaties van de gebruikers.
@@ -181,7 +188,7 @@ Uit prototype 4 kan gezegd worden, dat het concept van de sensor aan de binnenka
 
 
 ## Kritische reflectie
-Na de discovery en definition fase zijn we vooral tot een vrij goed idee gekomen van hoe ons product eruit zal zien. Er zijn zeker nog verbeteringen aan mogelijk, maar die zullen gaandeweg volgend semester mee aangepast worden. Door toch een klein tijdsgebrek in de testing fase, hebben we niet alles kunnen testen wat we wilden doen.
+Na de discovery en definition fase zijn we vooral tot een vrij goed idee gekomen van hoe ons product eruit zal zien. Er zijn zeker nog verbeteringen aan mogelijk, maar die zullen gaandeweg volgend semester mee aangepast worden. Door toch een klein tijdsgebrek in de testing fase, hebben we niet alles kunnen testen wat we wilden doen. Hierdoor besloten we meteen voor de plaatsing van de sensor dat deze zich zal bevinden aan de pols.
 
 Zo is het testen van de trillingen een zeer belangrijk onderdeel waar we volgend semester mee zullen starten. Zowel de plaatsing als het feedbacksysteem zal getest moeten worden. Zo kunnen we bijvoorbeeld 1 trilling gebruiken als te snel gelopen wordt, 2 trillingen een slechte loopstijl….
 Maar we kunnen ook een langdurige trilling gebruiken als het probleem blijft aanhouden, dit moet nog getest worden of het niet eerder een negatieve impact zal hebben op de gebruiker. Ook de plaatsing zal ook bij de volgende testen aan de pas komen, dit kan overal zijn; het logische via polshorloge, aan het been, de vingers… .
@@ -198,12 +205,18 @@ De Cleene, D. (2024, januari 15). ‘Leer te lopen met minder impact’: met dit
 
 
 ## Bijlagen
-- [Foto artikel](https://drive.google.com/file/d/14z9DMBd4uKEKwwcEzfh-XkQDCOTmf4BB/view?usp=drive_link)
+### Discovery fase
+#### Resultaten
 - [Persona van Mathijs](https://drive.google.com/file/d/12pkDKHYn6zWojfM5EDjRplBVJw37yGEW/view?usp=drive_link)
 - [Persona van Tessa](https://drive.google.com/file/d/1-0DA9HMiO-3hkYItPV0rXh27SynvYopr/view?usp=drive_link)
 - [Competitors analysis](https://drive.google.com/file/d/1e5ZoisK853LMhDKS5D_No8TOHjtcOHgX/view?usp=drive_link)
 - [Problem-solution matrix](https://drive.google.com/file/d/154jQga24NAxNTVJQf_tu2-K4xni9j5MW/view?usp=drive_link)
+#### Conclusies & implicaties
 - [Template discovery Mathijs](https://drive.google.com/file/d/1K9L9JFScOa3DyBjOPpdi7-14beypFW8O/view?usp=drive_link)
 - [Template discovery Tessa](https://drive.google.com/file/d/1ASLiXcCsZ0tfAfVYd7e2Tav3FEt7bGNU/view?usp=drive_link)
+### Definition fase
+#### Conclusies & implicaties
 - [Template definition](https://drive.google.com/file/d/1hVIPGicSQEgyLsgtS43RXkHbNTDF6vLR/view?usp=drive_link)
-
+### Bronnen
+- [Foto artikel](https://drive.google.com/file/d/14z9DMBd4uKEKwwcEzfh-XkQDCOTmf4BB/view?usp=drive_link)
+- https://www.victoris.be/lower-impact-running/
