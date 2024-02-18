@@ -13,11 +13,6 @@ We gaan de sensor in een kous/beenwarmer/steunverband verwerken om de sensor alt
 Ook het feedbacksysteem zullen we aanpassen, we gaan trillingen gebruiken zodat ook mensen die zonder muziek lopen gebruik kunnen maken van dit systeem. Daarnaast zal er ook een app gemaakt worden waarin alle statistieken en verbeteringen in de loopstijl te vinden zullen zijn. Via de app zouden we de loper ook willen motiveren om meer te gaan en durven lopen. 
 Aan de hand van de sensor en het feedback systeem zal de loper uiteindelijk zijn loopstijl kunnen verbeteren, beter kunnen revalideren met duidelijke informatie en blessures kunnen vermijden.
 
-![hero sketch_kleiner](https://github.com/tcolenbi/UCD_SEM1/assets/157377776/1ad681a9-3d43-43b5-a5ca-31bbfff12580)
-![trilling](https://github.com/tcolenbi/UCD_SEM1/assets/157377776/18750ee5-119f-40ee-8780-4860f1009911)
-![interface_kleiner](https://github.com/tcolenbi/UCD_SEM1/assets/157377776/fbd70103-b48b-4641-8a27-62fc7f05d2e5)
-
-
 
 ## Introductie
 Wanneer lopers geblesseerd worden of zijn geweest, hebben ze vaak schrik om terug op te starten en zo terug geblesseerd te raken. Wij hebben daar een oplossing voor. Via een onderzoek dat is gedaan aan de UGent over het onbewust verbeteren van hun loopstijl aan de hand van realtime feedback, De Mey (2022). Onze doelgroep zijn revaliderende lopers of sporters die ooit een blessure hebben gehad. Zij zijn eerder geneigd om terug te willen starten met lopen, maar zijn gevoeliger aan blessures. Wij willen deze mensen zeer graag helpen terug op te starten en zonder schrik te gaan lopen.
