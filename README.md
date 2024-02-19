@@ -13,6 +13,8 @@ We gaan de sensor in een kous/beenwarmer/steunverband verwerken om de sensor alt
 Ook het feedbacksysteem zullen we aanpassen, we gaan trillingen gebruiken zodat ook mensen die zonder muziek lopen gebruik kunnen maken van dit systeem. Daarnaast zal er ook een app gemaakt worden waarin alle statistieken en verbeteringen in de loopstijl te vinden zullen zijn. Via de app zouden we de loper ook willen motiveren om meer te gaan en durven lopen. 
 Aan de hand van de sensor en het feedback systeem zal de loper uiteindelijk zijn loopstijl kunnen verbeteren, beter kunnen revalideren met duidelijke informatie en blessures kunnen vermijden.
 
+![Hero Sketch-render](https://github.com/tcolenbi/UCD_SEM1/assets/157377776/f920ab69-1f70-454a-b7ff-a058f52fcc6f)
+
 
 ## Introductie
 Wanneer lopers geblesseerd worden of zijn geweest, hebben ze vaak schrik om terug op te starten en zo terug geblesseerd te raken. Wij hebben daar een oplossing voor. Via een onderzoek dat is gedaan aan de UGent over het onbewust verbeteren van hun loopstijl aan de hand van realtime feedback, De Mey (2022). Onze doelgroep zijn revaliderende lopers of sporters die ooit een blessure hebben gehad. Zij zijn eerder geneigd om terug te willen starten met lopen, maar zijn gevoeliger aan blessures. Wij willen deze mensen zeer graag helpen terug op te starten en zonder schrik te gaan lopen.
@@ -78,12 +80,13 @@ Hieruit werden dan weer 2 prototypes ontworpen. De kousen zijn nu geen voetbalko
 
 ### Resultaten
 Uit beide analyses kunnen we nu concluderen dat prototype 1 het minst aantrekkelijke ontwerp was. Dit was ook het simpelste, waar het kliksysteem het slechtste was. De vorm van kous was wel nog goed, maar ook hier zijn enkele problemen aangekaart. Zo kunnen we ook belangrijke design requirements halen (zie bijlages voor de volledige lijst).
-
-
+<br>
+<br>
+<br>
 **Prototype 1:**
 
 ![prototype1 2](https://github.com/tcolenbi/UCD_SEM1/assets/157377776/e312c0a8-d868-465a-9e74-eda0bfa26683)
-![prototype1](https://github.com/tcolenbi/UCD_SEM1/assets/157377776/c318870c-a243-48e4-83bc-bfefc2e27c80)
+![prototype1](https://github.com/tcolenbi/UCD_SEM1/assets/157377776/e7b8ed80-c75c-4d33-96f1-d7a294fa7ce5)
 
 Dit prototype was bij de gebruikers vaak de minst favoriet. Dit lag deels aan de kwaliteit van ons prototype. 
 
@@ -96,7 +99,8 @@ Bepaalde design requirements:
 - De sensor mag niet storend zijn (tijdens het lopen).
 - Het moet onesize zijn. (over meerdere groepen bekeken)
 
-
+<br>
+<br>
 
 **Prototype 2:**
 
@@ -114,8 +118,8 @@ Extra design requirements:
 - De gebruiker kan de sensor op de juiste positie plaatsen.
 - De gebruiker ervaart geen hinder van bewegingsmogelijkheden tijdens gebruik van het product.
 
-
-  
+<br>
+<br>
 
 **Prototype 3:**
 
@@ -132,7 +136,8 @@ Extra design requirements:
 - De 'beenverwarmer' moet comfortabel zitten voor iedereen. 
 - De 'beenverwarmer' moet goed spannen aan het been.
 
-
+<br>
+<br>
 
 **Prototype 4:**
 
@@ -153,16 +158,16 @@ Nog extra design requirements:
 
 ### Conclusies & implicaties
 Al deze data hebben we nu wat meer samengevat:
-- ofwel zo weinig mogelijk voetdelen in de kous houden. (hiel en tenen erbuiten) → geen rekening houden met afmetingen, minder wassen
-  ofwel de hele kous gebruiken → wel rekening houden met maten (minst favoriet)
-- handig dat de sensor los kan → gemakkelijk om te wassen.
-- binnen in de kous wat antislip lijntjes hangen. → zit dan veel steviger
+- ofwel zo weinig mogelijk voetdelen in de kous houden. (hiel en tenen erbuiten) → je moet minder rekening houden met afmetingen, minder wassen
+  ofwel de hele kous gebruiken → meer rekening houden met maten (minst favoriet)
+- handig dat de sensor los kan → gemakkelijk om te wassen
+- binnen in de kous wat antislip lijntjes hangen → zit dan veel steviger vast op dezelfde positie
 - gebruik van magneten zorgen ervoor dat de positie bijna meteen bepaalt wordt, maar door trillingen van het lopen kan het loskomen. → houder maken voor de sensor op zijn plaats te houden 
 - extra lap stof gebruiken om eventueel over de sensor te hangen → sensor is minder zichtbaar voor het blote oog.
 - sensor aan de binnenkant hangen en eventueel een zakje of iets anders gebruiken voor het precies op de juiste plaats te houden. (kan misschien met magneten)
-- trillingen gebruiken voor de feedback (keuze personen)
+- trillingen gebruiken voor de feedback (keuze gebruikers)
 - verschillende soorten trillingen gebruiken voor verschillende soorten feedback
-- app moet wel nog verder aan gewerkt worden (strava)
+- app moet wel nog verder aan gewerkt worden indien mogelijk (inspiratie van Strava)
 
 [Template definition](https://drive.google.com/file/d/1hVIPGicSQEgyLsgtS43RXkHbNTDF6vLR/view?usp=drive_link)
 
@@ -206,7 +211,7 @@ De Cleene, D. (2024, januari 15). ‘Leer te lopen met minder impact’: met dit
 - [Template discovery Tessa](https://drive.google.com/file/d/1ASLiXcCsZ0tfAfVYd7e2Tav3FEt7bGNU/view?usp=drive_link)
 ### Definition fase
 #### Resultaten
-- [design requirements]()
+- [design requirements](https://drive.google.com/file/d/1-iAcYVe341WD8qD20fJkk3_p7_oGiW6K/view?usp=drive_link)
 #### Conclusies & implicaties
 - [Template definition](https://drive.google.com/file/d/1hVIPGicSQEgyLsgtS43RXkHbNTDF6vLR/view?usp=drive_link)
 ### Bronnen
