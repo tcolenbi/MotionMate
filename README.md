@@ -13,7 +13,7 @@ We gaan de sensor in een kous/beenwarmer/steunverband verwerken om de sensor alt
 Ook het feedbacksysteem zullen we aanpassen, we gaan trillingen gebruiken zodat ook mensen die zonder muziek lopen gebruik kunnen maken van dit systeem. Daarnaast zal er ook een app gemaakt worden waarin alle statistieken en verbeteringen in de loopstijl te vinden zullen zijn. Via de app zouden we de loper ook willen motiveren om meer te gaan en durven lopen. 
 Aan de hand van de sensor en het feedback systeem zal de loper uiteindelijk zijn loopstijl kunnen verbeteren, beter kunnen revalideren met duidelijke informatie en blessures kunnen vermijden.
 
-![Hero Sketch-render](https://github.com/tcolenbi/UCD_SEM1/assets/157377776/f920ab69-1f70-454a-b7ff-a058f52fcc6f)
+![Hero Sketch-render_kleiner](https://github.com/tcolenbi/UCD_SEM1/assets/157377776/215f2938-a3b6-4eed-a20e-47d270b5e3db)
 
 
 ## Introductie
