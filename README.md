@@ -205,6 +205,8 @@ De Cleene, D. (2024, januari 15). ‘Leer te lopen met minder impact’: met dit
 - [Template discovery Mathijs](https://drive.google.com/file/d/1K9L9JFScOa3DyBjOPpdi7-14beypFW8O/view?usp=drive_link)
 - [Template discovery Tessa](https://drive.google.com/file/d/1ASLiXcCsZ0tfAfVYd7e2Tav3FEt7bGNU/view?usp=drive_link)
 ### Definition fase
+#### Resultaten
+- [design requirements]()
 #### Conclusies & implicaties
 - [Template definition](https://drive.google.com/file/d/1hVIPGicSQEgyLsgtS43RXkHbNTDF6vLR/view?usp=drive_link)
 ### Bronnen
