@@ -77,28 +77,23 @@ Vervolgens hadden we dan een gesprek met enkele studenten van Gent, waar we ook 
 Hieruit werden dan weer 2 prototypes ontworpen. De kousen zijn nu geen voetbalkousen, maar gewone sportkousen waar we drukknoppen aan de buitenkant en ook eens aan de binnenkant hebben vastgenaaid. Het idee van de sensor aan de binnenkant te hangen, was namelijk van die studenten uit Gent. Dit zorgde ervoor dat we nu met deze 4 prototypes onze tweede gebruikerstesten konden uitvoeren. Hier werden de eerste 2 ook nog eens getest om nog een extra evaluatie te krijgen. In deze testen keken we vooral hoe men de prototypes begrijpt, wat hun reacties zijn daarop en wat de eventuele problemen zijn. Tenslotte werd er op het einde van de testen nog een kleine reflectieblad gegeven, waarin ze hun bevindingen eens op papier mogen zetten. Dit werd wel alleen gedaan bij wave 2. Ook hieruit konden we dan een tweede analyse maken.
 
 ### Resultaten
-Uit beide analyses kunnen we nu concluderen dat prototype 1 het minst aantrekkelijke ontwerp was. Dit was ook het simpelste, waar het kliksysteem het slechtste was. De vorm van kous was wel nog goed, maar ook hier zijn enkele problemen aangekaart. Hieronder de gemaakte opmerkingen of observaties van de gebruikers.
+Uit beide analyses kunnen we nu concluderen dat prototype 1 het minst aantrekkelijke ontwerp was. Dit was ook het simpelste, waar het kliksysteem het slechtste was. De vorm van kous was wel nog goed, maar ook hier zijn enkele problemen aangekaart. Zo kunnen we ook belangrijke design requirements halen (zie bijlages voor de volledige lijst).
 
 **Prototype 1:**
 
 ![prototype1 2](https://github.com/tcolenbi/UCD_SEM1/assets/157377776/e312c0a8-d868-465a-9e74-eda0bfa26683)
 ![prototype1](https://github.com/tcolenbi/UCD_SEM1/assets/157377776/c318870c-a243-48e4-83bc-bfefc2e27c80)
 
-- twijfelend vooral over hoe zeker het blijft zitten (ligt een beetje aan het prototype zelf)
-- sensor moet er vaker afgehaald worden dan bij prototype 2 (magnetisch)
-- kous moet elke keer na gebruik gewassen worden (vaker dan prototype 2)
-- door een kous te gebruiken is het minder onesize
-  - zorgen voor een soort beenverwarmer (wel meer onesize)
-  - kan je ook korter maken voor bij warm weer
-- mensen hangen soms af van specifieke kousen en willen soms perse met deze lopen
-- blijft wel lijken op een kleine enkelband
-- was wat afgebroken tijdens het afdoen (was niet echt zo stevig)
-- zat wel gemakkelijk, maar door die extra voetstuk was het wat moeizamer om aan te doen (hierdoor plakker losgekomen)
-- eerste reactie was sensor zit net boven de enkel
-- positie van de sensor was wel direct te bepalen door foam blokje
-- het klikken was logisch en gemakkelijk
-- zit wel lekker in de voet, maar was een beetje te grote maat
-- steekt wel wat uit en lijkt daarom een beetje op een enkelband
+> Gaat deze sensor goed blijven hangen?
+
+Dit prototype was bij de gebruikers vaak de minst favoriet. Dit lag deels aan de kwaliteit van ons prototype. 
+
+Bepaalde design requirements:
+- De sensor moet makkelijk aan te brengen zijn en makkelijk af te halen.
+- De kous moet gewassen kunnen worden.
+- Een kous moet nog boven 'de beenverwarmer' aangedaan kunnen worden.
+- De sensor mag niet storend zijn tijdens het lopen.
+- Het moet onesize zijn. 
 
 
 **Prototype 2:**
