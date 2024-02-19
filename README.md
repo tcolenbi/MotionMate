@@ -79,21 +79,23 @@ Hieruit werden dan weer 2 prototypes ontworpen. De kousen zijn nu geen voetbalko
 ### Resultaten
 Uit beide analyses kunnen we nu concluderen dat prototype 1 het minst aantrekkelijke ontwerp was. Dit was ook het simpelste, waar het kliksysteem het slechtste was. De vorm van kous was wel nog goed, maar ook hier zijn enkele problemen aangekaart. Zo kunnen we ook belangrijke design requirements halen (zie bijlages voor de volledige lijst).
 
+
 **Prototype 1:**
 
 ![prototype1 2](https://github.com/tcolenbi/UCD_SEM1/assets/157377776/e312c0a8-d868-465a-9e74-eda0bfa26683)
 ![prototype1](https://github.com/tcolenbi/UCD_SEM1/assets/157377776/c318870c-a243-48e4-83bc-bfefc2e27c80)
 
-> Gaat deze sensor goed blijven hangen?
-
 Dit prototype was bij de gebruikers vaak de minst favoriet. Dit lag deels aan de kwaliteit van ons prototype. 
+
+> Gaat deze sensor goed blijven hangen?
 
 Bepaalde design requirements:
 - De sensor moet makkelijk aan te brengen zijn en makkelijk af te halen.
 - De kous moet gewassen kunnen worden.
 - Een kous moet nog boven 'de beenverwarmer' aangedaan kunnen worden.
-- De sensor mag niet storend zijn tijdens het lopen.
-- Het moet onesize zijn. 
+- De sensor mag niet (storend zijn tijdens het lopen).
+- Het moet onesize zijn. (over meerdere groepen bekeken)
+
 
 
 **Prototype 2:**
@@ -101,25 +103,19 @@ Bepaalde design requirements:
 ![prototype2](https://github.com/tcolenbi/UCD_SEM1/assets/157377776/e0abf1ba-7b3b-4c7b-ba9e-25a815018a2f)
 ![prototype2 2](https://github.com/tcolenbi/UCD_SEM1/assets/157377776/8f9e9fea-830c-4178-9657-76f71cf78b95)
 
-Bij prototype 2 kon afgeleid worden uit de testen dat deze zeer gemakkelijk is om aan te doen. De kous is voor een stuk afgesneden, waardoor je geen last hebt van de voetmaten. Dit was 1 van de favorieten, omdat de magneet ervoor zorgt dat je gemakkelijk de sensor kon aanbrengen en verwijderen. Hieronder enkele opmerkingen van prototype 2.
-- is wel een beetje onduidelijk waar welk uiteinde is
-- zorgen dat het vanbinnen zit of bedekt is (hard genoeg vasthangen)
-- schrik dat het niet vast genoeg zit, een soort zakje maken waar de magneet in kan klikken of schuiven
-  (hierdoor ook makkelijker te communiceren over juiste richting kous)
-- het klikt wel gemakkelijk, positie wordt door de magneet direct bepaalt
-- om de kous meer vast te laten zitten, gebruiken van een soort bandje, hiel los en voet grotendeels ook (inspiratie uit koersbroek)
-  - doordat het geen echte kous is, moet je het minder wassen
-  - zorgen voor een lichte stof, zodat het onder de kous kan zitten (vb. lycra)
-    beetje een soort steunverband
-- sensor was wel voelbaar aan de enkel werd er gezegd (je voelt het drukken), maar doet geen pijn
-- wordt niet gevoeld eenmaal je start met wandelen/lopen
-- het voelt ook raar om geen kous te dragen (tenen bloot), maar door het dragen van je eigen kousen kan het wel echt nice zijn.
-- voelt niet of de sensor afzakt.
-- kous ging zeer vlotjes en gemakkelijk aan
-- positie van de sensor t.o.v. de enkel was ook moeilijk doordat hij niet wist hoe ver hij kon trekken met de kous.
-- het klikken ging ook gemakkelijk (was een beetje automatisch door de magneet)
-- enkel kan nu veel meer bewegen door afgesneden kous (→ hierdoor is sensor ook weer beweegbaar)
+Bij prototype 2 kon afgeleid worden uit de testen dat deze zeer gemakkelijk is om aan te doen. De kous is voor een stuk afgesneden, waardoor je geen last hebt van de voetmaten. Dit was 1 van de favorieten, omdat de magneet ervoor zorgt dat je gemakkelijk de sensor kon aanbrengen en verwijderen. 
 
+> Het voelt ook raar om geen kous te dragen, maar door het dragen van je eigen kousen kan het wel echt nice zijn.
+
+Extra design requirements:
+- De gebruiker weet de juiste richting om de 'beenverwarmer' aan te doen.
+- De sensor moet goed vast zitten en moet zijn positie kunnen behouden. (tijdens het sporten)
+- De beenverwarmer kan makkelijk geplaatst worden op het onderbeen.
+- De gebruiker kan de sensor op de juiste positie plaatsen.
+- De gebruiker ervaart geen hinder van bewegingsmogelijkheden tijdens gebruik van het product.
+
+
+  
 
 **Prototype 3:**
 
@@ -128,7 +124,12 @@ Bij prototype 2 kon afgeleid worden uit de testen dat deze zeer gemakkelijk is o
 
 Voor prototype 3 konden we zeggen dat als we alleen kijken naar de kous, deze de minst favoriete is. Het gevoel dat alleen de tenen bloot zijn, was behoorlijk raar. Op het kliksysteem was weinig op aan te merken. Dit was direct duidelijk hoe het moest. Er moest wel voorzichtig gewerkt worden, want het was genaaid.
 
-- Het heeft een raar gevoel door alleen de tenen bloot te hebben. (wist niet goed of hij nog een extra kous erover moest aandoen) 
+> Het is een raar gevoel door alleen de tenen bloot te hebben.
+> (wist niet goed of hij nog een extra kous erover moest aandoen)
+
+Extra design requirements:
+- 
+
 - zit iets minder comfortabel met alleen de tenen uit. (de rand was te voelen onderaan de voet)
 - kliksysteem ziet er nice en clean uit, maar sukkelde eerst een beetje met het inklikken. (vorm van je been zorgt ervoor dat je geen stabiele ondergrond hebt om het met 1 
   hand te klikken)
