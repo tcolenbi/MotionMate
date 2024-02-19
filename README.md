@@ -144,6 +144,7 @@ Extra design requirements:
 Uit prototype 4 kan gezegd worden dat het concept van de sensor aan de binnenkant van de kous, zeer origineel is. Dit was eigenlijk een van de punten die de studenten van Gent gaven aan ons. Dit idee kwam wel goed terecht bij de gebruikers. Ook de kous was niet mis, het was gewoon een normale kous met 2 gaten juist boven de enkel. Het nadeel hier was wel dat het inklikken wel moeilijker ging, doordat het omgekeerd in de kous zit. Hieronder enkele opmerkingen van de gebruikers.
 
 
+Nog extra design requirements:
 - De gebruiker kan de sensor makkelijk op het verbindingssysteem krijgen.
 - De sensor is makkelijk bereikbaar om te plaatsen.
 - De sensor is beter beschermt van externe factoren.
