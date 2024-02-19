@@ -91,9 +91,9 @@ Dit prototype was bij de gebruikers vaak de minst favoriet. Dit lag deels aan de
 
 Bepaalde design requirements:
 - De sensor moet makkelijk aan te brengen zijn en makkelijk af te halen.
-- De kous moet gewassen kunnen worden.
-- Een kous moet nog boven 'de beenverwarmer' aangedaan kunnen worden.
-- De sensor mag niet (storend zijn tijdens het lopen).
+- De 'beenverwarmer' moet gewassen kunnen worden.
+- Een normale kous moet nog boven 'de beenverwarmer' aangedaan kunnen worden.
+- De sensor mag niet storend zijn (tijdens het lopen).
 - Het moet onesize zijn. (over meerdere groepen bekeken)
 
 
@@ -110,7 +110,7 @@ Bij prototype 2 kon afgeleid worden uit de testen dat deze zeer gemakkelijk is o
 Extra design requirements:
 - De gebruiker weet de juiste richting om de 'beenverwarmer' aan te doen.
 - De sensor moet goed vast zitten en moet zijn positie kunnen behouden. (tijdens het sporten)
-- De beenverwarmer kan makkelijk geplaatst worden op het onderbeen.
+- De 'beenverwarmer' kan makkelijk geplaatst worden op het onderbeen.
 - De gebruiker kan de sensor op de juiste positie plaatsen.
 - De gebruiker ervaart geen hinder van bewegingsmogelijkheden tijdens gebruik van het product.
 
@@ -128,15 +128,10 @@ Voor prototype 3 konden we zeggen dat als we alleen kijken naar de kous, deze de
 > (wist niet goed of hij nog een extra kous erover moest aandoen)
 
 Extra design requirements:
-- 
+- De 'beenverwarmer' moet op de juiste positie blijven zitten.
+- De 'beenverwarmer' moet comfortabel zitten voor iedereen. 
+- De 'beenverwarmer' moet goed spannen aan het been.
 
-- zit iets minder comfortabel met alleen de tenen uit. (de rand was te voelen onderaan de voet)
-- kliksysteem ziet er nice en clean uit, maar sukkelde eerst een beetje met het inklikken. (vorm van je been zorgt ervoor dat je geen stabiele ondergrond hebt om het met 1 
-  hand te klikken)
-- was onduidelijk hoe ver de kous moest getrokken worden bij de tenen 
-- kliksysteem is veel beter dan bij prototype 1
-- sensor zal minder rap afvallen dan bij prototype 1 en 2
-- De kant waar de tenen uitkomen was ook iets te groot.
 
 
 **Prototype 4:**
@@ -144,15 +139,15 @@ Extra design requirements:
 ![prototype4 2 jpg](https://github.com/tcolenbi/UCD_SEM1/assets/157377776/bdb250b0-461e-4b17-8605-7b071ce2d22a)
 ![prototype4 jpg](https://github.com/tcolenbi/UCD_SEM1/assets/157377776/dde12924-76df-4b77-935d-9c280c169f5a)
 
-Uit prototype 4 kan gezegd worden, dat het concept van de sensor aan de binnenkant van de kous, zeer origineel is. Dit was eigenlijk een van de punten die de studenten van Gent gaven aan ons. Dit idee kwam wel goed terecht bij de gebruikers. Ook de kous was niet mis, het was gewoon een normale sok met 2 gaten juist boven de enkel. Het nadeel hier was wel dat het inklikken wel moeilijker ging, doordat het omgekeerd in de kous zit. Hieronder enkele opmerkingen van de gebruikers.
+> De gebruiker vroeg direct of de sensor van binnen moest zitten op een vragende/verrassende manier.
 
-- wist direct hoe de sensor en waar de sensor geplaatst moest worden (maar dacht eerst even dat de gaten verder gescheurd waren)
-- Het inklikken is in het begin wel lastig omdat het aan de binnenkant zit.
-- sensor zakt ook niet af bij rondspringen. (kan wel nog verbeterd worden door eventueel een soort zakje in te bevestigen)
-- Het is handig dat je het van 2 kanten kan bereiken
-- De sensor zit niet echt ambetant, maar voor voetballen waarschijnlijk wel (waarschijnlijk zal het wel ambetant worden als we gebruik maken van de echte sensor)
-- vroeg direct of de sensor van binnen moest zitten (vragende/verrassende manier) 
-- is wel lastig om erin te klikken, maar is wel goed omdat het veel beter beschermd is van buitenaf. (het is minder zichtbaar voor anderen als je loopt)
+Uit prototype 4 kan gezegd worden dat het concept van de sensor aan de binnenkant van de kous, zeer origineel is. Dit was eigenlijk een van de punten die de studenten van Gent gaven aan ons. Dit idee kwam wel goed terecht bij de gebruikers. Ook de kous was niet mis, het was gewoon een normale kous met 2 gaten juist boven de enkel. Het nadeel hier was wel dat het inklikken wel moeilijker ging, doordat het omgekeerd in de kous zit. Hieronder enkele opmerkingen van de gebruikers.
+
+
+- De gebruiker kan de sensor makkelijk op het verbindingssysteem krijgen.
+- De sensor is makkelijk bereikbaar om te plaatsen.
+- De sensor is beter beschermt van externe factoren.
+
 
 
 ### Conclusies & implicaties
