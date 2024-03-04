@@ -183,25 +183,27 @@ Al deze data hebben we nu wat meer samengevat:
 
 
 ## Antropometrie + ergonomie
-Voor het tweede semester focussen we ons nu meer op het optimaliseren van de fysieke ergonomie en de antropometrie van het menselijk lichaam. Dit betekent dat we moeten focussen op verschillende maten en lichaamsgerelateerde parameters van ons ontwerp. In dit semester gaan we ons ook meer richten op de real-time feedback. Deze feedback zal gebeuren via trillingen. 
+Voor het tweede semester focussen we ons nu meer op het optimaliseren van de fysieke ergonomie en de antropometrie van ons product. Dit betekent dat we moeten focussen op verschillende maten en lichaamsgerelateerde parameters van ons ontwerp. In dit semester gaan we ons ook meer richten op de real-time feedback. Deze feedback zal gebeuren via trillingen. 
 ### Doelstellingen
-Ons doel is dan hierbij om de positie van de trillingen te bepalen door testen en analyses uit te voeren. We gaan opzoek naar waar de trillingen het best opgenomen worden door de gebruiker en waar het aangenamer is. 
+Ons doel is dan hierbij om de positie van de trillingen te bepalen door testen en analyses uit te voeren. We gaan opzoek naar waar de trillingen het best opgenomen worden door de gebruiker en waar het aangenamer en niet storend is.
 ### Materiaal & methoden
-Om deze testen dan te kunnen uitvoeren, moeten we onderzoek doen naar de fysieke ergonomie en antropometrie van elk lichaamsdeel. We zijn van plan om de trillingen te plaatsen op de bovenarm, onderarm, borst en de enkel.
+Om deze testen te kunnen uitvoeren, moeten we onderzoek doen naar de fysieke ergonomie en antropometrie van elk lichaamsdeel dat we willen testen. Na het doornemen van een interessant artikel in verband met feedback aan de hand van vibraties (Dim, N. K., & Ren), kwamen we tot een idee welke posities op het lichaam we zouden willen testen. Deze zijn de bovenarm, onderarm (5/6), borst (4) en de enkel (12/13).
 
-![image](https://github.com/tcolenbi/UCD_SEM1/assets/157391495/c70ed041-eaec-4762-94d6-df3707338a25)
+<img src="https://github.com/tcolenbi/UCD_SEM1/assets/157391495/c70ed041-eaec-4762-94d6-df3707338a25" width="25%">
 
 
 #### Bovenarm (biceps)
-Voor de trilling te testen op de bovenarm zal gebruikgemaakt worden van een gsm houder aan de arm. Doordat dit product al voldoet aan de ergonomie moeten wij ons daar geen zorgen bij maken. Hier zullen we gewoon de gebruiker laten lopen en zal de gsm onverwacht trilling uitgeven. 
+Voor de trilling te testen op de bovenarm zal gebruikgemaakt worden van een gsmhouder aan de arm. Doordat dit product al voldoet aan de ergonomie moeten wij ons daar geen zorgen bij maken. Hier zullen we gewoon de gebruiker laten lopen en zal de gsm onverwacht trilling uitgeven. 
 
-![image](https://github.com/tcolenbi/UCD_SEM1/assets/157391495/c0d691a1-162f-4ca3-b8f3-c504ddb440a1)
+<img src="https://github.com/tcolenbi/UCD_SEM1/assets/157391495/c0d691a1-162f-4ca3-b8f3-c504ddb440a1" width="35%">
+
 
 #### Onderarm/pols
-Bij de onderarm zouden we gebruik kunnen maken van een smartwatch/sporthorloge, maar doordat deze zeer duur zijn, besloten we om zelf iets te prototypen. Hierdoor moeten we de antropometrie bepalen van de polsomtrek. Via onderzoek naar de antropometrie van de polsen, kwamen we uit op een pdf-bestand. (chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://www.gesa.be/antropometrie.pdf) 
+Bij de onderarm zouden we gebruik kunnen maken van een smartwatch/sporthorloge, maar doordat deze zeer duur zijn, besloten we om zelf iets te prototypen. Hierdoor moeten we de antropometrie bepalen van de polsomtrek. Via onderzoek naar de antropometrie van de polsen, kwamen we uit op een pdf-bestand. ([Antropometrie](https://www.gesa.be/antropometrie.pdf))
 
-![image](https://github.com/tcolenbi/UCD_SEM1/assets/157391495/ad152863-8f1c-4611-8c7b-391f34d6f99b)
-![image](https://github.com/tcolenbi/UCD_SEM1/assets/157391495/266de7e1-3fc4-4db5-bfe2-8bfad8ab89e1)
+<img src="https://github.com/tcolenbi/UCD_SEM1/assets/157391495/ad152863-8f1c-4611-8c7b-391f34d6f99b" width="40%">
+<img src="https://github.com/tcolenbi/UCD_SEM1/assets/157391495/266de7e1-3fc4-4db5-bfe2-8bfad8ab89e1" width="41%">
+
 
 Hieruit kunnen we de polsomtrek bepalen van zowel mannen als vrouwen. Uit deze afbeelding kunnen we afleiden dat bij de vrouwen het 5de percentiel 140 mm is en voor het 95ste percentiel 175 mm. Voor de mannen ligt het iets hoger, namelijk 160 mm voor 5de percentiel en 191 mm voor het 95ste percentiel. Het is dus de bedoeling dat het armband tussen deze waarden moet komen om aan de antropometrie voorwaarden te voldoen.
 
@@ -209,28 +211,34 @@ Om de trillingen te kunnen genereren, zullen we een klein beetje moeten werken m
 
 ![image](https://github.com/tcolenbi/UCD_SEM1/assets/157391495/1a9722a4-a649-4b7a-8864-8d1f85313fdd)
 
-Om dus een trilling te genereren zullen we een vibration motor gebruiken die geschakelt zal zijn met de Arduino Nano. GND vibration motor verbindt met GND Arduino Nano, VCC vibration motor verbindt met 3,3 V Arduino Nano en de IN of SIG bij de motor verbindt met je pin op de Arduino Nano. In dit geval is het pin 3.
-![image](https://github.com/tcolenbi/UCD_SEM1/assets/157391495/90a05a90-da49-4a7e-ba62-e95e52efabee)
+Om dus een trilling te genereren zullen we een vibration motor gebruiken die geschakelt zal zijn met de Arduino Nano. De GND vibration motor verbindt met GND Arduino Nano, VCC vibration motor verbindt met 3,3 V Arduino Nano en de IN of SIG bij de motor verbindt met je pin op de Arduino Nano. In dit geval is het pin 3.
+
+<img src="https://github.com/tcolenbi/UCD_SEM1/assets/157391495/90a05a90-da49-4a7e-ba62-e95e52efabee" width="25%">
+
 
 Met deze schakeling kunnen we nu trilling aansturen, maar voor dit helemaal te kunnen realiseren moeten we ook nog de code schrijven. In deze code gebruiken we een lange delay om de trilling onverwachts te laten komen.
-![image](https://github.com/tcolenbi/UCD_SEM1/assets/157391495/028bc5b1-d889-492a-ac25-74de0790cc5b)
+
+<img src="https://github.com/tcolenbi/UCD_SEM1/assets/157391495/028bc5b1-d889-492a-ac25-74de0790cc5b" width="35%">
 
 Hieruit konden we dan een prototype maken om later te testen met de gebruikers.
-(Foto van het prototype)
 
+![Bandje vibraties](https://github.com/tcolenbi/UCD_SEM1/assets/157377776/a95738fb-408e-4f00-82c2-a6951136709f)
 
 #### Borst
+Voor de trillingen op de borst zouden we ook Arduino moeten gebruiken, maar met een langere band zodanig dat de afmetingen voor de gemiddelde mens kunnen behaald worden.
 
 #### Enkel
+We gaan ook de trillingen op de enkel testen, ondanks dat het artikel (Dim, N. K., & Ren, X.) vermeld dat trillingen niet meer aangenaam worden ervaard onder de heup. We zouden graag nog eens testen of dit effectief ook het geval is bij ons. Dit gaan we ook testen aan de hand van ons bandje en de Arduino Nano. Hierbij is ook rekening gehouden met de anthropometische waarden van de gemiddelde mens.
+
 
 ### Resultaten
-De testen zijn nog niet gedaan.
+We hebben nog niet de mogelijk gehad om de testen te kunnen doen. Maar dit zal zo snel mogelijk gedaan worden en de resultaten zullen toegevoegd worden in dit verslag.
 
 ## Kritische reflectie
 Na de discovery en definition fase zijn we vooral tot een vrij goed idee gekomen van hoe ons product eruit zal zien. Er zijn zeker nog verbeteringen aan mogelijk, maar die zullen gaandeweg volgend semester mee aangepast worden. Door toch een klein tijdsgebrek in de testing fase, hebben we niet alles kunnen testen wat we wilden doen. Hierdoor besloten we meteen voor de plaatsing van de sensor dat deze zich zal bevinden aan de pols.
 
-Zo is het testen van de trillingen een zeer belangrijk onderdeel waar we volgend semester mee zullen starten. Zowel de plaatsing als het feedbacksysteem zal getest moeten worden. Zo kunnen we bijvoorbeeld 1 trilling gebruiken als te snel gelopen wordt, 2 trillingen een slechte loopstijl….
-Maar we kunnen ook een langdurige trilling gebruiken als het probleem blijft aanhouden, dit moet nog getest worden of het niet eerder een negatieve impact zal hebben op de gebruiker. Ook de plaatsing zal ook bij de volgende testen aan te pas komen, dit kan overal zijn; het logische via polshorloge, aan het been, de vingers… .
+Zo is het testen van de trillingen een zeer belangrijk onderdeel waar we volgend semester mee zullen starten. Zowel de plaatsing als het feedbacksysteem zal getest moeten worden. Zo kunnen we bijvoorbeeld 1 trilling gebruiken als te snel gelopen wordt, 2 trillingen een slechte loopstijl…
+Maar we kunnen ook een langdurige trilling gebruiken als het probleem blijft aanhouden, dit moet nog getest worden of het niet eerder een negatieve impact zal hebben op de gebruiker. Ook de plaatsing zal ook bij de volgende testen aan te pas komen, dit kan overal zijn; het logische via polshorloge, aan het been, de vingers…
 Ook is de app een zeer belangrijk onderdeel dat nog getest moet worden op de user interface en belangrijke functies die erin moeten zitten. Daarmee zullen we onze sensor en ‘kous’ linken met het trillingssysteem en zal dit samen kunnen komen tot 1 groot geheel, aangezien het nu vooral nog wat aparte onderdelen zijn.
 
 Wat ook belangrijk zal blijken in de volgende fase, is het wettelijke en economische aspect. Dus daar zullen we zeker rekening mee moeten houden.
@@ -241,6 +249,8 @@ Er is dus nog veel werk aan de winkel voor volgend semester, maar we hebben er z
 De Mey, K. (2022, 21 januari). Music-based biofeedback system for lower impact running - Victoris - Ghent University. Victoris - Ghent University.                               https://www.victoris.be/lower-impact-running/
 
 De Cleene, D. (2024, januari 15). ‘Leer te lopen met minder impact’: met dit advies verlaag je het risico op blessures tijdens het lopen. _DeMorgen: Het vrije leven_. 5.
+
+Dim, N. K., & Ren, X. (2017b). Investigation of suitable body parts for wearable vibration feedback in walking navigation. International Journal Of Human-Computer Studies, 97, 34–44. https://doi.org/10.1016/j.ijhcs.2016.08.002
 
 
 ## Bijlagen
