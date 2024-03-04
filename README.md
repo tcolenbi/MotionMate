@@ -182,6 +182,50 @@ Al deze data hebben we nu wat meer samengevat:
 - vibration motor (voor te kunnen testen)
 
 
+## Antropometrie + ergonomie
+Voor het tweede semester focussen we ons nu meer op het optimaliseren van de fysieke ergonomie en de antropometrie van het menselijk lichaam. Dit betekent dat we moeten focussen op verschillende maten en lichaamsgerelateerde parameters van ons ontwerp. In dit semester gaan we ons ook meer richten op de real-time feedback. Deze feedback zal gebeuren via trillingen. 
+### Doelstellingen
+Ons doel is dan hierbij om de positie van de trillingen te bepalen door testen en analyses uit te voeren. We gaan opzoek naar waar de trillingen het best opgenomen worden door de gebruiker en waar het aangenamer is. 
+### Materiaal & methoden
+Om deze testen dan te kunnen uitvoeren, moeten we onderzoek doen naar de fysieke ergonomie en antropometrie van elk lichaamsdeel. We zijn van plan om de trillingen te plaatsen op de bovenarm, onderarm, borst en de enkel.
+
+![image](https://github.com/tcolenbi/UCD_SEM1/assets/157391495/c70ed041-eaec-4762-94d6-df3707338a25)
+
+
+#### Bovenarm (biceps)
+Voor de trilling te testen op de bovenarm zal gebruikgemaakt worden van een gsm houder aan de arm. Doordat dit product al voldoet aan de ergonomie moeten wij ons daar geen zorgen bij maken. Hier zullen we gewoon de gebruiker laten lopen en zal de gsm onverwacht trilling uitgeven. 
+
+![image](https://github.com/tcolenbi/UCD_SEM1/assets/157391495/c0d691a1-162f-4ca3-b8f3-c504ddb440a1)
+
+#### Onderarm/pols
+Bij de onderarm zouden we gebruik kunnen maken van een smartwatch/sporthorloge, maar doordat deze zeer duur zijn, besloten we om zelf iets te prototypen. Hierdoor moeten we de antropometrie bepalen van de polsomtrek. Via onderzoek naar de antropometrie van de polsen, kwamen we uit op een pdf-bestand. (chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://www.gesa.be/antropometrie.pdf) 
+
+![image](https://github.com/tcolenbi/UCD_SEM1/assets/157391495/ad152863-8f1c-4611-8c7b-391f34d6f99b)
+![image](https://github.com/tcolenbi/UCD_SEM1/assets/157391495/266de7e1-3fc4-4db5-bfe2-8bfad8ab89e1)
+
+Hieruit kunnen we de polsomtrek bepalen van zowel mannen als vrouwen. Uit deze afbeelding kunnen we afleiden dat bij de vrouwen het 5de percentiel 140 mm is en voor het 95ste percentiel 175 mm. Voor de mannen ligt het iets hoger, namelijk 160 mm voor 5de percentiel en 191 mm voor het 95ste percentiel. Het is dus de bedoeling dat het armband tussen deze waarden moet komen om aan de antropometrie voorwaarden te voldoen.
+
+Om de trillingen te kunnen genereren, zullen we een klein beetje moeten werken met electronica. We gaan dus met het Arduino programma een code moeten schrijven, waarin we trillingen kunnen aansturen. Als elektronisch platform zal een Arduino Nano gebruikt worden. De reden waarom we geen gewone Arduino Uno nemen is, omdat de Nano een kleiner model is. Hierdoor is dit veel gemakkelijker om het platform wat weg te werken in het bandje. 
+
+![image](https://github.com/tcolenbi/UCD_SEM1/assets/157391495/1a9722a4-a649-4b7a-8864-8d1f85313fdd)
+
+Om dus een trilling te genereren zullen we een vibration motor gebruiken die geschakelt zal zijn met de Arduino Nano. GND vibration motor verbindt met GND Arduino Nano, VCC vibration motor verbindt met 3,3 V Arduino Nano en de IN of SIG bij de motor verbindt met je pin op de Arduino Nano. In dit geval is het pin 3.
+![image](https://github.com/tcolenbi/UCD_SEM1/assets/157391495/90a05a90-da49-4a7e-ba62-e95e52efabee)
+
+Met deze schakeling kunnen we nu trilling aansturen, maar voor dit helemaal te kunnen realiseren moeten we ook nog de code schrijven. In deze code gebruiken we een lange delay om de trilling onverwachts te laten komen.
+![image](https://github.com/tcolenbi/UCD_SEM1/assets/157391495/028bc5b1-d889-492a-ac25-74de0790cc5b)
+
+Hieruit konden we dan een prototype maken om later te testen met de gebruikers.
+(Foto van het prototype)
+
+
+#### Borst
+
+#### Enkel
+
+### Resultaten
+De testen zijn nog niet gedaan.
+
 ## Kritische reflectie
 Na de discovery en definition fase zijn we vooral tot een vrij goed idee gekomen van hoe ons product eruit zal zien. Er zijn zeker nog verbeteringen aan mogelijk, maar die zullen gaandeweg volgend semester mee aangepast worden. Door toch een klein tijdsgebrek in de testing fase, hebben we niet alles kunnen testen wat we wilden doen. Hierdoor besloten we meteen voor de plaatsing van de sensor dat deze zich zal bevinden aan de pols.
 
