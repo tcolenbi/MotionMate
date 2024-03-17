@@ -90,7 +90,7 @@ Uit beide analyses kunnen we nu concluderen dat prototype 1 het minst aantrekkel
 
 Dit prototype was bij de gebruikers vaak de minst favoriet. Dit lag deels aan de kwaliteit van ons prototype. 
 
-> Gaat deze sensor goed blijven hangen?
+> Gaat deze sensor goed blijven hangen? 
 
 Bepaalde design requirements:
 - De sensor moet makkelijk aan te brengen zijn en makkelijk af te halen.
@@ -215,21 +215,23 @@ Om dus een trilling te genereren zullen we een vibration motor gebruiken die ges
 
 <img src="https://github.com/tcolenbi/UCD_SEM1/assets/157391495/90a05a90-da49-4a7e-ba62-e95e52efabee" width="25%">
 
-
 Met deze schakeling kunnen we nu trilling aansturen, maar voor dit helemaal te kunnen realiseren moeten we ook nog de code schrijven. In deze code gebruiken we een lange delay om de trilling onverwachts te laten komen.
 
 <img src="https://github.com/tcolenbi/UCD_SEM1/assets/157391495/028bc5b1-d889-492a-ac25-74de0790cc5b" width="35%">
 
 Hieruit konden we dan een prototype maken om later te testen met de gebruikers.
 
-![Bandje vibraties](https://github.com/tcolenbi/UCD_SEM1/assets/157377776/a95738fb-408e-4f00-82c2-a6951136709f)
+<img src="https://github.com/tcolenbi/UCD_SEM1/assets/157377776/c1df390a-70b9-4970-ae96-570e162057a2" width="35%">
+<img src="https://github.com/tcolenbi/UCD_SEM1/assets/157377776/3460d114-281b-4402-b15d-84ad7f1ca997" width="32.1%">
+
+We hebben een eerste prototype gemaakt voor de trillingen (links), maar deze bleek niet goed te blijven zitten tijdens het testen zelf. Hierdoor zullen de resultaten komende uit de testen beïnvloed zijn. 
+Daarna hebben we een tweede prototype ge-3D-print om zo een steviger prototype hebben die bleef hangen tijdens het lopen zelf.
 
 #### Borst
 Voor de trillingen op de borst zouden we ook Arduino moeten gebruiken, maar met een langere band zodanig dat de afmetingen voor de gemiddelde mens kunnen behaald worden.
 
 #### Enkel
 We gaan ook de trillingen op de enkel testen, ondanks dat het artikel (Dim, N. K., & Ren, X.) vermeld dat trillingen niet meer aangenaam worden ervaard onder de heup. We zouden graag nog eens testen of dit effectief ook het geval is bij ons. Dit gaan we ook testen aan de hand van ons bandje en de Arduino Nano. Hierbij is ook rekening gehouden met de anthropometische waarden van de gemiddelde mens.
-
 
 ### Resultaten
 We hebben nog niet de mogelijk gehad om de testen te kunnen doen. Maar dit zal zo snel mogelijk gedaan worden en de resultaten zullen toegevoegd worden in dit verslag.
