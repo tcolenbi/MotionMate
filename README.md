@@ -90,7 +90,7 @@ Uit beide analyses kunnen we nu concluderen dat prototype 1 het minst aantrekkel
 
 Dit prototype was bij de gebruikers vaak de minst favoriet. Dit lag deels aan de kwaliteit van ons prototype. 
 
-> Gaat deze sensor goed blijven hangen? 
+> "Gaat deze sensor goed blijven hangen?"
 
 Bepaalde design requirements:
 - De sensor moet makkelijk aan te brengen zijn en makkelijk af te halen.
@@ -109,7 +109,7 @@ Bepaalde design requirements:
 
 Bij prototype 2 kon afgeleid worden uit de testen dat deze zeer gemakkelijk is om aan te doen. De kous is voor een stuk afgesneden, waardoor je geen last hebt van de voetmaten. Dit was 1 van de favorieten, omdat de magneet ervoor zorgt dat je gemakkelijk de sensor kon aanbrengen en verwijderen. 
 
-> Het voelt ook raar om geen kous te dragen, maar door het dragen van je eigen kousen kan het wel echt nice zijn.
+> "Het voelt ook raar om geen kous te dragen, maar door het dragen van je eigen kousen kan het wel echt nice zijn."
 
 Extra design requirements:
 - De gebruiker weet de juiste richting om de 'beenverwarmer' aan te doen.
@@ -128,7 +128,7 @@ Extra design requirements:
 
 Voor prototype 3 konden we zeggen dat als we alleen kijken naar de kous, deze de minst favoriete is. Het gevoel dat alleen de tenen bloot zijn, was behoorlijk raar. Op het kliksysteem was weinig op aan te merken. Dit was direct duidelijk hoe het moest. Er moest wel voorzichtig gewerkt worden, want het was genaaid.
 
-> Het is een raar gevoel door alleen de tenen bloot te hebben.
+> "Het is een raar gevoel door alleen de tenen bloot te hebben."
 > (wist niet goed of hij nog een extra kous erover moest aandoen)
 
 Extra design requirements:
@@ -144,7 +144,7 @@ Extra design requirements:
 ![prototype4 2 jpg](https://github.com/tcolenbi/UCD_SEM1/assets/157377776/bdb250b0-461e-4b17-8605-7b071ce2d22a)
 ![prototype4 jpg](https://github.com/tcolenbi/UCD_SEM1/assets/157377776/dde12924-76df-4b77-935d-9c280c169f5a)
 
-> De gebruiker vroeg direct of de sensor van binnen moest zitten op een vragende/verrassende manier.
+> "De gebruiker vroeg direct of de sensor van binnen moest zitten op een vragende/verrassende manier."
 
 Uit prototype 4 kan gezegd worden dat het concept van de sensor aan de binnenkant van de kous, zeer origineel is. Dit was eigenlijk een van de punten die de studenten van Gent gaven aan ons. Dit idee kwam wel goed terecht bij de gebruikers. Ook de kous was niet mis, het was gewoon een normale kous met 2 gaten juist boven de enkel. Het nadeel hier was wel dat het inklikken wel moeilijker ging, doordat het omgekeerd in de kous zit. Hieronder enkele opmerkingen van de gebruikers.
 
@@ -157,17 +157,10 @@ Nog extra design requirements:
 
 
 ### Conclusies & implicaties
-Al deze data hebben we nu wat meer samengevat:
-- ofwel zo weinig mogelijk voetdelen in de kous houden. (hiel en tenen erbuiten) → je moet minder rekening houden met afmetingen, minder wassen
-  ofwel de hele kous gebruiken → meer rekening houden met maten (minst favoriet)
-- handig dat de sensor los kan → gemakkelijk om te wassen
-- binnen in de kous wat antislip lijntjes hangen → zit dan veel steviger vast op dezelfde positie
-- gebruik van magneten zorgen ervoor dat de positie bijna meteen bepaalt wordt, maar door trillingen van het lopen kan het loskomen. → houder maken voor de sensor op zijn plaats te houden 
-- extra lap stof gebruiken om eventueel over de sensor te hangen → sensor is minder zichtbaar voor het blote oog.
-- sensor aan de binnenkant hangen en eventueel een zakje of iets anders gebruiken voor het precies op de juiste plaats te houden. (kan misschien met magneten)
-- trillingen gebruiken voor de feedback (keuze gebruikers)
-- verschillende soorten trillingen gebruiken voor verschillende soorten feedback
-- app moet wel nog verder aan gewerkt worden indien mogelijk (inspiratie van Strava)
+Al deze data hebben we nu wat meer samengevat, dit komt allemaal samen in onze gevonden [design requirements](https://drive.google.com/file/d/1-iAcYVe341WD8qD20fJkk3_p7_oGiW6K/view?usp=drive_link).
+
+De belangrijkste zaken zijn dat er best zo min mogelijk delen van de voet in de 'kous' zit. Zodanig dat je het minder zou moeten wassen en je meer uniforme maten kan gebruiken aangezien je geen rekening moet houden met de schoenmaten. Ook is het belangrijk dat de sensor los kan, maar toch vrij goed blijft zitten. Zo zal het niet afvallen tijdens het lopen, maar kan je het wel makkelijk afhalen om de 'kous' te wassen. Om de 'kous' beter op zijn positie te houden kunnen we gebruik maken van: anrislip lijntjes, of een soort rekker aan de onderkant van de voet. Door gebruik te maken van magneten of een kliksysteem zal de sensor altijd op de juiste positie blijven hangen, en eventueel gebruik maken van een houder om zeker te zijn dat de juiste positie wordt behouden. Om de sensor wat minder zichtbaar te maken, kan je gebruik maken van een soort 'zakje' om de sensor in de verbergen indien gewenst. Op deze manier wordt de richting waarop de kous moet worden aangedaan ook intuïtiever. 
+Als feedback gaan we gebruik maken van trillingen, maar de manier waarop de feedback gebruikt en geïnterpreteerd zal worden moet nog een grondig getest en bekeken worden. De app blijft iets dat we in ons achterhoofd houden, maar we gaan ons meer focussen op de haptic feedback.
 
 [Template definition](https://drive.google.com/file/d/1hVIPGicSQEgyLsgtS43RXkHbNTDF6vLR/view?usp=drive_link)
 
