@@ -228,6 +228,7 @@ We gaan ook de trillingen op de enkel testen, ondanks dat het artikel (Dim, N. K
 
 ### Resultaten & implicaties
 Uit de testen met de trillingen kwamen vooral de bovenarm en pols naar boven als de voorkeur. De enkel bleek niet echt voelbaar te zijn tijdens het lopen. Dit kan meerdere redenen hebben: de intensiteit van onze vibratiemotor was niet groot genoeg, het prototype was niet genoeg aangespannen of de trillingen die je lichaam ervaart tijdens het lopen zijn te groot om andere trillingen op te nemen. Het zal waarschijnlijk liggen aan de intensiteit van onze vibratiemotor. Maar doordat het toch weer op een enkelband lijkt en het ook niet de positie was met de meeste voorkeur; gaan we niet verdergaan met deze positie. 
+Doordat de Arduino voeding moet krijgen, was het ook een beetje onhandig om met de powerbank te lopen; zeker als deze rond de enkel zat. Dus qua prototype is dat wat onhandig, maar in een volwaardig product zou het geen probleem moeten zijn aangezien je dan hoogstwaarschijnlijk met (oplaadbare) batterijen zal werken.
 
 ## Kritische reflectie
 Na de discovery en definition fase zijn we vooral tot een vrij goed idee gekomen van hoe ons product eruit zal zien. Er zijn zeker nog verbeteringen aan mogelijk, maar die zullen gaandeweg volgend semester mee aangepast worden. Door toch een klein tijdsgebrek in de testing fase, hebben we niet alles kunnen testen wat we wilden doen. Hierdoor besloten we meteen voor de plaatsing van de sensor dat deze zich zal bevinden aan de pols.
