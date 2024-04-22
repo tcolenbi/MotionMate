@@ -176,10 +176,11 @@ Als feedback gaan we gebruik maken van trillingen, maar de manier waarop de feed
 
 
 ## Antropometrie + ergonomie
-Voor het tweede semester focussen we ons nu meer op het optimaliseren van de fysieke ergonomie en de antropometrie van ons product. Dit betekent dat we moeten focussen op verschillende maten en lichaamsgerelateerde parameters van ons ontwerp. In dit semester gaan we ons ook meer richten op de real-time feedback. Deze feedback zal gebeuren via trillingen. 
+Nu gaan we ons meer focussen op het optimaliseren van de fysieke ergonomie en de antropometrie van ons product. Dit betekent dat we moeten focussen op verschillende maten en lichaamsgerelateerde parameters van ons ontwerp. 
 ### Doelstellingen
-Ons doel is dan hierbij om de positie van de trillingen te bepalen door testen en analyses uit te voeren. We gaan opzoek naar waar de trillingen het best opgenomen worden door de gebruiker en waar het aangenamer en niet storend is.
+Ons doel is dan hierbij om de positie van de trillingen te bepalen door testen en analyses uit te voeren. We gaan opzoek naar waar de trillingen het best opgenomen worden door de gebruiker en waar het aangenamer en niet storend is. 
 ### Materiaal & methoden
+Voor het prototype om de trillngen mee te testen gaan we rekening houden met de antropometrische data, en zorgen we er dus voor dat het prototype binnen de waarden valt om stevig vast te zitten.
 Om deze testen te kunnen uitvoeren, moeten we onderzoek doen naar de fysieke ergonomie en antropometrie van elk lichaamsdeel dat we willen testen. Na het doornemen van een interessant artikel in verband met feedback aan de hand van vibraties (Dim, N. K., & Ren), kwamen we tot een idee welke posities op het lichaam we zouden willen testen. Deze zijn de bovenarm, onderarm (5/6), borst (4) en de enkel (12/13).
 
 <img src="https://github.com/tcolenbi/UCD_SEM1/assets/157391495/c70ed041-eaec-4762-94d6-df3707338a25" width="25%">
@@ -198,37 +199,64 @@ Bij de onderarm zouden we gebruik kunnen maken van een smartwatch/sporthorloge, 
 <img src="https://github.com/tcolenbi/UCD_SEM1/assets/157391495/266de7e1-3fc4-4db5-bfe2-8bfad8ab89e1" width="41%">
 
 
-Hieruit kunnen we de polsomtrek bepalen van zowel mannen als vrouwen. Uit deze afbeelding kunnen we afleiden dat bij de vrouwen het 5de percentiel 140 mm is en voor het 95ste percentiel 175 mm. Voor de mannen ligt het iets hoger, namelijk 160 mm voor 5de percentiel en 191 mm voor het 95ste percentiel. Het is dus de bedoeling dat het armband tussen deze waarden moet komen om aan de antropometrie voorwaarden te voldoen.
+Hieruit kunnen we de polsomtrek bepalen van zowel mannen als vrouwen. Uit deze afbeelding kunnen we afleiden dat bij de vrouwen het 5de percentiel 140 mm is en voor het 95ste percentiel 175 mm. Voor de mannen ligt het iets hoger, namelijk 160 mm voor 5de percentiel en 191 mm voor het 95ste percentiel. Het is dus de bedoeling dat het bandje van het prototype tussen deze waarden moet zitten om aan de antropometrische voorwaarden te voldoen.
 
-Om de trillingen te kunnen genereren, zullen we een klein beetje moeten werken met electronica. We gaan dus met het Arduino programma een code moeten schrijven, waarin we trillingen kunnen aansturen. Als elektronisch platform zal een Arduino Nano gebruikt worden. De reden waarom we geen gewone Arduino Uno nemen is, omdat de Nano een kleiner model is. Hierdoor is dit veel gemakkelijker om het platform wat weg te werken in het bandje. 
+Om de trillingen te kunnen genereren, zullen we een klein beetje moeten werken met elektronica. We gaan dus met het Arduino programma een code moeten schrijven, waarin we trillingen kunnen aansturen. Als elektronisch platform zal een Arduino Nano gebruikt worden. De reden waarom we geen gewone Arduino Uno nemen, is omdat de Nano een kleiner model is. Hierdoor is dit veel gemakkelijker om de elektronica wat weg te werken in het bandje. 
 
-![image](https://github.com/tcolenbi/UCD_SEM1/assets/157391495/1a9722a4-a649-4b7a-8864-8d1f85313fdd)
+<img src="https://github.com/tcolenbi/UCD_SEM1/assets/157391495/1a9722a4-a649-4b7a-8864-8d1f85313fdd" width="25%">
 
-Om dus een trilling te genereren zullen we een vibration motor gebruiken die geschakelt zal zijn met de Arduino Nano. De GND vibration motor verbindt met GND Arduino Nano, VCC vibration motor verbindt met 3,3 V Arduino Nano en de IN of SIG bij de motor verbindt met je pin op de Arduino Nano. In dit geval is het pin 3.
+Om dus een trilling te genereren zullen we een vibration motor gebruiken die geschakeld zal zijn met de Arduino Nano. De GND vibration motor is verbonden met GND Arduino Nano, VCC vibration motor is verbonden met 3,3 V Arduino Nano en de IN of SIG bij de motor verbind je met een digital pin op de Arduino Nano. In dit geval is het pin 3.
 
 <img src="https://github.com/tcolenbi/UCD_SEM1/assets/157391495/90a05a90-da49-4a7e-ba62-e95e52efabee" width="25%">
 
 Met deze schakeling kunnen we nu trilling aansturen, maar voor dit helemaal te kunnen realiseren moeten we ook nog de code schrijven. In deze code gebruiken we een lange delay om de trilling onverwachts te laten komen.
 
-<img src="https://github.com/tcolenbi/UCD_SEM1/assets/157391495/028bc5b1-d889-492a-ac25-74de0790cc5b" width="35%">
+```python
+const int pintril = 3;
+void setup() {
+  // put your setup code here, to run once:
+  pinMode(pintril, OUTPUT);
+}
+
+void loop() {
+  // put your main code here, to run repeatedly:
+  digitalWrite(pintril, HIGH);
+  delay(2000);
+  digitalWrite(pintril, LOW);
+  delay(500);
+  digitalWrite(pintril, HIGH);
+  delay(2000);
+  digitalWrite(pintril, LOW);
+  delay(500);
+  digitalWrite(pintril, HIGH);
+  delay(5000);
+  digitalWrite(pintril, LOW);
+  delay(30000);
+}
+```
 
 Hieruit konden we dan een prototype maken om later te testen met de gebruikers.
 
 <img src="https://github.com/tcolenbi/UCD_SEM1/assets/157377776/c1df390a-70b9-4970-ae96-570e162057a2" width="35%">
 <img src="https://github.com/tcolenbi/UCD_SEM1/assets/157377776/3460d114-281b-4402-b15d-84ad7f1ca997" width="32.1%">
 
-We hebben een eerste prototype gemaakt voor de trillingen (links), maar deze bleek niet goed te blijven zitten tijdens het testen zelf. Hierdoor zullen de resultaten komende uit de testen beïnvloed zijn. 
-Daarna hebben we een tweede prototype ge-3D-print om zo een steviger prototype hebben die bleef hangen tijdens het lopen zelf.
+We hebben een eerste prototype gemaakt voor de trillingen (links), maar deze bleek niet goed te blijven zitten tijdens het testen zelf. Hierdoor zullen de resultaten die uit die testen kwamen beïnvloed geweest zijn. Daarna hebben we een tweede prototype ge-3D-print om zo een steviger prototype hebben die bleef hangen tijdens het lopen zelf, en dus minder negatieve invloed zal hebben op de gebruikers.
 
 #### Borst
 Voor de trillingen op de borst zouden we ook Arduino moeten gebruiken, maar met een langere band zodanig dat de afmetingen voor de gemiddelde mens kunnen behaald worden.
 
 #### Enkel
-We gaan ook de trillingen op de enkel testen, ondanks dat het artikel (Dim, N. K., & Ren, X.) vermeld dat trillingen niet meer aangenaam worden ervaard onder de heup. We zouden graag nog eens testen of dit effectief ook het geval is bij ons. Dit gaan we ook testen aan de hand van ons bandje en de Arduino Nano. Hierbij is ook rekening gehouden met de anthropometische waarden van de gemiddelde mens.
+We gaan ook de trillingen op de enkel testen, ondanks dat het artikel (Dim, N. K., & Ren, X.) vermeldt dat trillingen niet meer aangenaam werden ervaren onder de heup. We zouden graag nog eens testen of dit effectief ook het geval is bij ons. Dit gaan we ook testen aan de hand van ons bandje en de Arduino Nano. Hierbij is ook rekening gehouden met de anthropometische waarden van de gemiddelde mens.
 
 ### Resultaten & implicaties
-Uit de testen met de trillingen kwamen vooral de bovenarm en pols naar boven als de voorkeur. De enkel bleek niet echt voelbaar te zijn tijdens het lopen. Dit kan meerdere redenen hebben: de intensiteit van onze vibratiemotor was niet groot genoeg, het prototype was niet genoeg aangespannen of de trillingen die je lichaam ervaart tijdens het lopen zijn te groot om andere trillingen op te nemen. Het zal waarschijnlijk liggen aan de intensiteit van onze vibratiemotor. Maar doordat het toch weer op een enkelband lijkt en het ook niet de positie was met de meeste voorkeur; gaan we niet verdergaan met deze positie. 
+Uit de testen met de trillingen kwamen vooral de bovenarm en pols naar boven als de voorkeur. De enkel bleek niet echt voelbaar te zijn tijdens het lopen. Dit kan meerdere redenen hebben: de intensiteit van onze vibratiemotor was niet groot genoeg, het prototype was niet genoeg aangespannen of de trillingen die je lichaam ervaart tijdens het lopen zijn te groot om andere trillingen op te nemen. Het zal waarschijnlijk liggen aan de intensiteit van onze vibratiemotor. Maar doordat het toch weer een beetje op een enkelband lijkt en het ook niet de positie was met de meeste voorkeur; gaan we niet verdergaan met deze positie. 
 Doordat de Arduino voeding moet krijgen, was het ook een beetje onhandig om met de powerbank te lopen; zeker als deze rond de enkel zat. Dus qua prototype is dat wat onhandig, maar in een volwaardig product zou het geen probleem moeten zijn aangezien je dan hoogstwaarschijnlijk met (oplaadbare) batterijen zal werken.
+
+Uit onze testen hebben ook meerdere design requirements kunnen halen in verband met de trillingen.
+<img src="https://github.com/tcolenbi/UCD_SEM1/assets/157377776/e7f9ac07-0e17-486b-a355-6a9b4b3ba8c0" width="70%">
+
+
+<!-- vanaf hier terug extra dingen toevoegen van de deelopdrachten enz -->
 
 ## Kritische reflectie
 Na de discovery en definition fase zijn we vooral tot een vrij goed idee gekomen van hoe ons product eruit zal zien. Er zijn zeker nog verbeteringen aan mogelijk, maar die zullen gaandeweg volgend semester mee aangepast worden. Door toch een klein tijdsgebrek in de testing fase, hebben we niet alles kunnen testen wat we wilden doen. Hierdoor besloten we meteen voor de plaatsing van de sensor dat deze zich zal bevinden aan de pols.
