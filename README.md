@@ -186,10 +186,13 @@ Om deze testen te kunnen uitvoeren, moeten we onderzoek doen naar de fysieke erg
 <img src="https://github.com/tcolenbi/UCD_SEM1/assets/157391495/c70ed041-eaec-4762-94d6-df3707338a25" width="25%">
 
 
+
 ##### Bovenarm (biceps)
 Voor de trilling te testen op de bovenarm zal gebruikgemaakt worden van een gsmhouder aan de arm. Doordat dit product al voldoet aan de ergonomie moeten wij ons daar geen zorgen bij maken. Hier zullen we gewoon de gebruiker laten lopen en zal de gsm onverwacht trilling uitgeven. Ook zullen we dit eens testen via ons zelfgemaakte prototype, die oorspronkelijk voor de onderarm/pols en enkel was. (zie onderarm/pols) De reden daarvoor is omdat we denken dat de grootte van de gsmhouder eventueel een rol kan spelen in verband met het geven van trillingen en de aangenaamheid tijdens het lopen.
 
 <img src="https://github.com/tcolenbi/UCD_SEM1/assets/157391495/c0d691a1-162f-4ca3-b8f3-c504ddb440a1" width="35%">
+<img src="https://github.com/tcolenbi/UCD_SEM1/assets/157391495/e2ef89b2-1453-408b-bb08-0e0f4c37ea62" width="35%">
+
 
 
 ##### Onderarm/pols
@@ -252,12 +255,14 @@ Voor de trillingen op de borst zouden we ook Arduino moeten gebruiken, maar met 
 We gaan ook de trillingen op de enkel testen, ondanks dat het artikel (Dim, N. K., & Ren, X.) vermeldt dat trillingen niet meer aangenaam werden ervaren onder de heup. Zouden we graag toch eens testen of dit effectief ook het geval is bij ons. Dit gaan we ook testen aan de hand van ons bandje en de Arduino Nano. Hierbij is ook rekening gehouden met de anthropometrische waarden van de gemiddelde mens.
 
 
-Al deze posities hebben we getest op dezelfde manier, volgens hetzelfde protocol. Op het einde van de gebruikerstesten hebben we dan nog een [reflectieblad](https://drive.google.com/file/d/1Nsha_xjgBmR1ecXfb2hWs4F0LypFR_ki/view?usp=sharing) gegeven aan de gebruikers, zodat zij hun meningen daarover kunnen geven. 
+Al deze posities hebben we getest op dezelfde manier, volgens hetzelfde [protocol](https://docs.google.com/document/d/1lXbS9jN76cUr3vju8mQVeZ8K8YjpnvmN/edit). Op het einde van de gebruikerstesten hebben we dan nog een [reflectieblad](https://drive.google.com/file/d/1Nsha_xjgBmR1ecXfb2hWs4F0LypFR_ki/view?usp=sharing) gegeven aan de gebruikers, zodat zij hun meningen daarover kunnen geven. 
 
 
 #### Resultaten & implicaties
-Uit de testen met de trillingen kwamen vooral de bovenarm en pols naar boven als de voorkeur. De enkel bleek niet echt voelbaar te zijn tijdens het lopen. Dit kan meerdere redenen hebben: de intensiteit van onze vibratiemotor was niet groot genoeg, het prototype was niet genoeg aangespannen of de trillingen die je lichaam ervaart tijdens het lopen zijn te groot om andere trillingen op te nemen. Het zal waarschijnlijk liggen aan de intensiteit van onze vibratiemotor. Maar doordat het toch weer een beetje op een enkelband lijkt en het ook niet de positie was met de meeste voorkeur; gaan we niet verdergaan met deze positie. 
-Doordat de Arduino voeding moet krijgen, was het ook een beetje onhandig om met de powerbank te lopen; zeker als deze rond de enkel zat. Dus qua prototype is dat wat onhandig, maar in een volwaardig product zou het geen probleem moeten zijn aangezien je dan hoogstwaarschijnlijk met (oplaadbare) batterijen zal werken.
+De [analyse](https://docs.google.com/document/d/1CNyfjw0nFtA4_fF_JsgoV67jAOPYfLT4v7V0rgOIwPo/edit) van de positie van de trillingen vind men hier.
+Samengevat konden we dan zeggen dat vooral de bovenarm en pols naar boven kwamen als voorkeur. De enkel bleek niet echt voelbaar te zijn tijdens het lopen. Dit kan meerdere redenen hebben: de intensiteit van onze vibratiemotor was niet groot genoeg, het prototype was niet genoeg aangespannen of de trillingen die je lichaam ervaart tijdens het lopen zijn te groot om andere trillingen op te nemen. Het zal waarschijnlijk liggen aan de intensiteit van onze vibratiemotor. Maar doordat het toch weer een beetje op een enkelband lijkt en het ook niet de positie was met de meeste voorkeur; gaan we niet verdergaan met deze positie. 
+Doordat de Arduino voeding moet krijgen, was het ook een beetje onhandig om met de powerbank te lopen; zeker als deze rond de enkel zat. Dus qua prototype is dat wat onhandig, maar in een volwaardig product zou het geen probleem moeten zijn aangezien je dan hoogstwaarschijnlijk met (oplaadbare) batterijen zal werken. Tenslotte was de borst een zeer slechte positie, want veel gebruikers vonden dit zeker niet aangenaam om mee te lopen. En eenmaal dat er dan een trilling gegeven werd, vond men dat het pijn deed.
+
 
 Uit onze testen hebben ook meerdere design requirements kunnen halen in verband met de trillingen.
 <img src="https://github.com/tcolenbi/UCD_SEM1/assets/157377776/e7f9ac07-0e17-486b-a355-6a9b4b3ba8c0" width="70%">
@@ -282,21 +287,21 @@ Eenmaal we dit hadden, konden we starten met de code aan te passen. Jammer genoe
 Op de 2de afbeelding zie je alle verschillende soorten infrarood recievers, wij hebben de PIC12043S (3de van links).
 Voor de schakeling van de infrarood reciever zullen we de linkse pin (S = signal) verbinden met pin 5 van de Arduino. De middelste pin GND (-) plaatsen we zoals gewoonlijk aan de GND in de Arduino en rechtse pin (+) moeten we schakelen aan de 5V op de Arduino. Hierdoor bekomen we een soort gelijke schakeling als hieronder.
 
-![image](https://github.com/tcolenbi/UCD_SEM1/assets/157391495/c081796b-ffe4-4e25-9daf-d6680f6248d3)
+<img src="https://github.com/tcolenbi/UCD_SEM1/assets/157391495/c081796b-ffe4-4e25-9daf-d6680f6248d3" width="40%">
 
 Eenmaal we nu zowel de vibration motor en infrarood reciever willen schakelen, zullen we de Arduino Nano moeten vervangen. We hebben namelijk een Arduino Nano 33 iot nodig. Dit komt omdat we willen werken met een infrarood reciever. Deze infrarood reciever vraagt 5V spanning en onze vibration motor vraagt 3,3V spanning. Hierdoor zijn we genoodzaakt om te wisselen van Nano, omdat de gewone Nano geen 5V kan leveren, maar de Nano 33 iot wel.
 
-![image](https://github.com/tcolenbi/UCD_SEM1/assets/157391495/fb9150d8-8c95-494d-9c91-d26f942efc06)
-![image](https://github.com/tcolenbi/UCD_SEM1/assets/157391495/cec1da24-9658-458a-ac71-dc668e5cd485)
+<img src="https://github.com/tcolenbi/UCD_SEM1/assets/157391495/fb9150d8-8c95-494d-9c91-d26f942efc06" width="40%">
+<img src="https://github.com/tcolenbi/UCD_SEM1/assets/157391495/cec1da24-9658-458a-ac71-dc668e5cd485" width="40%">
 
 
 Voor de schakeling helemaal klaar te maken en mooi te bevestigen aan ons bandje, zullen we de draden mooi solderen en wegstekken in het ge-3D-printe bakje.
 
-![image](https://github.com/tcolenbi/UCD_SEM1/assets/157391495/16f8e51c-5924-4a6f-8c7b-b63e524fdcd0)
-![image](https://github.com/tcolenbi/UCD_SEM1/assets/157391495/42b64761-0fb2-4213-934c-85d9331f6e9a)
-![image](https://github.com/tcolenbi/UCD_SEM1/assets/157391495/b48a6ed0-b261-470a-853f-3f7434860460)
-![image](https://github.com/tcolenbi/UCD_SEM1/assets/157391495/08c15f56-8fed-4e60-a57e-c8037a644b44)
-![image](https://github.com/tcolenbi/UCD_SEM1/assets/157391495/8cbf5480-9053-41bc-9768-b6927c3553cd)
+<img src="https://github.com/tcolenbi/UCD_SEM1/assets/157391495/16f8e51c-5924-4a6f-8c7b-b63e524fdcd0" width="40%">
+<img src="https://github.com/tcolenbi/UCD_SEM1/assets/157391495/b48a6ed0-b261-470a-853f-3f7434860460" width="40%">
+<img src="https://github.com/tcolenbi/UCD_SEM1/assets/157391495/08c15f56-8fed-4e60-a57e-c8037a644b44" width="40%">
+<img src="https://github.com/tcolenbi/UCD_SEM1/assets/157391495/8cbf5480-9053-41bc-9768-b6927c3553cd" width="40%">
+<img src="https://github.com/tcolenbi/UCD_SEM1/assets/157391495/42b64761-0fb2-4213-934c-85d9331f6e9a" width="80%">
 
 Nu de schakeling klaar is, kunnen we de code aanpassen. Zodat we de vibration motor kunnen aansturen. Het eerste wat we al moesten doen voor de code te laten werken was om de IRremote library van Shirriff te installeren. Maar voor we de knoppen in de afstandsbediening kunnen programmeren, moeten we eerste op zoek gaan naar de HEX-code van elke knop aanwezig op de afstandsbediening.
 
@@ -529,16 +534,30 @@ void loop()
 
 Om gemakkelijker te weten welke knop op het afstandsbediening bij welk trilpatroon hoort, is er een klein excel bestandje gemaakt. Waar alles mooi geordend is en waarin de HEX-codes van elke knop staat. Hierdoor kunnen we gemakkelijk alles zien staan tijdens het testen en kunnen we ook gemakkelijk de bestaande HEX-codes gebruiken als we iets meer willen doen.
 
-![image](https://github.com/tcolenbi/UCD_SEM1/assets/157391495/dd8dcc75-fff4-4a2d-8c7b-52718f420ce7)
+<img src="https://github.com/tcolenbi/UCD_SEM1/assets/157391495/dd8dcc75-fff4-4a2d-8c7b-52718f420ce7" width="40%">
 
-Op dit moment is alles gereed van voorbereidingen en kunnen we eindelijk weer testen. Dit zullen we doen aan de hand van een kleine [enquête](https://docs.google.com/forms/d/e/1FAIpQLScmizs75yjgCpesMGq3S0cR4rJNPPkFtNJaIQOXT0I43W4MGA/viewform) die de gebruikers op het einde van elk patroon (N = 9) zullen invullen.
+Op dit moment is alles gereed van voorbereidingen en kunnen we eindelijk weer testen (N = 4). Dit zullen we doen aan de hand van een kleine [enquête](https://docs.google.com/forms/d/e/1FAIpQLScmizs75yjgCpesMGq3S0cR4rJNPPkFtNJaIQOXT0I43W4MGA/viewform) die de gebruikers op het einde van elk patroon (N = 9) zullen invullen.
 Voor de verduidelijking zullen de gebruikers nog altijd rondlopen met het bandje aan hun pols/onderarm en zullen wij een patroon kunnen aanzetten (wanneer we willen) via de afstandsbediening. Eenmaal patroon 1 bezig is, zal de gebruiker de trillingen voelen en kunnen we hun reacties bekijken. Als het patroon dan gestopt is, zullen ze stoppen met lopen en mogen ze de enquête invullen. Waarna ze weeral mogen lopen, maar waarbij wij patroon 2 aan zullen zetten, enzovoort. 
 Ook werd er weer op het einde van alle testen een [reflectieblad](https://docs.google.com/document/d/1wNu0Ga2jCGNgYv4VUZ1TmaLEh9RdVE07/edit) meegegeven, waarin de gebruikers hun bevindingen en gedachten kwijt kunnen spelen.
 
-![image](https://github.com/tcolenbi/UCD_SEM1/assets/157391495/bed652c2-8778-426e-9711-5170011b3624)
+<img src="https://github.com/tcolenbi/UCD_SEM1/assets/157391495/bed652c2-8778-426e-9711-5170011b3624" width="32%">
+<img src="https://github.com/tcolenbi/UCD_SEM1/assets/157391495/d67280b6-0c26-4a88-b390-36a35073f884" width="32%">
 
+Tenslotte werden er hier ook nog 2 expert interviews uitgevoerd met medestudenten. Hier zitten we dan samen en overlopen we alle prototypes van het eerste semester tot nu. We laten ze de kous uitproberen en vragen we naar hun bedenkingen. Ook bespreken we ons armbandje door de verschillende patronen (N = 9) te testen en kijken we of zij eventueel een specifieke gedachte/opmerking geven bij bepaalde patronen. In deze [expert interviews](https://docs.google.com/document/d/1l1tshu3ePcZvtlrLZzoLAc0l129nyXmz/edit) wordt er dan ook voornamelijk nagedacht over de functionaliteit, de duidelijkheid en de aantrekkelijkheid van zowel het armbandje als de kous. De experts mogen dan bij allerlei belangrijke puntjes een score geven van 1 t.e.m. 5, waarbij 1 zeer slecht is en 5 zeer goed. Tenslotte wordt er bij elk puntje de mogelijke issues besproken en worden er recommendations gevraagt voor het verder proces. 
 
 #### Resultaten & implicaties
+Na het testen hebben we weer een analyse gemaakt van de verschillende patronen. Uit de [enquête](https://docs.google.com/forms/d/1X8MklZ_q24qZIWdhZlZYQ5OpKBskoupzgwrtiQBuvDQ/edit#responses) kunnen we zien wat iedereen ingevult geeft bij elke trilling. Ook wordt dit mooi weergegeven in grafieken en diagrammen, zodat alles direct duidelijk wordt. Eenmaal we dit omgezet hadden naar excel, begon alles onduidelijk te worden. Hierdoor hebben we dan de [analyse](https://docs.google.com/document/d/1QsILvopdEdqrfOkRe_zd-7_griBv-TFvSfwogOyeunI/edit) nog eens kort en krachtig samengevat in 1 document, samen met de staafdiagram voor het reageren op elk patroon.  
+
+We kwamen dan tot de conclusie dat veel patronen moeilijk te begrijpen zijn, zoals patronen 2, 8 en 9. Deze vond men zeer complex om te begrijpen, waardoor men ook geen reacties/gedachten over had. De patronen 3,4 en 5 daarentegen zijn een ander verhaal. Deze patronen vond men zeer aangenaam en begrijpelijk, waardoor de score over deze ook zeer goed waren. Ook uit de [reflectiebladen](https://docs.google.com/document/d/1cWzHusq3pfrT-VqizPmpFu9x6hPAurYhEpr6RkHcO7I/edit) was dit allemaal goed zichtbaar.
+
+
+Tenslotte kan men hier ook de 2 expert interviews terugvinden:
+- [Expert interview Daan Mol](https://docs.google.com/document/d/1K1jLO81gPbMWL8dE-gqqWKObYCxaOo2p/edit)
+- [Expert interview Sam Deprez](https://docs.google.com/document/d/1TcExHg7gHaKmBFPjrnaUhdVDp7qLbcxQ/edit)
+
+Hieruit kunnen we dan weer concluderen dat het deel van de patronen testen samenvalt met de analyse van de gebruikerstesten.
+
+Voor dan de volgende stap hebben we besloten om 4 van die 9 patronen te gebruiken in het eindproduct, waaronder een patroon die aangeeft dat je gestart bent met lopen, een patroon dat je moet stoppen met lopen door overbelasting in de botten en patronen die zeggen dat je iets sneller of trager moet lopen.
 
 ### Human product interaction flow
 #### Doelstellingen
@@ -586,11 +605,19 @@ Dim, N. K., & Ren, X. (2017b). Investigation of suitable body parts for wearable
 - [Template definition](https://drive.google.com/file/d/1hVIPGicSQEgyLsgtS43RXkHbNTDF6vLR/view?usp=drive_link)
 ### Developing fase
 #### Protocollen + testmethoden
+- [Protocol positie trillingen](https://docs.google.com/document/d/1lXbS9jN76cUr3vju8mQVeZ8K8YjpnvmN/edit)
 - [Reflectieblad positie trillingen](https://drive.google.com/file/d/1Nsha_xjgBmR1ecXfb2hWs4F0LypFR_ki/view?usp=sharing)
+- [Analyse positie trillingen](https://docs.google.com/document/d/1CNyfjw0nFtA4_fF_JsgoV67jAOPYfLT4v7V0rgOIwPo/edit)
 - [Enquête trilpatronen](https://docs.google.com/forms/d/e/1FAIpQLScmizs75yjgCpesMGq3S0cR4rJNPPkFtNJaIQOXT0I43W4MGA/viewform)
 - [Reflectieblad trilpatronen](https://docs.google.com/document/d/1wNu0Ga2jCGNgYv4VUZ1TmaLEh9RdVE07/edit)
+- [Expert interview protocol](https://docs.google.com/document/d/1l1tshu3ePcZvtlrLZzoLAc0l129nyXmz/edit)
 #### Resultaten & implicaties
 - [design requirements trillingen](https://drive.google.com/file/d/1oGtC-9SZvx6FypRc7NpTEypIYxYLATkD/view?usp=drive_link)
+- [Antwoorden enquête trilpatronen](https://docs.google.com/forms/d/1X8MklZ_q24qZIWdhZlZYQ5OpKBskoupzgwrtiQBuvDQ/edit#responses)
+- [Samengevatte analyse trilpatronen](https://docs.google.com/document/d/1QsILvopdEdqrfOkRe_zd-7_griBv-TFvSfwogOyeunI/edit)
+- [Analyse reflectieblad trilpatronen](https://docs.google.com/document/d/1cWzHusq3pfrT-VqizPmpFu9x6hPAurYhEpr6RkHcO7I/edit)
+- [Expert interview Daan Mol](https://docs.google.com/document/d/1K1jLO81gPbMWL8dE-gqqWKObYCxaOo2p/edit)
+- [Expert interview Sam Deprez](https://docs.google.com/document/d/1TcExHg7gHaKmBFPjrnaUhdVDp7qLbcxQ/edit)
 ### Bronnen
 - [Foto artikel](https://drive.google.com/file/d/14z9DMBd4uKEKwwcEzfh-XkQDCOTmf4BB/view?usp=drive_link)
 - https://www.victoris.be/lower-impact-running/
