@@ -245,14 +245,14 @@ We hebben een eerste prototype gemaakt voor de trillingen (links), maar deze ble
 ##### Borst
 Voor de trillingen op de borst zouden we ook Arduino moeten gebruiken, maar met een langere band zodanig dat de afmetingen voor de gemiddelde mens kunnen behaald worden. Een mooi voorbeeld hierbij is een hartslagmeter. 
 
-![image](https://github.com/tcolenbi/UCD_SEM1/assets/157391495/ae9141e1-f149-4341-86f3-49022dac53d3)
+<img src="https://github.com/tcolenbi/UCD_SEM1/assets/157391495/ae9141e1-f149-4341-86f3-49022dac53d3" width="35%">
 
 
 ##### Enkel
 We gaan ook de trillingen op de enkel testen, ondanks dat het artikel (Dim, N. K., & Ren, X.) vermeldt dat trillingen niet meer aangenaam werden ervaren onder de heup. Zouden we graag toch eens testen of dit effectief ook het geval is bij ons. Dit gaan we ook testen aan de hand van ons bandje en de Arduino Nano. Hierbij is ook rekening gehouden met de anthropometrische waarden van de gemiddelde mens.
 
 
-Al deze posities hebben we getest op dezelfde manier, volgens hetzelfde protocol. Op het einde van de gebruikerstesten hebben we dan nog een reflectieblad gegeven aan de gebruikers, zodat zij hun meningen daarover kunnen geven. (zie bijlage)
+Al deze posities hebben we getest op dezelfde manier, volgens hetzelfde protocol. Op het einde van de gebruikerstesten hebben we dan nog een [reflectieblad](https://drive.google.com/file/d/1Nsha_xjgBmR1ecXfb2hWs4F0LypFR_ki/view?usp=sharing) gegeven aan de gebruikers, zodat zij hun meningen daarover kunnen geven. 
 
 
 #### Resultaten & implicaties
@@ -272,20 +272,271 @@ Na het testen van de positie van de trillingen op het lichaam, wilden we op zoek
 
 Dit bracht ons op het idee om via infrarood en een afstandsbediening de patronen te kunnen regelen, want nu wordt alles nog gedaan via delays en is dat behoorlijk ambetant. Om dit te realiseren moeten we dus een afstandsbediening kunnen verbinden met een infrarood ontvanger die geschakeld zou zijn met de vibration motor. We hebben daarom een gezamenlijk pakket gekocht met een afstandsbediening, enkele kabeltjes en een infrarood reciever. 
 
-![image](https://github.com/tcolenbi/UCD_SEM1/assets/157391495/2d299b02-de2f-4bf5-ab88-10c588df347b)
+<img src="https://github.com/tcolenbi/UCD_SEM1/assets/157391495/2d299b02-de2f-4bf5-ab88-10c588df347b" width="40%">
 
 Eenmaal we dit hadden, konden we starten met de code aan te passen. Jammer genoeg ontdekten we al snel dat de infrarood reciever aanwezig in het pakketje stuk was. Hierdoor hebben we opnieuw iets moeten bestellen van Amazon, namelijk enkele infrarood recievers. 
 
-![image](https://github.com/tcolenbi/UCD_SEM1/assets/157391495/7875a71c-3743-4670-9007-1b73bdd22af1)
+<img src="https://github.com/tcolenbi/UCD_SEM1/assets/157391495/7875a71c-3743-4670-9007-1b73bdd22af1" width="40%">
+<img src="https://github.com/Arduino-IRremote/Arduino-IRremote/blob/master/pictures/IRReceiverPinout.jpg" width="40%">
 
-Voor het schakelen van de infrarood reciever aan de vibration motor en Arduino Nano, moet 
+Op de 2de afbeelding zie je alle verschillende soorten infrarood recievers, wij hebben de PIC12043S (3de van links).
+Voor de schakeling van de infrarood reciever zullen we de linkse pin (S = signal) verbinden met pin 5 van de Arduino. De middelste pin GND (-) plaatsen we zoals gewoonlijk aan de GND in de Arduino en rechtse pin (+) moeten we schakelen aan de 5V op de Arduino. Hierdoor bekomen we een soort gelijke schakeling als hieronder.
+
+![image](https://github.com/tcolenbi/UCD_SEM1/assets/157391495/c081796b-ffe4-4e25-9daf-d6680f6248d3)
+
+Eenmaal we nu zowel de vibration motor en infrarood reciever willen schakelen, zullen we de Arduino Nano moeten vervangen. We hebben namelijk een Arduino Nano 33 iot nodig. Dit komt omdat we willen werken met een infrarood reciever. Deze infrarood reciever vraagt 5V spanning en onze vibration motor vraagt 3,3V spanning. Hierdoor zijn we genoodzaakt om te wisselen van Nano, omdat de gewone Nano geen 5V kan leveren, maar de Nano 33 iot wel.
+
+![image](https://github.com/tcolenbi/UCD_SEM1/assets/157391495/fb9150d8-8c95-494d-9c91-d26f942efc06)
+![image](https://github.com/tcolenbi/UCD_SEM1/assets/157391495/cec1da24-9658-458a-ac71-dc668e5cd485)
 
 
+Voor de schakeling helemaal klaar te maken en mooi te bevestigen aan ons bandje, zullen we de draden mooi solderen en wegstekken in het ge-3D-printe bakje.
 
+![image](https://github.com/tcolenbi/UCD_SEM1/assets/157391495/16f8e51c-5924-4a6f-8c7b-b63e524fdcd0)
+![image](https://github.com/tcolenbi/UCD_SEM1/assets/157391495/42b64761-0fb2-4213-934c-85d9331f6e9a)
+![image](https://github.com/tcolenbi/UCD_SEM1/assets/157391495/b48a6ed0-b261-470a-853f-3f7434860460)
+![image](https://github.com/tcolenbi/UCD_SEM1/assets/157391495/08c15f56-8fed-4e60-a57e-c8037a644b44)
+![image](https://github.com/tcolenbi/UCD_SEM1/assets/157391495/8cbf5480-9053-41bc-9768-b6927c3553cd)
 
+Nu de schakeling klaar is, kunnen we de code aanpassen. Zodat we de vibration motor kunnen aansturen. Het eerste wat we al moesten doen voor de code te laten werken was om de IRremote library van Shirriff te installeren. Maar voor we de knoppen in de afstandsbediening kunnen programmeren, moeten we eerste op zoek gaan naar de HEX-code van elke knop aanwezig op de afstandsbediening.
 
+En doordat we niet weten hoe we elke knop van de afstandsbediening moeten verbinden met een bepaald trilpatroon, moeten we eerst nog een ander programma maken. We moeten namelijk kunnen weten wat de HEX-code van elke knop is van de afstandsbediening. Bij elke afstandsbedieningen is dit anders, hierdoor kunnen we niet dezelfde HEX-code gebruiken als anderen.
 
-Dit zullen we doen door te vragen of ze een kleine enquête kunnen invullen na elk patroon. Voor de verduidelijking zal de gebruikers rondlopen met het bandje aan hun pols en zullen wij een patroon kunnen aanzetten via de afstandsbediening. Eenmaal patroon 1 bezig is, zal de gebruiker de trillingen voelen en kunnen we hun reacties bekijken. Als het patroon dat gestopt is, zullen stoppen met lopen en mogen ze de enquête invullen. Waarna ze weeral mogen lopen, maar waarbij wij patroon 2 aan zullen zetten, enzovoort.
+We moeten daarom een code maken die dus de HEX-code teruggeeft eenmaal op een bepaalde knop gedrukt wordt van je afstandsbediening.
+
+```python
+#include <IRremote.hpp>
+int RECV_PIN = 5;
+IRrecv irrecv(RECV_PIN);
+decode_results results;
+
+void setup()
+{
+  Serial.begin(9600);
+  IrReceiver.begin(RECV_PIN, ENABLE_LED_FEEDBACK); // Start the receiver
+  Serial.println("start");
+}
+
+void loop() {
+  if (IrReceiver.decode()) {
+    Serial.println(IrReceiver.decodedIRData.decodedRawData, HEX); // Print "old" raw dat/* USE NEW 3.x FUNCTIONS */
+    IrReceiver.printIRResultShort(&Serial); // Print complete received data in one line
+    IrReceiver.printIRSendUsage(&Serial); // Print the statement required to send this data
+
+    IrReceiver.resume(); // Enable receiving of the next value
+  }
+  delay(100);
+}
+```
+
+Nu kunnen we het programma maken, waarbij de vibration motor verbonden is met de infrarood reciever.
+
+Er zijn 9 verschillende trilpatronen die we tijdens de testen aan de gebruiker zullen toepassen. Het is de bedoeling dat wij de trilling tijdens het testen kunnen regelen. Dit wordt gedaan via de afstandsbediening die verbonden is met de infrarood ontvanger en de vibration motor. Eenmaal we dan op een knop drukken, zal er een trilpatroon starten en gaan we kijken naar de reacties van de testgebruikers. Zo zullen we het denkgedrag van de gebruiker achterhalen. (Wat zou dit trilpatroon betekenen volgens de gebruiker en dan zo dit patroon linken bij iets.)
+
+```python
+#include <IRremote.h>
+int RECV_PIN = 5;
+IRrecv IR(RECV_PIN);
+decode_results results;
+
+// int ledR = 8; // Rood
+int tril = 3; // Groen
+bool ledKleur = false;
+bool buzzerActive = false;
+
+unsigned long previousMillis = 0;
+unsigned long buzzerPreviousMillis = 0;
+const unsigned long buzzerInterval = 120000; // Buzzer interval in milliseconds
+
+void setup()
+{
+  IR.enableIRIn();
+  pinMode(tril, OUTPUT);
+  Serial.begin(9600);
+}
+
+void loop()
+{
+  unsigned long currentMillis = millis();
+
+  if (IR.decode())
+  {
+    Serial.println(IR.decodedIRData.decodedRawData, HEX);
+    if (IR.decodedIRData.decodedRawData == 0xBA45FF00) // Knop 1 (constant trillen)
+    {
+      digitalWrite(tril, HIGH);
+    }
+    if (IR.decodedIRData.decodedRawData == 0xB946FF00) // Knop 2 (knipperend trillen trilpatroon 1)
+    {
+      digitalWrite(tril, HIGH);
+      delay(500);
+      digitalWrite(tril, LOW);
+      delay(500);
+      digitalWrite(tril, HIGH);
+      delay(500);
+      digitalWrite(tril, LOW);
+      delay(500);
+      digitalWrite(tril, HIGH);
+      delay(2000);
+      digitalWrite(tril, LOW);
+      delay(500);
+      digitalWrite(tril, HIGH);
+      delay(500);
+      digitalWrite(tril, LOW);
+      // ledKleur = false;
+    }
+    if (IR.decodedIRData.decodedRawData == 0xB847FF00) // Knop 3 (trilpatroon 2)
+    {
+      digitalWrite(tril, HIGH);
+      delay(2000);
+      digitalWrite(tril, LOW);
+      delay(500);
+      digitalWrite(tril, HIGH);
+      delay(500);
+      digitalWrite(tril, LOW);
+      delay(500);
+      digitalWrite(tril, HIGH);
+      delay(500);
+      digitalWrite(tril, LOW);
+      delay(500);
+      digitalWrite(tril, HIGH);
+      delay(500);
+      digitalWrite(tril, LOW);
+      // ledKleur = false;
+    }
+    if (IR.decodedIRData.decodedRawData == 0xBB44FF00) // Knop 4 (trilpatroon 3)
+    {
+      digitalWrite(tril, HIGH);
+      delay(5000);
+      digitalWrite(tril, LOW);
+      delay(500);
+      digitalWrite(tril, HIGH);
+      delay(5000);
+      digitalWrite(tril, LOW);
+      delay(500);
+      digitalWrite(tril, HIGH);
+      delay(500);
+      digitalWrite(tril, LOW);
+      delay(500);
+      digitalWrite(tril, HIGH);
+      delay(500);
+      digitalWrite(tril, LOW);
+      // ledKleur = false;
+    }
+    if (IR.decodedIRData.decodedRawData == 0xBF40FF00) // Knop 5 (trilpatroon 4)
+    {
+      digitalWrite(tril, HIGH);
+      delay(500);
+      digitalWrite(tril, LOW);
+      delay(500);
+      digitalWrite(tril, HIGH);
+      delay(500);
+      digitalWrite(tril, LOW);
+      delay(500);
+      digitalWrite(tril, HIGH);
+      delay(500);
+      digitalWrite(tril, LOW);
+      delay(500);
+      digitalWrite(tril, HIGH);
+      delay(500);
+      digitalWrite(tril, LOW);
+      // ledKleur = false;
+    }
+    if (IR.decodedIRData.decodedRawData == 0xBC43FF00) // Knop 6 (trilpatroon 5)
+    {
+      digitalWrite(tril, HIGH);
+      delay(1000);
+      digitalWrite(tril, LOW);
+      delay(1000);
+      digitalWrite(tril, HIGH);
+      delay(1000);
+      digitalWrite(tril, LOW);
+      delay(1000);
+      digitalWrite(tril, HIGH);
+      delay(1000);
+      digitalWrite(tril, LOW);
+      delay(1000);
+      digitalWrite(tril, HIGH);
+      delay(1000);
+      digitalWrite(tril, LOW);
+      // ledKleur = false;
+    }
+    if (IR.decodedIRData.decodedRawData == 0xF807FF00) // Knop 7 (trilpatroon 6)
+    {
+      digitalWrite(tril, HIGH);
+      delay(2000);
+      digitalWrite(tril, LOW);
+      delay(2000);
+      digitalWrite(tril, HIGH);
+      delay(2000);
+      digitalWrite(tril, LOW);
+      delay(2000);
+      digitalWrite(tril, HIGH);
+      delay(2000);
+      digitalWrite(tril, LOW);
+      delay(2000);
+      digitalWrite(tril, HIGH);
+      delay(2000);
+      digitalWrite(tril, LOW);
+      // ledKleur = false;
+    }
+    if (IR.decodedIRData.decodedRawData == 0xEA15FF00) // Knop 8 (trilpatroon 7)
+    {
+      digitalWrite(tril, HIGH);
+      delay(2000);
+      digitalWrite(tril, LOW);
+      delay(2000);
+      digitalWrite(tril, HIGH);
+      delay(500);
+      digitalWrite(tril, LOW);
+      delay(500);
+      digitalWrite(tril, HIGH);
+      delay(2000);
+      digitalWrite(tril, LOW);
+      delay(2000);
+      digitalWrite(tril, HIGH);
+      delay(500);
+      digitalWrite(tril, LOW);
+      // ledKleur = false;
+    }
+    if (IR.decodedIRData.decodedRawData == 0xF609FF00) // Knop 9 (trilpatroon 8)
+    {
+      digitalWrite(tril, HIGH);
+      delay(500);
+      digitalWrite(tril, LOW);
+      delay(500);
+      digitalWrite(tril, HIGH);
+      delay(2000);
+      digitalWrite(tril, LOW);
+      delay(2000);
+      digitalWrite(tril, HIGH);
+      delay(500);
+      digitalWrite(tril, LOW);
+      delay(500);
+      digitalWrite(tril, HIGH);
+      delay(500);
+      digitalWrite(tril, LOW);
+      // ledKleur = false;
+    }
+    if (IR.decodedIRData.decodedRawData == 0xE619FF00) // Knop 0 (uitschakelen trillingen)
+    {
+      digitalWrite(tril, LOW);
+    }
+    IR.resume();
+  }
+}
+```
+
+Om gemakkelijker te weten welke knop op het afstandsbediening bij welk trilpatroon hoort, is er een klein excel bestandje gemaakt. Waar alles mooi geordend is en waarin de HEX-codes van elke knop staat. Hierdoor kunnen we gemakkelijk alles zien staan tijdens het testen en kunnen we ook gemakkelijk de bestaande HEX-codes gebruiken als we iets meer willen doen.
+
+![image](https://github.com/tcolenbi/UCD_SEM1/assets/157391495/dd8dcc75-fff4-4a2d-8c7b-52718f420ce7)
+
+Op dit moment is alles gereed van voorbereidingen en kunnen we eindelijk weer testen. Dit zullen we doen aan de hand van een kleine [enquête](https://docs.google.com/forms/d/e/1FAIpQLScmizs75yjgCpesMGq3S0cR4rJNPPkFtNJaIQOXT0I43W4MGA/viewform) die de gebruikers op het einde van elk patroon (N = 9) zullen invullen.
+Voor de verduidelijking zullen de gebruikers nog altijd rondlopen met het bandje aan hun pols/onderarm en zullen wij een patroon kunnen aanzetten (wanneer we willen) via de afstandsbediening. Eenmaal patroon 1 bezig is, zal de gebruiker de trillingen voelen en kunnen we hun reacties bekijken. Als het patroon dan gestopt is, zullen ze stoppen met lopen en mogen ze de enquête invullen. Waarna ze weeral mogen lopen, maar waarbij wij patroon 2 aan zullen zetten, enzovoort. 
+Ook werd er weer op het einde van alle testen een [reflectieblad](https://docs.google.com/document/d/1wNu0Ga2jCGNgYv4VUZ1TmaLEh9RdVE07/edit) meegegeven, waarin de gebruikers hun bevindingen en gedachten kwijt kunnen spelen.
+
+![image](https://github.com/tcolenbi/UCD_SEM1/assets/157391495/bed652c2-8778-426e-9711-5170011b3624)
+
 
 #### Resultaten & implicaties
 
@@ -336,6 +587,8 @@ Dim, N. K., & Ren, X. (2017b). Investigation of suitable body parts for wearable
 ### Developing fase
 #### Protocollen + testmethoden
 - [Reflectieblad positie trillingen](https://drive.google.com/file/d/1Nsha_xjgBmR1ecXfb2hWs4F0LypFR_ki/view?usp=sharing)
+- [Enquête trilpatronen](https://docs.google.com/forms/d/e/1FAIpQLScmizs75yjgCpesMGq3S0cR4rJNPPkFtNJaIQOXT0I43W4MGA/viewform)
+- [Reflectieblad trilpatronen](https://docs.google.com/document/d/1wNu0Ga2jCGNgYv4VUZ1TmaLEh9RdVE07/edit)
 #### Resultaten & implicaties
 - [design requirements trillingen](https://drive.google.com/file/d/1oGtC-9SZvx6FypRc7NpTEypIYxYLATkD/view?usp=drive_link)
 ### Bronnen
