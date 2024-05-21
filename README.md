@@ -551,7 +551,7 @@ Na het testen hebben we weer een analyse gemaakt van de verschillende patronen. 
 We kwamen dan tot de conclusie dat veel patronen moeilijk te begrijpen zijn, zoals patronen 2, 8 en 9. Deze vond men zeer complex om te begrijpen, waardoor men ook geen reacties/gedachten over had. De patronen 3,4 en 5 daarentegen zijn een ander verhaal. Deze patronen vond men zeer aangenaam en begrijpelijk, waardoor de score over deze ook zeer goed waren. Ook uit de [reflectiebladen](https://docs.google.com/document/d/1cWzHusq3pfrT-VqizPmpFu9x6hPAurYhEpr6RkHcO7I/edit) was dit allemaal goed zichtbaar.
 
 
-Tenslotte kan men hier ook de 2 expert interviews terugvinden:
+Tenslotte kan men hier ook de 2 expert interviews terugvinden met de medestudenten:
 - [Expert interview Daan Mol](https://docs.google.com/document/d/1K1jLO81gPbMWL8dE-gqqWKObYCxaOo2p/edit)
 - [Expert interview Sam Deprez](https://docs.google.com/document/d/1TcExHg7gHaKmBFPjrnaUhdVDp7qLbcxQ/edit)
 
