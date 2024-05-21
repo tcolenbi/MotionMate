@@ -174,25 +174,25 @@ Als feedback gaan we gebruik maken van trillingen, maar de manier waarop de feed
 - kleine metalen plaatjes (voor de magneten)
 - vibration motor (voor te kunnen testen)
 
-
-## Antropometrie + ergonomie
-Nu gaan we ons meer focussen op het optimaliseren van de fysieke ergonomie en de antropometrie van ons product. Dit betekent dat we moeten focussen op verschillende maten en lichaamsgerelateerde parameters van ons ontwerp. 
-### Doelstellingen
-Ons doel is dan hierbij om de positie van de trillingen te bepalen door testen en analyses uit te voeren. We gaan opzoek naar waar de trillingen het best opgenomen worden door de gebruiker en waar het aangenamer en niet storend is. 
-### Materiaal & methoden
-Voor het prototype om de trillngen mee te testen gaan we rekening houden met de antropometrische data, en zorgen we er dus voor dat het prototype binnen de waarden valt om stevig vast te zitten.
+## Developing
+In de developing fase focussen we ons meer op het optimaliseren van de fysieke ergonomie en de antropometrie van ons product. Dit betekent dat we moeten focussen op verschillende maten en lichaamsgerelateerde parameters van ons ontwerp. Ook de usability (gebruiksvriendelijkheid) en de user experience worden in deze fase besproken van wat we allemaal gedaan hebben. En tenslotte is er ook nog een klein onderzoekje gedaan naar de interactie van de gebruiker met de app en trillingen.
+### Antropometrie + ergonomie
+#### Doelstellingen
+Onze doel voor de developing fase is als eerste om de positie van de trillingen te bepalen door testen en analyses uit te voeren. We gaan opzoek naar waar de trillingen het best opgenomen worden door de gebruiker en waar het aangenamer en niet storend is.  
+#### Materiaal & methoden
+Voor het prototype om de positie van de trillngen mee te testen gaan we rekening houden met de antropometrische data, en zorgen we er dus voor dat het prototype binnen de waarden valt om stevig vast te zitten.
 Om deze testen te kunnen uitvoeren, moeten we onderzoek doen naar de fysieke ergonomie en antropometrie van elk lichaamsdeel dat we willen testen. Na het doornemen van een interessant artikel in verband met feedback aan de hand van vibraties (Dim, N. K., & Ren), kwamen we tot een idee welke posities op het lichaam we zouden willen testen. Deze zijn de bovenarm, onderarm (5/6), borst (4) en de enkel (12/13).
 
 <img src="https://github.com/tcolenbi/UCD_SEM1/assets/157391495/c70ed041-eaec-4762-94d6-df3707338a25" width="25%">
 
 
-#### Bovenarm (biceps)
-Voor de trilling te testen op de bovenarm zal gebruikgemaakt worden van een gsmhouder aan de arm. Doordat dit product al voldoet aan de ergonomie moeten wij ons daar geen zorgen bij maken. Hier zullen we gewoon de gebruiker laten lopen en zal de gsm onverwacht trilling uitgeven. 
+##### Bovenarm (biceps)
+Voor de trilling te testen op de bovenarm zal gebruikgemaakt worden van een gsmhouder aan de arm. Doordat dit product al voldoet aan de ergonomie moeten wij ons daar geen zorgen bij maken. Hier zullen we gewoon de gebruiker laten lopen en zal de gsm onverwacht trilling uitgeven. Ook zullen we dit eens testen via ons zelfgemaakte prototype, die oorspronkelijk voor de onderarm/pols en enkel was. (zie onderarm/pols) De reden daarvoor is omdat we denken dat de grootte van de gsmhouder eventueel een rol kan spelen in verband met het geven van trillingen en de aangenaamheid tijdens het lopen.
 
 <img src="https://github.com/tcolenbi/UCD_SEM1/assets/157391495/c0d691a1-162f-4ca3-b8f3-c504ddb440a1" width="35%">
 
 
-#### Onderarm/pols
+##### Onderarm/pols
 Bij de onderarm zouden we gebruik kunnen maken van een smartwatch/sporthorloge, maar doordat deze zeer duur zijn, besloten we om zelf iets te prototypen. Hierdoor moeten we de antropometrie bepalen van de polsomtrek. Via onderzoek naar de antropometrie van de polsen, kwamen we uit op een pdf-bestand. ([Antropometrie](https://www.gesa.be/antropometrie.pdf))
 
 <img src="https://github.com/tcolenbi/UCD_SEM1/assets/157391495/ad152863-8f1c-4611-8c7b-391f34d6f99b" width="40%">
@@ -209,7 +209,7 @@ Om dus een trilling te genereren zullen we een vibration motor gebruiken die ges
 
 <img src="https://github.com/tcolenbi/UCD_SEM1/assets/157391495/90a05a90-da49-4a7e-ba62-e95e52efabee" width="25%">
 
-Met deze schakeling kunnen we nu trilling aansturen, maar voor dit helemaal te kunnen realiseren moeten we ook nog de code schrijven. In deze code gebruiken we een lange delay om de trilling onverwachts te laten komen.
+Met deze schakeling kunnen we nu trilling aansturen, maar voor dit helemaal te kunnen realiseren moeten we ook nog de code schrijven. Hier focussen we nu ons minder op het trillingspatroon, maar vooral op het genereren van een bepaalde trilling. In deze code gebruiken we ook een lange delay, zodat de trilling onverwachts lijkt te komen voor de gebruikers.
 
 ```python
 const int pintril = 3;
@@ -235,20 +235,27 @@ void loop() {
 }
 ```
 
-Hieruit konden we dan een prototype maken om later te testen met de gebruikers.
+Hieruit konden we dan een prototype maken om dan positie van de trillingen te testen.
 
 <img src="https://github.com/tcolenbi/UCD_SEM1/assets/157377776/c1df390a-70b9-4970-ae96-570e162057a2" width="35%">
 <img src="https://github.com/tcolenbi/UCD_SEM1/assets/157377776/3460d114-281b-4402-b15d-84ad7f1ca997" width="32.1%">
 
-We hebben een eerste prototype gemaakt voor de trillingen (links), maar deze bleek niet goed te blijven zitten tijdens het testen zelf. Hierdoor zullen de resultaten die uit die testen kwamen beïnvloed geweest zijn. Daarna hebben we een tweede prototype ge-3D-print om zo een steviger prototype hebben die bleef hangen tijdens het lopen zelf, en dus minder negatieve invloed zal hebben op de gebruikers.
+We hebben een eerste prototype gemaakt voor de trillingen (links), maar deze bleek niet goed te blijven zitten tijdens het testen zelf. Hierdoor zullen de resultaten die uit die testen kwamen beïnvloed geweest zijn. Daarna hebben we een tweede prototype ge-3D-print om zo een stevigere prototype te hebben, die bleef hangen tijdens het lopen zelf, en dus minder negatieve invloed zal hebben op de gebruikers.
 
-#### Borst
-Voor de trillingen op de borst zouden we ook Arduino moeten gebruiken, maar met een langere band zodanig dat de afmetingen voor de gemiddelde mens kunnen behaald worden.
+##### Borst
+Voor de trillingen op de borst zouden we ook Arduino moeten gebruiken, maar met een langere band zodanig dat de afmetingen voor de gemiddelde mens kunnen behaald worden. Een mooi voorbeeld hierbij is een hartslagmeter. 
 
-#### Enkel
-We gaan ook de trillingen op de enkel testen, ondanks dat het artikel (Dim, N. K., & Ren, X.) vermeldt dat trillingen niet meer aangenaam werden ervaren onder de heup. We zouden graag nog eens testen of dit effectief ook het geval is bij ons. Dit gaan we ook testen aan de hand van ons bandje en de Arduino Nano. Hierbij is ook rekening gehouden met de anthropometische waarden van de gemiddelde mens.
+![image](https://github.com/tcolenbi/UCD_SEM1/assets/157391495/ae9141e1-f149-4341-86f3-49022dac53d3)
 
-### Resultaten & implicaties
+
+##### Enkel
+We gaan ook de trillingen op de enkel testen, ondanks dat het artikel (Dim, N. K., & Ren, X.) vermeldt dat trillingen niet meer aangenaam werden ervaren onder de heup. Zouden we graag toch eens testen of dit effectief ook het geval is bij ons. Dit gaan we ook testen aan de hand van ons bandje en de Arduino Nano. Hierbij is ook rekening gehouden met de anthropometrische waarden van de gemiddelde mens.
+
+
+Al deze posities hebben we getest op dezelfde manier, volgens hetzelfde protocol. Op het einde van de gebruikerstesten hebben we dan nog een reflectieblad gegeven aan de gebruikers, zodat zij hun meningen daarover kunnen geven. (zie bijlage)
+
+
+#### Resultaten & implicaties
 Uit de testen met de trillingen kwamen vooral de bovenarm en pols naar boven als de voorkeur. De enkel bleek niet echt voelbaar te zijn tijdens het lopen. Dit kan meerdere redenen hebben: de intensiteit van onze vibratiemotor was niet groot genoeg, het prototype was niet genoeg aangespannen of de trillingen die je lichaam ervaart tijdens het lopen zijn te groot om andere trillingen op te nemen. Het zal waarschijnlijk liggen aan de intensiteit van onze vibratiemotor. Maar doordat het toch weer een beetje op een enkelband lijkt en het ook niet de positie was met de meeste voorkeur; gaan we niet verdergaan met deze positie. 
 Doordat de Arduino voeding moet krijgen, was het ook een beetje onhandig om met de powerbank te lopen; zeker als deze rond de enkel zat. Dus qua prototype is dat wat onhandig, maar in een volwaardig product zou het geen probleem moeten zijn aangezien je dan hoogstwaarschijnlijk met (oplaadbare) batterijen zal werken.
 
@@ -256,7 +263,41 @@ Uit onze testen hebben ook meerdere design requirements kunnen halen in verband 
 <img src="https://github.com/tcolenbi/UCD_SEM1/assets/157377776/e7f9ac07-0e17-486b-a355-6a9b4b3ba8c0" width="70%">
 
 
-<!-- vanaf hier terug extra dingen toevoegen van de deelopdrachten enz -->
+### Usability + user experience
+#### Doelstellingen
+Voor de usability en user experience is ons doel vooral gefocust op het optimaliseren van de feedback in de vorm van trillingen. We zouden graag op zoek gaan naar welke soort trilling (patroon) de gebruiker een specifieke gedachte krijgt. Hierdoor kunnen we dan bepalen of er een onbewuste reactie tevoorschijn komt bij een bepaalde trilling, waardoor we deze kunnen linken met elkaar. 
+
+#### Materiaal en methoden
+Na het testen van de positie van de trillingen op het lichaam, wilden we op zoek gaan naar bepaalde trilpatronen die een specifieke reactie/gedachte opwekt bij de gebruikers. Hiervoor zullen we verder werken op het prototype van voorheen. We moeten wel nog enkele aanpassingen doen, zodat we de testen goed kunnen uitvoeren. Het plan is dus om 9 verschillende soorten trilpatronen te testen met de gebruikers, waarbij we hun meningen en gedachten kunnen analyseren. Hiervoor moeten we dus een manier vinden om 9 verschillende patronen op ons bandje te krijgen en waarbij wij zelf de patronen kunnen regelen. 
+
+Dit bracht ons op het idee om via infrarood en een afstandsbediening de patronen te kunnen regelen, want nu wordt alles nog gedaan via delays en is dat behoorlijk ambetant. Om dit te realiseren moeten we dus een afstandsbediening kunnen verbinden met een infrarood ontvanger die geschakeld zou zijn met de vibration motor. We hebben daarom een gezamenlijk pakket gekocht met een afstandsbediening, enkele kabeltjes en een infrarood reciever. 
+
+![image](https://github.com/tcolenbi/UCD_SEM1/assets/157391495/2d299b02-de2f-4bf5-ab88-10c588df347b)
+
+Eenmaal we dit hadden, konden we starten met de code aan te passen. Jammer genoeg ontdekten we al snel dat de infrarood reciever aanwezig in het pakketje stuk was. Hierdoor hebben we opnieuw iets moeten bestellen van Amazon, namelijk enkele infrarood recievers. 
+
+![image](https://github.com/tcolenbi/UCD_SEM1/assets/157391495/7875a71c-3743-4670-9007-1b73bdd22af1)
+
+Voor het schakelen van de infrarood reciever aan de vibration motor en Arduino Nano, moet 
+
+
+
+
+
+
+Dit zullen we doen door te vragen of ze een kleine enquête kunnen invullen na elk patroon. Voor de verduidelijking zal de gebruikers rondlopen met het bandje aan hun pols en zullen wij een patroon kunnen aanzetten via de afstandsbediening. Eenmaal patroon 1 bezig is, zal de gebruiker de trillingen voelen en kunnen we hun reacties bekijken. Als het patroon dat gestopt is, zullen stoppen met lopen en mogen ze de enquête invullen. Waarna ze weeral mogen lopen, maar waarbij wij patroon 2 aan zullen zetten, enzovoort.
+
+#### Resultaten & implicaties
+
+### Human product interaction flow
+#### Doelstellingen
+
+#### Materiaal en methoden
+
+#### Resultaten & implicaties
+
+### Conclusies
+
 
 ## Kritische reflectie
 Na de discovery en definition fase zijn we vooral tot een vrij goed idee gekomen van hoe ons product eruit zal zien. Er zijn zeker nog verbeteringen aan mogelijk, maar die zullen gaandeweg volgend semester mee aangepast worden. Door toch een klein tijdsgebrek in de testing fase, hebben we niet alles kunnen testen wat we wilden doen. Hierdoor besloten we meteen voor de plaatsing van de sensor dat deze zich zal bevinden aan de pols.
@@ -292,8 +333,10 @@ Dim, N. K., & Ren, X. (2017b). Investigation of suitable body parts for wearable
 - [design requirements](https://drive.google.com/file/d/1-iAcYVe341WD8qD20fJkk3_p7_oGiW6K/view?usp=drive_link)
 #### Conclusies & implicaties
 - [Template definition](https://drive.google.com/file/d/1hVIPGicSQEgyLsgtS43RXkHbNTDF6vLR/view?usp=drive_link)
-## Antropometrie + ergonomie
-### Resultaten & implicaties
+### Developing fase
+#### Protocollen + testmethoden
+- [Reflectieblad positie trillingen](https://drive.google.com/file/d/1Nsha_xjgBmR1ecXfb2hWs4F0LypFR_ki/view?usp=sharing)
+#### Resultaten & implicaties
 - [design requirements trillingen](https://drive.google.com/file/d/1oGtC-9SZvx6FypRc7NpTEypIYxYLATkD/view?usp=drive_link)
 ### Bronnen
 - [Foto artikel](https://drive.google.com/file/d/14z9DMBd4uKEKwwcEzfh-XkQDCOTmf4BB/view?usp=drive_link)
