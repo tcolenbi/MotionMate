@@ -560,8 +560,11 @@ Hieruit kunnen we dan weer concluderen dat het deel van de patronen testen samen
 Voor dan de volgende stap hebben we besloten om 4 van die 9 patronen te gebruiken in het eindproduct, waaronder een patroon die aangeeft dat je gestart bent met lopen, een patroon dat je moet stoppen met lopen door overbelasting in de botten en patronen die zeggen dat je iets sneller of trager moet lopen. Hierbij is er dan besloten om patronen 3, 4, 5 en 6 te gebruiken voor het verdere verloop.
 
 Patroon 3 (lang, kort, kort, kort) wordt gelinkt met "start van een looptraining".
+
 Patroon 4 (ultralang, ultralang, kort, kort) wordt gelinkt met "stop met lopen".
+
 Patroon 5 (kort, kort, kort) wordt gelinkt met "Ik ben te snel aan het lopen, dus moet nu vertragen.".
+
 Patroon 6 (middel, middel, middel) wordt gelinkt met "Ik ben behoorlijk traag aan het lopen en kan/mag eventueel nog versnellen.".
 
 ### Human product interaction flow
