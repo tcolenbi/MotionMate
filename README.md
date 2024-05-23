@@ -270,38 +270,38 @@ Uit onze testen hebben ook meerdere design requirements kunnen halen in verband 
 
 ### Usability + user experience
 #### Doelstellingen
-Voor de usability en user experience is ons doel vooral gefocust op het optimaliseren van de feedback in de vorm van trillingen. We zouden graag op zoek gaan naar welke soort trilling (patroon) de gebruiker een specifieke gedachte krijgt. Hierdoor kunnen we dan bepalen of er een onbewuste reactie tevoorschijn komt bij een bepaalde trilling, waardoor we deze kunnen linken met elkaar. 
+Voor de usability en user experience is ons doel vooral gefocust op het optimaliseren van de feedback in de vorm van trillingen. We zouden graag op zoek gaan naar welke soort trilling (patroon) de gebruiker een specifieke gedachte of gevoel krijgt. Hierdoor kunnen we dan bepalen of er een onbewuste reactie tevoorschijn komt bij een bepaalde trilling, waardoor we deze kunnen linken met elkaar. 
 
 #### Materiaal en methoden
 Na het testen van de positie van de trillingen op het lichaam, wilden we op zoek gaan naar bepaalde trilpatronen die een specifieke reactie/gedachte opwekt bij de gebruikers. Hiervoor zullen we verder werken op het prototype van voorheen. We moeten wel nog enkele aanpassingen doen, zodat we de testen goed kunnen uitvoeren. Het plan is dus om 9 verschillende soorten trilpatronen te testen met de gebruikers, waarbij we hun meningen en gedachten kunnen analyseren. Hiervoor moeten we dus een manier vinden om 9 verschillende patronen op ons bandje te krijgen en waarbij wij zelf de patronen kunnen regelen. 
 
 Dit bracht ons op het idee om via infrarood en een afstandsbediening de patronen te kunnen regelen, want nu wordt alles nog gedaan via delays en is dat behoorlijk ambetant. Om dit te realiseren moeten we dus een afstandsbediening kunnen verbinden met een infrarood ontvanger die geschakeld zou zijn met de vibration motor. We hebben daarom een gezamenlijk pakket gekocht met een afstandsbediening, enkele kabeltjes en een infrarood reciever. 
 
-<img src="https://github.com/tcolenbi/UCD_SEM1/assets/157391495/2d299b02-de2f-4bf5-ab88-10c588df347b" width="40%">
+<img src="https://github.com/tcolenbi/UCD_SEM1/assets/157391495/2d299b02-de2f-4bf5-ab88-10c588df347b" width="32%">
 
 Eenmaal we dit hadden, konden we starten met de code aan te passen. Jammer genoeg ontdekten we al snel dat de infrarood reciever aanwezig in het pakketje stuk was. Hierdoor hebben we opnieuw iets moeten bestellen van Amazon, namelijk enkele infrarood recievers. 
 
-<img src="https://github.com/tcolenbi/UCD_SEM1/assets/157391495/7875a71c-3743-4670-9007-1b73bdd22af1" width="40%">
-<img src="https://github.com/Arduino-IRremote/Arduino-IRremote/blob/master/pictures/IRReceiverPinout.jpg" width="40%">
+<img src="https://github.com/tcolenbi/UCD_SEM1/assets/157391495/7875a71c-3743-4670-9007-1b73bdd22af1" width="32%">
+<img src="https://github.com/Arduino-IRremote/Arduino-IRremote/blob/master/pictures/IRReceiverPinout.jpg" width="32%">
 
 Op de 2de afbeelding zie je alle verschillende soorten infrarood recievers, wij hebben de PIC12043S (3de van links).
 Voor de schakeling van de infrarood reciever zullen we de linkse pin (S = signal) verbinden met pin 5 van de Arduino. De middelste pin GND (-) plaatsen we zoals gewoonlijk aan de GND in de Arduino en rechtse pin (+) moeten we schakelen aan de 5V op de Arduino. Hierdoor bekomen we een soort gelijke schakeling als hieronder.
 
-<img src="https://github.com/tcolenbi/UCD_SEM1/assets/157391495/c081796b-ffe4-4e25-9daf-d6680f6248d3" width="40%">
+<img src="https://github.com/tcolenbi/UCD_SEM1/assets/157391495/c081796b-ffe4-4e25-9daf-d6680f6248d3" width="32%">
 
 Eenmaal we nu zowel de vibration motor en infrarood reciever willen schakelen, zullen we de Arduino Nano moeten vervangen. We hebben namelijk een Arduino Nano 33 iot nodig. Dit komt omdat we willen werken met een infrarood reciever. Deze infrarood reciever vraagt 5V spanning en onze vibration motor vraagt 3,3V spanning. Hierdoor zijn we genoodzaakt om te wisselen van Nano, omdat de gewone Nano geen 5V kan leveren, maar de Nano 33 iot wel.
 
-<img src="https://github.com/tcolenbi/UCD_SEM1/assets/157391495/fb9150d8-8c95-494d-9c91-d26f942efc06" width="40%">
-<img src="https://github.com/tcolenbi/UCD_SEM1/assets/157391495/cec1da24-9658-458a-ac71-dc668e5cd485" width="40%">
+<img src="https://github.com/tcolenbi/UCD_SEM1/assets/157391495/fb9150d8-8c95-494d-9c91-d26f942efc06" width="32%">
+<img src="https://github.com/tcolenbi/UCD_SEM1/assets/157391495/cec1da24-9658-458a-ac71-dc668e5cd485" width="32%">
 
 
 Voor de schakeling helemaal klaar te maken en mooi te bevestigen aan ons bandje, zullen we de draden mooi solderen en wegstekken in het ge-3D-printe bakje.
 
-<img src="https://github.com/tcolenbi/UCD_SEM1/assets/157391495/16f8e51c-5924-4a6f-8c7b-b63e524fdcd0" width="40%">
-<img src="https://github.com/tcolenbi/UCD_SEM1/assets/157391495/b48a6ed0-b261-470a-853f-3f7434860460" width="40%">
-<img src="https://github.com/tcolenbi/UCD_SEM1/assets/157391495/08c15f56-8fed-4e60-a57e-c8037a644b44" width="40%">
-<img src="https://github.com/tcolenbi/UCD_SEM1/assets/157391495/8cbf5480-9053-41bc-9768-b6927c3553cd" width="40%">
-<img src="https://github.com/tcolenbi/UCD_SEM1/assets/157391495/42b64761-0fb2-4213-934c-85d9331f6e9a" width="80%">
+<img src="https://github.com/tcolenbi/UCD_SEM1/assets/157391495/16f8e51c-5924-4a6f-8c7b-b63e524fdcd0" width="32%">
+<img src="https://github.com/tcolenbi/UCD_SEM1/assets/157391495/b48a6ed0-b261-470a-853f-3f7434860460" width="32%">
+<img src="https://github.com/tcolenbi/UCD_SEM1/assets/157391495/08c15f56-8fed-4e60-a57e-c8037a644b44" width="32%">
+<img src="https://github.com/tcolenbi/UCD_SEM1/assets/157391495/8cbf5480-9053-41bc-9768-b6927c3553cd" width="32%">
+<img src="https://github.com/tcolenbi/UCD_SEM1/assets/157391495/42b64761-0fb2-4213-934c-85d9331f6e9a" width="64%">
 
 Nu de schakeling klaar is, kunnen we de code aanpassen. Zodat we de vibration motor kunnen aansturen. Het eerste wat we al moesten doen voor de code te laten werken was om de IRremote library van Shirriff te installeren. Maar voor we de knoppen in de afstandsbediening kunnen programmeren, moeten we eerste op zoek gaan naar de HEX-code van elke knop aanwezig op de afstandsbediening.
 
@@ -534,7 +534,7 @@ void loop()
 
 Om gemakkelijker te weten welke knop op het afstandsbediening bij welk trilpatroon hoort, is er een klein excel bestandje gemaakt. Waar alles mooi geordend is en waarin de HEX-codes van elke knop staat. Hierdoor kunnen we gemakkelijk alles zien staan tijdens het testen en kunnen we ook gemakkelijk de bestaande HEX-codes gebruiken als we iets meer willen doen.
 
-<img src="https://github.com/tcolenbi/UCD_SEM1/assets/157391495/dd8dcc75-fff4-4a2d-8c7b-52718f420ce7" width="40%">
+<img src="https://github.com/tcolenbi/UCD_SEM1/assets/157391495/dd8dcc75-fff4-4a2d-8c7b-52718f420ce7" width="32%">
 
 Op dit moment is alles gereed van voorbereidingen en kunnen we eindelijk weer testen (N = 4). Het [protocol](https://docs.google.com/document/d/1JOIJ9xnvIzqsDzFoZRsf3RaK8y00bSsw/edit) voor deze testen zullen we doen aan de hand van een kleine [enquête](https://docs.google.com/forms/d/e/1FAIpQLScmizs75yjgCpesMGq3S0cR4rJNPPkFtNJaIQOXT0I43W4MGA/viewform) die de gebruikers op het einde van elk patroon (N = 9) zullen invullen.
 Voor de verduidelijking zullen de gebruikers nog altijd rondlopen met het bandje aan hun pols/onderarm en zullen wij een patroon kunnen aanzetten (wanneer we willen) via de afstandsbediening. Eenmaal patroon 1 bezig is, zal de gebruiker de trillingen voelen en kunnen we hun reacties bekijken. Als het patroon dan gestopt is, zullen ze stoppen met lopen en mogen ze de enquête invullen. Waarna ze weeral mogen lopen, maar waarbij wij patroon 2 aan zullen zetten, enzovoort. 
@@ -567,10 +567,36 @@ Patroon 5 (kort, kort, kort) wordt gelinkt met "Ik ben te snel aan het lopen, du
 
 Patroon 6 (middel, middel, middel) wordt gelinkt met "Ik ben behoorlijk traag aan het lopen en kan/mag eventueel nog versnellen.".
 
-### Human product interaction flow
+### Interaction design
 #### Doelstellingen
+Voor de deelopdracht 5 zullen we ons voornamelijk focussen op het optimaliseren van de interactie tussen de gebruiker, de app en de trillingen. We gaan hier dan kijken naar de user journey, waarbij de gebruiker de loopapp zal doorlopen. Ook gaan we opzoek of de human-product interaction goed verloopt. En tenslotte zullen controleren of de trillingspatronen goed past bij onze conclusies van voorheen.
 
 #### Materiaal en methoden
+Achter dat we de verschillende trillingspatronen getest hebben, konden we dan beslissen welk 4 patronen de beste zijn. Deze zijn patronen 3, 4, 5 en 6. 
+
+Om dan een human-product interactie te hebben via digitale aspecten, moeten we een app creëren die zogezegd je loopactiviteit kan registreren. Ook zou de app een functie moeten hebben, waarbij de data van de schoksensor weergegeven kan zijn. Doordat wij ons in de gehele 2de semester hebben gefocust op de feedback te geven onder de vorm van vibraties/trillingen, zal er ook in de app deze vibraties/trillingen voorkomen. 
+
+Dit allemaal is ontworpen geweest in ProtoPie, waarbij er dus een gesimuleerde app is ontworpen. Jammer genoeg door tijdsgebrek hebben we geen volledige app kunnen ontworpen. We hebben namelijk alleen de homepage, een activity page en een page waar je dus je looptraining kan opnemen (record) ontworpen. Het grootste deel van de app is dan ook de record, de activity page heeft ook wat extra scenes, maar voor het inloggen in de app en registreren hebben we niets voor kunnen doen. We hebben wel nog een simpele instellingen categorie gemaakt, maar deze is wel beperkt tot de instellingen van de trillingspatronen enzovoort.
+
+<img src="https://github.com/tcolenbi/UCD_SEM1/assets/157391495/c0ddd6af-71fb-4617-b1ff-dbf97933b53b" width="20%">
+<img src="https://github.com/tcolenbi/UCD_SEM1/assets/157391495/49631b21-380b-4f77-b002-d8da016cebb2" width="50%">
+
+
+Bij het deel van record hebben we een scenario ontworpen, waarbij men dus eerst start met een looptraining. Hierbij zal de gebruiker, eenmaal hij/zij op start gedrukt heeft, een melding krijgen op de app dat men zou moeten starten met lopen. In deze melding zal er een kleine tekst komen die zegt "Start running" en zal er ook een afbeelding bij staan. Ook zal de gebruiker op datzelfde moment een trilling voelen. Deze trilling zal dus patroon 3 zijn. (zie vorige test)
+
+<img src="https://github.com/tcolenbi/UCD_SEM1/assets/157391495/7bc2ed3b-1d61-444c-a6dc-619c8896b028" width="32%">
+
+Eenmaal de gebruiker gestart is met lopen, zal men eerste beeld krijgen van wat er in de app te zien is als men zonder moeilijkheden loopt. Niet veel later zal men dan een tweede melding krijgen op de app, met natuurlijk een trilling aan de pols. Deze trilling zal hier patroon 6 zijn. (zie vorige test) Ook de ontvangen melding zal weer een kleine tekst bevatten, namelijk "Note: you can run faster" en enkele afbeeldingen om het visueel te illustreren. Met deze melding willen we eigenlijk zeggen dat de gebruikers eventueel kunnen en mogen versnellen, maar dat is zeker geen verplichting. Daardoor is het ook maar een notefication en geen warning. 
+
+<img src="https://github.com/tcolenbi/UCD_SEM1/assets/157391495/fccbb73a-e52e-4844-a8c7-44d38d374830" width="32%">
+
+Voordat de derde melding tevoorschijn komt op de app, moet de gebruiker eerst aan een veel te hoge snelheid lopen. Dit is te zien op de eerste 2 scenes, waarbij de snelheid van de gebruiker toegenomen is van 5:25 per km (+- 11 km/u) naar 4:41 per km (+- 13 km/u). Dit is natuurlijk veel te hoog voor een gerevaliderende sporter, dus zal er een melding verschijnen in de vorm van een warning. In deze melding staat er ook weer een tekstje, die zegt: "Warning, please slow down" en enkele afbeeldingen om alles nog eens visueel te versterken. Daarbij zal de gebruiker nog een trilling ontvangen aan de pols, namelijk patroon 5. (zie vorige test) 
+Het is dan natuurlijk de bedoeling dat de gebruiker effectief vertraagt als men deze melding krijgt (4de scene). Om dit te verzekeren werd er nog iets extra toegevoegt wat de andere 2 niet hadden. Hier zal de melding constant vergroten en verkleinen, zodat het springt in het gezicht van de gebruiker en waardoor hij het niet kan negeren. Normaal gezien zou deze melding dan, in de realiteit, constant moeten springen en trillen. Maar doordat we werken met een gesimuleerde app is dit jammer genoeg niet echt mogelijk, dus zal het bij de testen via tijd gedaan worden.
+
+<img src="https://github.com/tcolenbi/UCD_SEM1/assets/157391495/caddd037-9370-46c0-a241-4edce8fd595a" width="50%">
+
+
+
 
 #### Resultaten & implicaties
 
