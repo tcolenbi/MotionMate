@@ -536,7 +536,7 @@ Om gemakkelijker te weten welke knop op het afstandsbediening bij welk trilpatro
 
 <img src="https://github.com/tcolenbi/UCD_SEM1/assets/157391495/dd8dcc75-fff4-4a2d-8c7b-52718f420ce7" width="40%">
 
-Op dit moment is alles gereed van voorbereidingen en kunnen we eindelijk weer testen (N = 4). Dit zullen we doen aan de hand van een kleine [enquête](https://docs.google.com/forms/d/e/1FAIpQLScmizs75yjgCpesMGq3S0cR4rJNPPkFtNJaIQOXT0I43W4MGA/viewform) die de gebruikers op het einde van elk patroon (N = 9) zullen invullen.
+Op dit moment is alles gereed van voorbereidingen en kunnen we eindelijk weer testen (N = 4). Het [protocol](https://docs.google.com/document/d/1JOIJ9xnvIzqsDzFoZRsf3RaK8y00bSsw/edit) voor deze testen zullen we doen aan de hand van een kleine [enquête](https://docs.google.com/forms/d/e/1FAIpQLScmizs75yjgCpesMGq3S0cR4rJNPPkFtNJaIQOXT0I43W4MGA/viewform) die de gebruikers op het einde van elk patroon (N = 9) zullen invullen.
 Voor de verduidelijking zullen de gebruikers nog altijd rondlopen met het bandje aan hun pols/onderarm en zullen wij een patroon kunnen aanzetten (wanneer we willen) via de afstandsbediening. Eenmaal patroon 1 bezig is, zal de gebruiker de trillingen voelen en kunnen we hun reacties bekijken. Als het patroon dan gestopt is, zullen ze stoppen met lopen en mogen ze de enquête invullen. Waarna ze weeral mogen lopen, maar waarbij wij patroon 2 aan zullen zetten, enzovoort. 
 Ook werd er weer op het einde van alle testen een [reflectieblad](https://docs.google.com/document/d/1wNu0Ga2jCGNgYv4VUZ1TmaLEh9RdVE07/edit) meegegeven, waarin de gebruikers hun bevindingen en gedachten kwijt kunnen spelen.
 
@@ -557,7 +557,12 @@ Tenslotte kan men hier ook de 2 expert interviews terugvinden met de medestudent
 
 Hieruit kunnen we dan weer concluderen dat het deel van de patronen testen samenvalt met de analyse van de gebruikerstesten.
 
-Voor dan de volgende stap hebben we besloten om 4 van die 9 patronen te gebruiken in het eindproduct, waaronder een patroon die aangeeft dat je gestart bent met lopen, een patroon dat je moet stoppen met lopen door overbelasting in de botten en patronen die zeggen dat je iets sneller of trager moet lopen.
+Voor dan de volgende stap hebben we besloten om 4 van die 9 patronen te gebruiken in het eindproduct, waaronder een patroon die aangeeft dat je gestart bent met lopen, een patroon dat je moet stoppen met lopen door overbelasting in de botten en patronen die zeggen dat je iets sneller of trager moet lopen. Hierbij is er dan besloten om patronen 3, 4, 5 en 6 te gebruiken voor het verdere verloop.
+
+Patroon 3 (lang, kort, kort, kort) wordt gelinkt met "start van een looptraining".
+Patroon 4 (ultralang, ultralang, kort, kort) wordt gelinkt met "stop met lopen".
+Patroon 5 (kort, kort, kort) wordt gelinkt met "Ik ben te snel aan het lopen, dus moet nu vertragen.".
+Patroon 6 (middel, middel, middel) wordt gelinkt met "Ik ben behoorlijk traag aan het lopen en kan/mag eventueel nog versnellen.".
 
 ### Human product interaction flow
 #### Doelstellingen
@@ -578,7 +583,6 @@ Ook is de app een zeer belangrijk onderdeel dat nog getest moet worden op de use
 
 Wat ook belangrijk zal blijken in de volgende fase, is het wettelijke en economische aspect. Dus daar zullen we zeker rekening mee moeten houden.
 Er is dus nog veel werk aan de winkel voor volgend semester, maar we hebben er zeker het vertrouwen in dat dit zal lukken met een goede planning en afspraken.
-
 
 ## Bronnen
 De Mey, K. (2022, 21 januari). Music-based biofeedback system for lower impact running - Victoris - Ghent University. Victoris - Ghent University.                               https://www.victoris.be/lower-impact-running/
@@ -607,12 +611,13 @@ Dim, N. K., & Ren, X. (2017b). Investigation of suitable body parts for wearable
 #### Protocollen + testmethoden
 - [Protocol positie trillingen](https://docs.google.com/document/d/1lXbS9jN76cUr3vju8mQVeZ8K8YjpnvmN/edit)
 - [Reflectieblad positie trillingen](https://drive.google.com/file/d/1Nsha_xjgBmR1ecXfb2hWs4F0LypFR_ki/view?usp=sharing)
-- [Analyse positie trillingen](https://docs.google.com/document/d/1CNyfjw0nFtA4_fF_JsgoV67jAOPYfLT4v7V0rgOIwPo/edit)
+- [Protocol trilpatronen](https://docs.google.com/document/d/1JOIJ9xnvIzqsDzFoZRsf3RaK8y00bSsw/edit)
 - [Enquête trilpatronen](https://docs.google.com/forms/d/e/1FAIpQLScmizs75yjgCpesMGq3S0cR4rJNPPkFtNJaIQOXT0I43W4MGA/viewform)
 - [Reflectieblad trilpatronen](https://docs.google.com/document/d/1wNu0Ga2jCGNgYv4VUZ1TmaLEh9RdVE07/edit)
 - [Expert interview protocol](https://docs.google.com/document/d/1l1tshu3ePcZvtlrLZzoLAc0l129nyXmz/edit)
 #### Resultaten & implicaties
 - [design requirements trillingen](https://drive.google.com/file/d/1oGtC-9SZvx6FypRc7NpTEypIYxYLATkD/view?usp=drive_link)
+- [Analyse positie trillingen](https://docs.google.com/document/d/1CNyfjw0nFtA4_fF_JsgoV67jAOPYfLT4v7V0rgOIwPo/edit)
 - [Antwoorden enquête trilpatronen](https://docs.google.com/forms/d/1X8MklZ_q24qZIWdhZlZYQ5OpKBskoupzgwrtiQBuvDQ/edit#responses)
 - [Samengevatte analyse trilpatronen](https://docs.google.com/document/d/1QsILvopdEdqrfOkRe_zd-7_griBv-TFvSfwogOyeunI/edit)
 - [Analyse reflectieblad trilpatronen](https://docs.google.com/document/d/1cWzHusq3pfrT-VqizPmpFu9x6hPAurYhEpr6RkHcO7I/edit)
