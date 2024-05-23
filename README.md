@@ -536,7 +536,7 @@ Om gemakkelijker te weten welke knop op het afstandsbediening bij welk trilpatro
 
 <img src="https://github.com/tcolenbi/UCD_SEM1/assets/157391495/dd8dcc75-fff4-4a2d-8c7b-52718f420ce7" width="32%">
 
-Op dit moment is alles gereed van voorbereidingen en kunnen we eindelijk weer testen (N = 4). Het [protocol](https://docs.google.com/document/d/1JOIJ9xnvIzqsDzFoZRsf3RaK8y00bSsw/edit) voor deze testen zullen we doen aan de hand van een kleine [enquête](https://docs.google.com/forms/d/e/1FAIpQLScmizs75yjgCpesMGq3S0cR4rJNPPkFtNJaIQOXT0I43W4MGA/viewform) die de gebruikers op het einde van elk patroon (N = 9) zullen invullen.
+Op dit moment is alles gereed van voorbereidingen en kan er eindelijk weer getest worden (N = 4). Het [protocol](https://docs.google.com/document/d/1JOIJ9xnvIzqsDzFoZRsf3RaK8y00bSsw/edit) voor deze testen zullen we doen aan de hand van een kleine [enquête](https://docs.google.com/forms/d/e/1FAIpQLScmizs75yjgCpesMGq3S0cR4rJNPPkFtNJaIQOXT0I43W4MGA/viewform) die de gebruikers op het einde van elk patroon (N = 9) zullen invullen.
 Voor de verduidelijking zullen de gebruikers nog altijd rondlopen met het bandje aan hun pols/onderarm en zullen wij een patroon kunnen aanzetten (wanneer we willen) via de afstandsbediening. Eenmaal patroon 1 bezig is, zal de gebruiker de trillingen voelen en kunnen we hun reacties bekijken. Als het patroon dan gestopt is, zullen ze stoppen met lopen en mogen ze de enquête invullen. Waarna ze weeral mogen lopen, maar waarbij wij patroon 2 aan zullen zetten, enzovoort. 
 Ook werd er weer op het einde van alle testen een [reflectieblad](https://docs.google.com/document/d/1wNu0Ga2jCGNgYv4VUZ1TmaLEh9RdVE07/edit) meegegeven, waarin de gebruikers hun bevindingen en gedachten kwijt kunnen spelen.
 
@@ -574,6 +574,8 @@ Voor de deelopdracht 5 zullen we ons voornamelijk focussen op het optimaliseren 
 #### Materiaal en methoden
 Achter dat we de verschillende trillingspatronen getest hebben, konden we dan beslissen welk 4 patronen de beste zijn. Deze zijn patronen 3, 4, 5 en 6. 
 
+Als eerste van voorbereidingen op de testen hebben we een hiërarchische taakanalyse gemaakt ([HTA](https://github.com/tcolenbi/UCD_SEM1/assets/157391495/62e31b98-9f4d-4df5-b12c-dae5d722c34d)). Hierdoor konden we gemakkelijk zien wat de stappen in de interactie tussen product en gebruiker. 
+
 Om dan een human-product interactie te hebben via digitale aspecten, moeten we een app creëren die zogezegd je loopactiviteit kan registreren. Ook zou de app een functie moeten hebben, waarbij de data van de schoksensor weergegeven kan zijn. Doordat wij ons in de gehele 2de semester hebben gefocust op de feedback te geven onder de vorm van vibraties/trillingen, zal er ook in de app deze vibraties/trillingen voorkomen. 
 
 Dit allemaal is ontworpen geweest in ProtoPie, waarbij er dus een gesimuleerde app is ontworpen. Jammer genoeg door tijdsgebrek hebben we geen volledige app kunnen ontworpen. We hebben namelijk alleen de homepage, een activity page en een page waar je dus je looptraining kan opnemen (record) ontworpen. Het grootste deel van de app is dan ook de record, de activity page heeft ook wat extra scenes, maar voor het inloggen in de app en registreren hebben we niets voor kunnen doen. We hebben wel nog een simpele instellingen categorie gemaakt, maar deze is wel beperkt tot de instellingen van de trillingspatronen enzovoort.
@@ -584,7 +586,7 @@ Dit allemaal is ontworpen geweest in ProtoPie, waarbij er dus een gesimuleerde a
 
 Bij het deel van record hebben we een scenario ontworpen, waarbij men dus eerst start met een looptraining. Hierbij zal de gebruiker, eenmaal hij/zij op start gedrukt heeft, een melding krijgen op de app dat men zou moeten starten met lopen. In deze melding zal er een kleine tekst komen die zegt "Start running" en zal er ook een afbeelding bij staan. Ook zal de gebruiker op datzelfde moment een trilling voelen. Deze trilling zal dus patroon 3 zijn. (zie vorige test)
 
-<img src="https://github.com/tcolenbi/UCD_SEM1/assets/157391495/7bc2ed3b-1d61-444c-a6dc-619c8896b028" width="32%">
+<img src="https://github.com/tcolenbi/UCD_SEM1/assets/157391495/7e3239dc-9c1e-4780-a990-a8a429784858" width="40%">
 
 Eenmaal de gebruiker gestart is met lopen, zal men eerste beeld krijgen van wat er in de app te zien is als men zonder moeilijkheden loopt. Niet veel later zal men dan een tweede melding krijgen op de app, met natuurlijk een trilling aan de pols. Deze trilling zal hier patroon 6 zijn. (zie vorige test) Ook de ontvangen melding zal weer een kleine tekst bevatten, namelijk "Note: you can run faster" en enkele afbeeldingen om het visueel te illustreren. Met deze melding willen we eigenlijk zeggen dat de gebruikers eventueel kunnen en mogen versnellen, maar dat is zeker geen verplichting. Daardoor is het ook maar een notefication en geen warning. 
 
@@ -595,10 +597,34 @@ Het is dan natuurlijk de bedoeling dat de gebruiker effectief vertraagt als men 
 
 <img src="https://github.com/tcolenbi/UCD_SEM1/assets/157391495/caddd037-9370-46c0-a241-4edce8fd595a" width="50%">
 
+De laatste melding zal dan gegeven worden wanneer er een overbelasting gedetecteerd wordt door de schoksensor. Deze overbelasting kan gedetecteerd worden door de schoksensor bij de enkel, dit kan gebeuren door slechte houding tijdens lopen of door een te grote afstand. Ook hier zal er een trilling ontvangen worden door de gebruikers. Patroon 4 is bij deze melding de geontvangde vibratie. Net als bij de andere meldingen is er weer een tekstje, waarin gezegd wordt: "Warning: stop running". Dit heeft eigenlijk dezelfde functie als de 3de melding (te snel lopen), waar men aanraadt om zo snel mogelijk te stoppen. Dit wil niet persee zeggen dat men een blessure heeft, maar voornamelijk dat men blessure gevoelig is. Doordat het een beetje dezelfde functie heeft als de 3de melding, zal deze warning ook vergroten en verkleinen in het gezicht van de gebruiker. Op de foto hieronder ziet men hoe een gebruiker dan de melding zou ontvangen.
 
+<img src="https://github.com/tcolenbi/UCD_SEM1/assets/157391495/dd9270c1-7370-4eca-8c95-12939caf6e06" width="32%">
 
+Na het bericht te krijgen "stop running", zal men een algemene scherm krijgen, waarin de gebruikers hun looptraining kunnen zien. De gebruikers kunnen dan zowel op de stop knop drukken of op de start knop, om eventueel weer verder te lopen. Eenmaal op de stop knop gedrukt wordt, zal men kunnen beslissen om hun looptraining op te slaan of niet. Als er op no geklikt, keert men terug naar de homepage en als er op yes geklikt wordt, zal de gebruiker in de activity page terechtkomen.
+
+<img src="https://github.com/tcolenbi/UCD_SEM1/assets/157391495/1c43690a-69f4-4ca4-88c8-bcb24a9d9e89" width="65%">
+
+Nu dat de looptraining afgewerkt en opgeslagen is, kunnen gebruikers hun recente activiteiten terugvinden. Hiervoor moeten ze wel in de activity page zitten als dat nog niet geval zou zijn, anders van de homepage naar de activity page is de eerste afbeelding. Om dan dieper in een bepaalde activiteit te gaan, moet men gewoon op de gewenste activiteit klikken. Zo komt men op een verbrederde pagina van de activiteit en door verder te klikken op bepaalde afbeelding, kan men de kaart zien en de data van de schoksensor. Dit wordt getoont via de splitsing in de scenes. Ook zijn er bij deze scenes een terugkeer functie, waarbij men kan terugkeren naar de vorige pagina.
+
+<img src="https://github.com/tcolenbi/UCD_SEM1/assets/157391495/0997b3fc-6436-4b37-8996-7e8ee599af4f" width="55%">
+
+Tenslotte is er nog een kleine pagina voor de instellingen. Deze instellingen zijn bereikbaar in de homepage en de gehele activity page, niet in de record page. Bij de instellingen kan men dan hun trillingspatronen wijzigen voor elke feedback. Ook is er een mogelijkheid om de intensiteit van de vibraties aan te passen en de duur van de trillingen. Met de duur worden de herhalingen bedoelt, hoe veel keer men een trillingspatroon wil voelen.
+
+<img src="https://github.com/tcolenbi/UCD_SEM1/assets/157391495/01598e26-1fee-438b-acbe-15a877f4321b" width="40%">
+
+Op dit moment zijn de voorbereiding voor de laatste testen gereed en kan er weer getest worden. Deze testen (N = 3) zullen gedaan worden volgens dit [protocol](https://docs.google.com/document/d/1pYJ-G3YoUnvUZN3zs3Tbsq_3omoc4lQR/edit). Hier zullen de gebruikers het prototypebandje aan de pols doen en zullen we samen de loopapp overlopen. Daarover mogen ze hun meningen en opmerkingen over geven en zullen wij hun reacties proberen te observeren, terwijl ze bezig zijn. Tijdens het loopgedeelt van de app gaan de gebruikers een klein toertje lopen en zullen wij op het juiste moment, met de app, de correcte vibraties patroon geven aan de gebruiker. Achteraf gaat er dan een gesprek gevoerd worden over wat ze allemaal goed en slecht vonden aan de loopapp en trillingen. Dit kunnen vragen zijn over de lay-out, kleurencombinatie, enzovoort.
+
+<img src="https://github.com/tcolenbi/UCD_SEM1/assets/157391495/cafb403d-76f2-4e24-ac1c-307bd5b9e4bd" width="18%">
+<img src="https://github.com/tcolenbi/UCD_SEM1/assets/157391495/bcfdfa45-67ad-46a6-a7fe-3078967a8312" width="18%">
+<img src="https://github.com/tcolenbi/UCD_SEM1/assets/157391495/f935a23c-94ef-4339-832a-4386fd93c8be" width="18%">
+<img src="https://github.com/tcolenbi/UCD_SEM1/assets/157391495/0b466335-0039-4ad8-8df4-67ea3655dd1d" width="18%">
+<img src="https://github.com/tcolenbi/UCD_SEM1/assets/157391495/385f039b-1720-4d97-8458-99371bbf91ec" width="18%">
+
+Doordat het observeren van de app tijdens het lopen wat moeilijk was, werd er ook nog eens al zittend de app overlopen. Dit is te zien op afbeelding 3, 4 en 5 van hierboven. Afbeeldingen 1 en 2 zijn wel tijdens het lopen.
 
 #### Resultaten & implicaties
+Uit de analyse van de loopapp konden we concluderen dat men de app behoorlijk basic vond. 
 
 ### Conclusies
 
@@ -644,6 +670,7 @@ Dim, N. K., & Ren, X. (2017b). Investigation of suitable body parts for wearable
 - [Enquête trilpatronen](https://docs.google.com/forms/d/e/1FAIpQLScmizs75yjgCpesMGq3S0cR4rJNPPkFtNJaIQOXT0I43W4MGA/viewform)
 - [Reflectieblad trilpatronen](https://docs.google.com/document/d/1wNu0Ga2jCGNgYv4VUZ1TmaLEh9RdVE07/edit)
 - [Expert interview protocol](https://docs.google.com/document/d/1l1tshu3ePcZvtlrLZzoLAc0l129nyXmz/edit)
+- [protocol loopapp en interactie](https://docs.google.com/document/d/1pYJ-G3YoUnvUZN3zs3Tbsq_3omoc4lQR/edit)
 #### Resultaten & implicaties
 - [design requirements trillingen](https://drive.google.com/file/d/1oGtC-9SZvx6FypRc7NpTEypIYxYLATkD/view?usp=drive_link)
 - [Analyse positie trillingen](https://docs.google.com/document/d/1CNyfjw0nFtA4_fF_JsgoV67jAOPYfLT4v7V0rgOIwPo/edit)
