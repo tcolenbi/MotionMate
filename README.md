@@ -1,9 +1,9 @@
-# Sport & Tech
+# MotionMate
 *Via realtime biofeedback in een kous, kan de loopstijl van mensen verbeteren en blessures vermeden worden.* 
 
 *Groep 12: Mathijs Bekaert; Tessa Colenbier* 
 
-22/01/2024
+24/05/2024
 
 ## Samenvatting
 Er zijn veel sporters die ooit al een blessure hebben gehad of er nog altijd mee sukkelen, vaak stoppen ze daardoor met lopen of hebben ze schrik om terug op te starten. 
@@ -12,9 +12,9 @@ Dit probleem is grondig onderzocht en onderbouwd door onderzoekers aan de UGent.
 We gaan de sensor in een kous/beenwarmer/steunverband verwerken om de sensor altijd op de juiste plek te kunnen houden en makkelijk aan te kunnen brengen.
 Ook het feedbacksysteem zullen we aanpassen, we gaan trillingen gebruiken zodat ook mensen die zonder muziek lopen gebruik kunnen maken van dit systeem. Daarnaast zal er ook een app gemaakt worden waarin alle statistieken en verbeteringen in de loopstijl te vinden zullen zijn. Via de app zouden we de loper ook willen motiveren om meer te gaan en durven lopen. 
 Aan de hand van de sensor en het feedback systeem zal de loper uiteindelijk zijn loopstijl kunnen verbeteren, beter kunnen revalideren met duidelijke informatie en blessures kunnen vermijden.
-
-![Hero Sketch-render_kleiner](https://github.com/tcolenbi/UCD_SEM1/assets/157377776/215f2938-a3b6-4eed-a20e-47d270b5e3db)
-
+<p align="center">
+<img src="https://github.com/tcolenbi/MotionMate/assets/157377776/ba14f849-2ebd-4e9f-8d64-237e9141febd" width="40%">
+</p>
 
 ## Introductie
 Wanneer lopers geblesseerd worden of zijn geweest, hebben ze vaak schrik om terug op te starten en zo terug geblesseerd te raken. Wij hebben daar een oplossing voor. Via een onderzoek dat is gedaan aan de UGent over het onbewust verbeteren van hun loopstijl aan de hand van realtime feedback, De Mey (2022). Onze doelgroep zijn revaliderende lopers of sporters die ooit een blessure hebben gehad. Zij zijn eerder geneigd om terug te willen starten met lopen, maar zijn gevoeliger aan blessures. Wij willen deze mensen zeer graag helpen terug op te starten en zonder schrik te gaan lopen.
@@ -22,14 +22,16 @@ Wanneer lopers geblesseerd worden of zijn geweest, hebben ze vaak schrik om teru
 
 
 ## Methodologie
-We zijn elk apart gedurende 7 weken gestart met het ontwikkelen van een idee, daarvoor hebben we veel research gedaan en heel divergerend gebrainstormd. Ook zijn de eerste interviews gedaan met de gebruikers (elk 2) en zijn er nog belangrijke problemen naar boven gekomen. Na deze brainstorm, research en interviews zijn we beginnen convergeren naar een duidelijk concept om te pitchen. Na deze pitches is er 1 idee gekozen en is het team samengesteld. 
+We zijn elk apart gedurende 7 weken gestart met het ontwikkelen van een idee, daarvoor hebben we veel research gedaan en heel divergerend gebrainstormd. Ook zijn de eerste interviews gedaan met de gebruikers (elk N=2) en zijn er nog belangrijke problemen naar boven gekomen. Na deze brainstorm, research en interviews zijn we beginnen convergeren naar een duidelijk concept om te pitchen. Na deze pitches is er 1 idee gekozen en is het team samengesteld. 
 
 Dan hebben we onze beide ideeën samengebracht en weer verder gedivergeerd binnen het concept. Na deze sessies zijn we tot een duidelijk concept gekomen dat we al eens aan meerdere mensen konden voorleggen, waaronder de stakeholders. Dit zijn vooral Bas en Yannick, maar ook Kristoff De Mey die gespecialiseerd is aan bewegings- en sportwetenschappen in Gent. Ook konden we ons idee voorstellen aan enkele studenten met een meer wettelijke en economische kijk op de wereld. Hieruit konden we veel inspiratie halen om het idee volgend semester verder aan te pakken, en wat mogelijks belangrijke aspecten kunnen worden. 
 
-Daarna zijn we begonnen met een eerste wave van 'quick and dirty' prototypes die getest werden met de gebruiker (2). Rekening houdend met deze feedback werd er een tweede wave aan prototypes gemaakt. Al deze prototypes werden getest met de gebruikers (2), daarmee kunnen we verder gaan in het tweede semester. Met al deze informatie en data wordt tijdens het examen het huidige concept gepitcht. Hier werden er 3 andere gebruikers gebruikt voor deze interviews. Dit zorgde ervoor dat men nog niet direct wist waarvoor het was. 
+Daarna zijn we begonnen met een eerste wave van 'quick and dirty' prototypes die getest werden met de gebruiker (N=2). Rekening houdend met deze feedback werd er een tweede wave aan prototypes gemaakt. Al deze prototypes werden getest met de gebruikers (N=2), daarmee kunnen we verder gaan in het tweede semester. Met al deze informatie en data wordt tijdens het examen het huidige concept gepitcht. Hier werden er 3 andere gebruikers gebruikt voor deze interviews. Dit zorgde ervoor dat men nog niet direct wist waarvoor het was. 
 
-![Tijdlijn methodologie](https://github.com/tcolenbi/UCD_SEM1/assets/157377776/6e477391-6058-468b-bee1-ff8ea09c9d25)
-
+Na de double diamond zijn we begonnen met het focussen op het feedbacksysteem. Hiervoor hebben we meerdere testen (N=8) gedaan om te zien wat de gebruiker het aangenaamst vindt. Na de gevonden requirements voor de trillingen, hebben we ons gefocust om de app te maken. Deze werd dan ook getest (N=3) en deze ondervindigen werden ook meegenomen naar het uiteindelijke product.
+<p align="center">
+  <img src="https://github.com/tcolenbi/MotionMate/assets/157377776/ac23a2de-edfe-4cbc-859c-de267f4682de" width="110%">
+</p>
 
 ## Discovery
 De discovery fase gebeurde toen we nog individueel werkten. We hebben beiden 2 afzonderlijke concepten uitgedacht en ons persoonlijk onderzoek gedaan. Dit onderzoek is sowieso kennis die in de volgende fases van pas komt.
@@ -84,10 +86,10 @@ Uit beide analyses kunnen we nu concluderen dat prototype 1 het minst aantrekkel
 <br>
 <br>
 **Prototype 1:**
-
-![prototype1 2](https://github.com/tcolenbi/UCD_SEM1/assets/157377776/e312c0a8-d868-465a-9e74-eda0bfa26683)
-![prototype1](https://github.com/tcolenbi/UCD_SEM1/assets/157377776/e7b8ed80-c75c-4d33-96f1-d7a294fa7ce5)
-
+<p align="center">
+  <img src="https://github.com/tcolenbi/UCD_SEM1/assets/157377776/e312c0a8-d868-465a-9e74-eda0bfa26683">
+  <img src="https://github.com/tcolenbi/UCD_SEM1/assets/157377776/e7b8ed80-c75c-4d33-96f1-d7a294fa7ce5">
+</p>
 Dit prototype was bij de gebruikers vaak de minst favoriet. Dit lag deels aan de kwaliteit van ons prototype. 
 
 > "Gaat deze sensor goed blijven hangen?"
@@ -103,10 +105,10 @@ Bepaalde design requirements:
 <br>
 
 **Prototype 2:**
-
-![prototype2](https://github.com/tcolenbi/UCD_SEM1/assets/157377776/e0abf1ba-7b3b-4c7b-ba9e-25a815018a2f)
-![prototype2 2](https://github.com/tcolenbi/UCD_SEM1/assets/157377776/8f9e9fea-830c-4178-9657-76f71cf78b95)
-
+<p align="center">
+  <img src="https://github.com/tcolenbi/UCD_SEM1/assets/157377776/e0abf1ba-7b3b-4c7b-ba9e-25a815018a2f">
+  <img src="https://github.com/tcolenbi/UCD_SEM1/assets/157377776/8f9e9fea-830c-4178-9657-76f71cf78b95">
+</p>
 Bij prototype 2 kon afgeleid worden uit de testen dat deze zeer gemakkelijk is om aan te doen. De kous is voor een stuk afgesneden, waardoor je geen last hebt van de voetmaten. Dit was 1 van de favorieten, omdat de magneet ervoor zorgt dat je gemakkelijk de sensor kon aanbrengen en verwijderen. 
 
 > "Het voelt ook raar om geen kous te dragen, maar door het dragen van je eigen kousen kan het wel echt nice zijn."
@@ -122,9 +124,10 @@ Extra design requirements:
 <br>
 
 **Prototype 3:**
-
-![prototype3 jpg](https://github.com/tcolenbi/UCD_SEM1/assets/157377776/b3e85c37-1ac5-4699-966d-ecabd591833e)
-![prototype3 2 jpg](https://github.com/tcolenbi/UCD_SEM1/assets/157377776/2adc4407-976d-4a6e-bc66-142aeb77064c)
+<p align="center">
+  <img src="https://github.com/tcolenbi/UCD_SEM1/assets/157377776/b3e85c37-1ac5-4699-966d-ecabd591833e">
+  <img src="https://github.com/tcolenbi/UCD_SEM1/assets/157377776/2adc4407-976d-4a6e-bc66-142aeb77064c">
+</p>
 
 Voor prototype 3 konden we zeggen dat als we alleen kijken naar de kous, deze de minst favoriete is. Het gevoel dat alleen de tenen bloot zijn, was behoorlijk raar. Op het kliksysteem was weinig op aan te merken. Dit was direct duidelijk hoe het moest. Er moest wel voorzichtig gewerkt worden, want het was genaaid.
 
@@ -140,10 +143,10 @@ Extra design requirements:
 <br>
 
 **Prototype 4:**
-
-![prototype4 2 jpg](https://github.com/tcolenbi/UCD_SEM1/assets/157377776/bdb250b0-461e-4b17-8605-7b071ce2d22a)
-![prototype4 jpg](https://github.com/tcolenbi/UCD_SEM1/assets/157377776/dde12924-76df-4b77-935d-9c280c169f5a)
-
+<p align="center">
+  <img src="https://github.com/tcolenbi/UCD_SEM1/assets/157377776/bdb250b0-461e-4b17-8605-7b071ce2d22a">
+  <img src="https://github.com/tcolenbi/UCD_SEM1/assets/157377776/dde12924-76df-4b77-935d-9c280c169f5a">
+</p>
 > "De gebruiker vroeg direct of de sensor van binnen moest zitten op een vragende/verrassende manier."
 
 Uit prototype 4 kan gezegd worden dat het concept van de sensor aan de binnenkant van de kous, zeer origineel is. Dit was eigenlijk een van de punten die de studenten van Gent gaven aan ons. Dit idee kwam wel goed terecht bij de gebruikers. Ook de kous was niet mis, het was gewoon een normale kous met 2 gaten juist boven de enkel. Het nadeel hier was wel dat het inklikken wel moeilijker ging, doordat het omgekeerd in de kous zit. Hieronder enkele opmerkingen van de gebruikers.
@@ -168,49 +171,51 @@ Als feedback gaan we gebruik maken van trillingen, maar de manier waarop de feed
 ## Bill of materials
 - een dunne luchtige stof (lycra, stof van thermisch ondergoed …)
 - de sensor om mee te testen
-- SleeveIO om te kunnen testen met vibraties en de plaatsing ervan
-- een sporthorloge
+- Arduino
+- gsm voor protopie
 - magneten (+ verbindingsstuk voor de sensor)
 - kleine metalen plaatjes (voor de magneten)
 - vibration motor (voor te kunnen testen)
+- een bandje voor de trillingstesten mee te kunnen doen
 
 ## Developing
-In de developing fase focussen we ons meer op het optimaliseren van de fysieke ergonomie en de antropometrie van ons product. Dit betekent dat we moeten focussen op verschillende maten en lichaamsgerelateerde parameters van ons ontwerp. Ook de usability (gebruiksvriendelijkheid) en de user experience worden in deze fase besproken van wat we allemaal gedaan hebben. En tenslotte is er ook nog een klein onderzoekje gedaan naar de interactie van de gebruiker met de app en trillingen.
+In de developing fase focussen we ons meer op het optimaliseren van de fysieke ergonomie en de antropometrie van ons product. Dit betekent dat we moeten focussen op verschillende maten en lichaamsgerelateerde parameters van ons ontwerp. Ook de usability (gebruiksvriendelijkheid) en de user experience worden in deze fase besproken van wat we allemaal gedaan hebben. Tenslotte is er ook nog een klein onderzoek gedaan naar de interactie van de gebruiker met de app en trillingen.
 ### Antropometrie + ergonomie
 #### Doelstellingen
-Onze doel voor de developing fase is als eerste om de positie van de trillingen te bepalen door testen en analyses uit te voeren. We gaan opzoek naar waar de trillingen het best opgenomen worden door de gebruiker en waar het aangenamer en niet storend is.  
+Ons doel voor de developing fase is als eerste om de positie van de trillingen te bepalen door testen en analyses uit te voeren. We gaan opzoek naar waar de trillingen het best opgenomen worden door de gebruiker en waar het aangenamer en niet storend is.  
 #### Materiaal & methoden
 Voor het prototype om de positie van de trillngen mee te testen gaan we rekening houden met de antropometrische data, en zorgen we er dus voor dat het prototype binnen de waarden valt om stevig vast te zitten.
 Om deze testen te kunnen uitvoeren, moeten we onderzoek doen naar de fysieke ergonomie en antropometrie van elk lichaamsdeel dat we willen testen. Na het doornemen van een interessant artikel in verband met feedback aan de hand van vibraties (Dim, N. K., & Ren), kwamen we tot een idee welke posities op het lichaam we zouden willen testen. Deze zijn de bovenarm, onderarm (5/6), borst (4) en de enkel (12/13).
-
-<img src="https://github.com/tcolenbi/UCD_SEM1/assets/157391495/c70ed041-eaec-4762-94d6-df3707338a25" width="25%">
-
+<p align="center">
+  <img src="https://github.com/tcolenbi/UCD_SEM1/assets/157391495/c70ed041-eaec-4762-94d6-df3707338a25" width="25%">
+</p>
 
 
 ##### Bovenarm (biceps)
 Voor de trilling te testen op de bovenarm zal gebruikgemaakt worden van een gsmhouder aan de arm. Doordat dit product al voldoet aan de ergonomie moeten wij ons daar geen zorgen bij maken. Hier zullen we gewoon de gebruiker laten lopen en zal de gsm onverwacht trilling uitgeven. Ook zullen we dit eens testen via ons zelfgemaakte prototype, die oorspronkelijk voor de onderarm/pols en enkel was. (zie onderarm/pols) De reden daarvoor is omdat we denken dat de grootte van de gsmhouder eventueel een rol kan spelen in verband met het geven van trillingen en de aangenaamheid tijdens het lopen.
-
-<img src="https://github.com/tcolenbi/UCD_SEM1/assets/157391495/c0d691a1-162f-4ca3-b8f3-c504ddb440a1" width="35%">
-<img src="https://github.com/tcolenbi/UCD_SEM1/assets/157391495/e2ef89b2-1453-408b-bb08-0e0f4c37ea62" width="35%">
-
-
+<p align="center">
+  <img src="https://github.com/tcolenbi/UCD_SEM1/assets/157391495/c0d691a1-162f-4ca3-b8f3-c504ddb440a1" width="35%">
+  <img src="https://github.com/tcolenbi/MotionMate/assets/157377776/3d3db3e0-6ecb-48b8-83e2-d05473359c3a" width="26.2%">
+</p>
 
 ##### Onderarm/pols
 Bij de onderarm zouden we gebruik kunnen maken van een smartwatch/sporthorloge, maar doordat deze zeer duur zijn, besloten we om zelf iets te prototypen. Hierdoor moeten we de antropometrie bepalen van de polsomtrek. Via onderzoek naar de antropometrie van de polsen, kwamen we uit op een pdf-bestand. ([Antropometrie](https://www.gesa.be/antropometrie.pdf))
+<p align="center">
+  <img src="https://github.com/tcolenbi/UCD_SEM1/assets/157391495/ad152863-8f1c-4611-8c7b-391f34d6f99b" width="40%">
+  <img src="https://github.com/tcolenbi/UCD_SEM1/assets/157391495/266de7e1-3fc4-4db5-bfe2-8bfad8ab89e1" width="41%">
+</p>
 
-<img src="https://github.com/tcolenbi/UCD_SEM1/assets/157391495/ad152863-8f1c-4611-8c7b-391f34d6f99b" width="40%">
-<img src="https://github.com/tcolenbi/UCD_SEM1/assets/157391495/266de7e1-3fc4-4db5-bfe2-8bfad8ab89e1" width="41%">
-
-
-Hieruit kunnen we de polsomtrek bepalen van zowel mannen als vrouwen. Uit deze afbeelding kunnen we afleiden dat bij de vrouwen het 5de percentiel 140 mm is en voor het 95ste percentiel 175 mm. Voor de mannen ligt het iets hoger, namelijk 160 mm voor 5de percentiel en 191 mm voor het 95ste percentiel. Het is dus de bedoeling dat het bandje van het prototype tussen deze waarden moet zitten om aan de antropometrische voorwaarden te voldoen.
+Hieruit kunnen we de polsomtrek bepalen van zowel mannen als vrouwen. Uit deze afbeelding kunnen we afleiden dat bij de vrouwen het 5de percentiel 140 mm is en voor het 95ste percentiel 175 mm. Voor de mannen ligt het iets hoger, namelijk 160 mm voor 5de percentiel en 191 mm voor het 95ste percentiel. Het is dus de bedoeling dat het bandje van het prototype tussen deze waarden moet zitten om aan de antropometrische voorwaarden te voldoen. Dit is vrij makkelijk te behalen aangezien er gewerkt wordt met een rekker voor het bandje.
 
 Om de trillingen te kunnen genereren, zullen we een klein beetje moeten werken met elektronica. We gaan dus met het Arduino programma een code moeten schrijven, waarin we trillingen kunnen aansturen. Als elektronisch platform zal een Arduino Nano gebruikt worden. De reden waarom we geen gewone Arduino Uno nemen, is omdat de Nano een kleiner model is. Hierdoor is dit veel gemakkelijker om de elektronica wat weg te werken in het bandje. 
-
-<img src="https://github.com/tcolenbi/UCD_SEM1/assets/157391495/1a9722a4-a649-4b7a-8864-8d1f85313fdd" width="25%">
-
+<p align="center">
+  <img src="https://github.com/tcolenbi/UCD_SEM1/assets/157391495/1a9722a4-a649-4b7a-8864-8d1f85313fdd" width="25%">
+</p>
 Om dus een trilling te genereren zullen we een vibration motor gebruiken die geschakeld zal zijn met de Arduino Nano. De GND vibration motor is verbonden met GND Arduino Nano, VCC vibration motor is verbonden met 3,3 V Arduino Nano en de IN of SIG bij de motor verbind je met een digital pin op de Arduino Nano. In dit geval is het pin 3.
 
-<img src="https://github.com/tcolenbi/UCD_SEM1/assets/157391495/90a05a90-da49-4a7e-ba62-e95e52efabee" width="25%">
+<p align="center">
+  <img src="https://github.com/tcolenbi/UCD_SEM1/assets/157391495/90a05a90-da49-4a7e-ba62-e95e52efabee" width="25%">
+</p>
 
 Met deze schakeling kunnen we nu trilling aansturen, maar voor dit helemaal te kunnen realiseren moeten we ook nog de code schrijven. Hier focussen we nu ons minder op het trillingspatroon, maar vooral op het genereren van een bepaalde trilling. In deze code gebruiken we ook een lange delay, zodat de trilling onverwachts lijkt te komen voor de gebruikers.
 
@@ -239,17 +244,18 @@ void loop() {
 ```
 
 Hieruit konden we dan een prototype maken om dan positie van de trillingen te testen.
+<p align="center">
+  <img src="https://github.com/tcolenbi/UCD_SEM1/assets/157377776/c1df390a-70b9-4970-ae96-570e162057a2" width="35%">
+  <img src="https://github.com/tcolenbi/UCD_SEM1/assets/157377776/3460d114-281b-4402-b15d-84ad7f1ca997" width="32.5%">
+</p>
 
-<img src="https://github.com/tcolenbi/UCD_SEM1/assets/157377776/c1df390a-70b9-4970-ae96-570e162057a2" width="35%">
-<img src="https://github.com/tcolenbi/UCD_SEM1/assets/157377776/3460d114-281b-4402-b15d-84ad7f1ca997" width="32.1%">
-
-We hebben een eerste prototype gemaakt voor de trillingen (links), maar deze bleek niet goed te blijven zitten tijdens het testen zelf. Hierdoor zullen de resultaten die uit die testen kwamen beïnvloed geweest zijn. Daarna hebben we een tweede prototype ge-3D-print om zo een stevigere prototype te hebben, die bleef hangen tijdens het lopen zelf, en dus minder negatieve invloed zal hebben op de gebruikers.
+We hebben een eerste prototype gemaakt voor de trillingen (links), maar deze bleek niet goed te blijven zitten tijdens het testen zelf. Hierdoor zullen de resultaten die uit die testen kwamen beïnvloed geweest zijn. Daarna hebben we een tweede prototype ge-3D-print om zo een stevigere prototype te hebben, die bleef hangen tijdens het lopen zelf, en zal dus zo minder negatieve invloed hebben op de gebruikers.
 
 ##### Borst
 Voor de trillingen op de borst zouden we ook Arduino moeten gebruiken, maar met een langere band zodanig dat de afmetingen voor de gemiddelde mens kunnen behaald worden. Een mooi voorbeeld hierbij is een hartslagmeter. 
-
-<img src="https://github.com/tcolenbi/UCD_SEM1/assets/157391495/ae9141e1-f149-4341-86f3-49022dac53d3" width="35%">
-
+<p align="center">
+  <img src="https://github.com/tcolenbi/UCD_SEM1/assets/157391495/ae9141e1-f149-4341-86f3-49022dac53d3" width="35%">
+</p>
 
 ##### Enkel
 We gaan ook de trillingen op de enkel testen, ondanks dat het artikel (Dim, N. K., & Ren, X.) vermeldt dat trillingen niet meer aangenaam werden ervaren onder de heup. Zouden we graag toch eens testen of dit effectief ook het geval is bij ons. Dit gaan we ook testen aan de hand van ons bandje en de Arduino Nano. Hierbij is ook rekening gehouden met de anthropometrische waarden van de gemiddelde mens.
@@ -259,53 +265,62 @@ Al deze posities hebben we getest op dezelfde manier, volgens hetzelfde [protoco
 
 
 #### Resultaten & implicaties
-De [analyse](https://docs.google.com/document/d/1CNyfjw0nFtA4_fF_JsgoV67jAOPYfLT4v7V0rgOIwPo/edit) van de positie van de trillingen vind men hier.
-Samengevat konden we dan zeggen dat vooral de bovenarm en pols naar boven kwamen als voorkeur. De enkel bleek niet echt voelbaar te zijn tijdens het lopen. Dit kan meerdere redenen hebben: de intensiteit van onze vibratiemotor was niet groot genoeg, het prototype was niet genoeg aangespannen of de trillingen die je lichaam ervaart tijdens het lopen zijn te groot om andere trillingen op te nemen. Het zal waarschijnlijk liggen aan de intensiteit van onze vibratiemotor. Maar doordat het toch weer een beetje op een enkelband lijkt en het ook niet de positie was met de meeste voorkeur; gaan we niet verdergaan met deze positie. 
+De analyse van de positie van de trillingen vind men [hier](https://docs.google.com/document/d/1CNyfjw0nFtA4_fF_JsgoV67jAOPYfLT4v7V0rgOIwPo/edit).
+Samengevat konden we dan zeggen dat vooral de bovenarm en pols naar boven kwamen als voorkeur. De enkel bleek niet echt voelbaar te zijn tijdens het lopen. Dit kan meerdere redenen hebben: de intensiteit van onze vibratiemotor was niet groot genoeg, het prototype was niet genoeg aangespannen of de trillingen die je lichaam ervaart tijdens het lopen zijn te groot om andere trillingen op te nemen. Het zal grotendeels liggen aan de intensiteit van onze vibratiemotor. Maar doordat het toch weer een beetje op een enkelband lijkt en het ook niet de positie was met de meeste voorkeur; gaan we niet verdergaan met deze positie. 
 Doordat de Arduino voeding moet krijgen, was het ook een beetje onhandig om met de powerbank te lopen; zeker als deze rond de enkel zat. Dus qua prototype is dat wat onhandig, maar in een volwaardig product zou het geen probleem moeten zijn aangezien je dan hoogstwaarschijnlijk met (oplaadbare) batterijen zal werken. Tenslotte was de borst een zeer slechte positie, want veel gebruikers vonden dit zeker niet aangenaam om mee te lopen. En eenmaal dat er dan een trilling gegeven werd, vond men dat het pijn deed.
 
 
 Uit onze testen hebben ook meerdere design requirements kunnen halen in verband met de trillingen.
-<img src="https://github.com/tcolenbi/UCD_SEM1/assets/157377776/e7f9ac07-0e17-486b-a355-6a9b4b3ba8c0" width="70%">
+<p align="center">
+  <img src="https://github.com/tcolenbi/UCD_SEM1/assets/157377776/e7f9ac07-0e17-486b-a355-6a9b4b3ba8c0" width="100%">
+</p>
 
-
-### Usability + user experience
+### Usability + User Experience
 #### Doelstellingen
 Voor de usability en user experience is ons doel vooral gefocust op het optimaliseren van de feedback in de vorm van trillingen. We zouden graag op zoek gaan naar welke soort trilling (patroon) de gebruiker een specifieke gedachte of gevoel krijgt. Hierdoor kunnen we dan bepalen of er een onbewuste reactie tevoorschijn komt bij een bepaalde trilling, waardoor we deze kunnen linken met elkaar. 
 
 #### Materiaal en methoden
 Na het testen van de positie van de trillingen op het lichaam, wilden we op zoek gaan naar bepaalde trilpatronen die een specifieke reactie/gedachte opwekt bij de gebruikers. Hiervoor zullen we verder werken op het prototype van voorheen. We moeten wel nog enkele aanpassingen doen, zodat we de testen goed kunnen uitvoeren. Het plan is dus om 9 verschillende soorten trilpatronen te testen met de gebruikers, waarbij we hun meningen en gedachten kunnen analyseren. Hiervoor moeten we dus een manier vinden om 9 verschillende patronen op ons bandje te krijgen en waarbij wij zelf de patronen kunnen regelen. 
 
-Dit bracht ons op het idee om via infrarood en een afstandsbediening de patronen te kunnen regelen, want nu wordt alles nog gedaan via delays en is dat behoorlijk ambetant. Om dit te realiseren moeten we dus een afstandsbediening kunnen verbinden met een infrarood ontvanger die geschakeld zou zijn met de vibration motor. We hebben daarom een gezamenlijk pakket gekocht met een afstandsbediening, enkele kabeltjes en een infrarood reciever. 
+Dit bracht ons op het idee om via infrarood en een afstandsbediening de patronen te kunnen regelen, want nu wordt alles nog gedaan via delays en is dat behoorlijk onhandig tijdens het testen. Om dit te realiseren moeten we dus een afstandsbediening kunnen verbinden met een infrarood ontvanger die geschakeld zou zijn met de vibration motor. We hebben daarom een gezamenlijk pakket gekocht met een afstandsbediening, enkele kabeltjes en een infrarood receiver. 
+<p align="center">
+  <img src="https://github.com/tcolenbi/UCD_SEM1/assets/157391495/2d299b02-de2f-4bf5-ab88-10c588df347b" width="32%">
+</p>
+Eenmaal we dit hadden, konden we starten met de code aan te passen. Jammer genoeg ontdekten we al snel dat de infrarood receiver aanwezig in het pakketje stuk was. Hierdoor hebben we opnieuw iets moeten bestellen van Amazon, namelijk enkele infrarood receivers. 
+<p align="center">
+  <img src="https://github.com/tcolenbi/UCD_SEM1/assets/157391495/7875a71c-3743-4670-9007-1b73bdd22af1" width="18%">
+  <img src="https://github.com/Arduino-IRremote/Arduino-IRremote/blob/master/pictures/IRReceiverPinout.jpg" width="32%">
+</p>
 
-<img src="https://github.com/tcolenbi/UCD_SEM1/assets/157391495/2d299b02-de2f-4bf5-ab88-10c588df347b" width="32%">
+Op de 2de afbeelding zie je alle verschillende soorten infrarood receivers, wij hebben de PIC12043S (3de van links).
+Voor de schakeling van de infrarood receiver zullen we de linkse pin (S = signal) verbinden met pin 5 van de Arduino. De middelste pin GND (-) plaatsen we zoals gewoonlijk aan de GND in de Arduino en rechtse pin (+) moeten we schakelen aan de 5V op de Arduino. Hierdoor bekomen we een soortgelijke schakeling als hieronder.
+<p align="center">
+  <img src="https://github.com/tcolenbi/UCD_SEM1/assets/157391495/c081796b-ffe4-4e25-9daf-d6680f6248d3" width="32%">
+</p>
 
-Eenmaal we dit hadden, konden we starten met de code aan te passen. Jammer genoeg ontdekten we al snel dat de infrarood reciever aanwezig in het pakketje stuk was. Hierdoor hebben we opnieuw iets moeten bestellen van Amazon, namelijk enkele infrarood recievers. 
+Eenmaal we nu zowel de vibration motor en infrarood receiver willen schakelen, zullen we de Arduino Nano moeten vervangen. We hebben namelijk een Arduino Nano 33 IoT nodig. Dit komt omdat we willen werken met een infrarood receiver. Deze infrarood receiver vraagt 5V spanning en onze vibration motor vraagt 3,3V spanning. Hierdoor zijn we genoodzaakt om te wisselen van Nano, omdat de gewone Nano geen 5V kan leveren, maar de Nano 33 IoT wel.
 
-<img src="https://github.com/tcolenbi/UCD_SEM1/assets/157391495/7875a71c-3743-4670-9007-1b73bdd22af1" width="32%">
-<img src="https://github.com/Arduino-IRremote/Arduino-IRremote/blob/master/pictures/IRReceiverPinout.jpg" width="32%">
-
-Op de 2de afbeelding zie je alle verschillende soorten infrarood recievers, wij hebben de PIC12043S (3de van links).
-Voor de schakeling van de infrarood reciever zullen we de linkse pin (S = signal) verbinden met pin 5 van de Arduino. De middelste pin GND (-) plaatsen we zoals gewoonlijk aan de GND in de Arduino en rechtse pin (+) moeten we schakelen aan de 5V op de Arduino. Hierdoor bekomen we een soort gelijke schakeling als hieronder.
-
-<img src="https://github.com/tcolenbi/UCD_SEM1/assets/157391495/c081796b-ffe4-4e25-9daf-d6680f6248d3" width="32%">
-
-Eenmaal we nu zowel de vibration motor en infrarood reciever willen schakelen, zullen we de Arduino Nano moeten vervangen. We hebben namelijk een Arduino Nano 33 iot nodig. Dit komt omdat we willen werken met een infrarood reciever. Deze infrarood reciever vraagt 5V spanning en onze vibration motor vraagt 3,3V spanning. Hierdoor zijn we genoodzaakt om te wisselen van Nano, omdat de gewone Nano geen 5V kan leveren, maar de Nano 33 iot wel.
-
-<img src="https://github.com/tcolenbi/UCD_SEM1/assets/157391495/fb9150d8-8c95-494d-9c91-d26f942efc06" width="32%">
-<img src="https://github.com/tcolenbi/UCD_SEM1/assets/157391495/cec1da24-9658-458a-ac71-dc668e5cd485" width="32%">
-
+<p align="center">
+  <img src="https://github.com/tcolenbi/UCD_SEM1/assets/157391495/fb9150d8-8c95-494d-9c91-d26f942efc06" width="43%">
+  <img src="https://github.com/tcolenbi/UCD_SEM1/assets/157391495/cec1da24-9658-458a-ac71-dc668e5cd485" width="25%">
+</p>
 
 Voor de schakeling helemaal klaar te maken en mooi te bevestigen aan ons bandje, zullen we de draden mooi solderen en wegstekken in het ge-3D-printe bakje.
 
-<img src="https://github.com/tcolenbi/UCD_SEM1/assets/157391495/16f8e51c-5924-4a6f-8c7b-b63e524fdcd0" width="32%">
-<img src="https://github.com/tcolenbi/UCD_SEM1/assets/157391495/b48a6ed0-b261-470a-853f-3f7434860460" width="32%">
-<img src="https://github.com/tcolenbi/UCD_SEM1/assets/157391495/08c15f56-8fed-4e60-a57e-c8037a644b44" width="32%">
-<img src="https://github.com/tcolenbi/UCD_SEM1/assets/157391495/8cbf5480-9053-41bc-9768-b6927c3553cd" width="32%">
-<img src="https://github.com/tcolenbi/UCD_SEM1/assets/157391495/42b64761-0fb2-4213-934c-85d9331f6e9a" width="64%">
 
-Nu de schakeling klaar is, kunnen we de code aanpassen. Zodat we de vibration motor kunnen aansturen. Het eerste wat we al moesten doen voor de code te laten werken was om de IRremote library van Shirriff te installeren. Maar voor we de knoppen in de afstandsbediening kunnen programmeren, moeten we eerste op zoek gaan naar de HEX-code van elke knop aanwezig op de afstandsbediening.
+<p align="center">
+  <img src="https://github.com/tcolenbi/UCD_SEM1/assets/157391495/16f8e51c-5924-4a6f-8c7b-b63e524fdcd0" width="33%">
+  <img src="https://github.com/tcolenbi/MotionMate/assets/157377776/19e53896-eba0-4801-abde-aad9be5829ab" width="25.9%">
+  <img src="https://github.com/tcolenbi/UCD_SEM1/assets/157391495/08c15f56-8fed-4e60-a57e-c8037a644b44" width="25.8%">
+</p>  
+<p align="center">
+  <img src="https://github.com/tcolenbi/MotionMate/assets/157377776/519977de-107f-44a6-a265-e476ca2080a0" width="85.5%">
+</p>
 
-En doordat we niet weten hoe we elke knop van de afstandsbediening moeten verbinden met een bepaald trilpatroon, moeten we eerst nog een ander programma maken. We moeten namelijk kunnen weten wat de HEX-code van elke knop is van de afstandsbediening. Bij elke afstandsbedieningen is dit anders, hierdoor kunnen we niet dezelfde HEX-code gebruiken als anderen.
+
+Nu de schakeling klaar is, kunnen we de code aanpassen. Zodanig dat we de vibration motor kunnen aansturen. Het eerste wat we al moesten doen voor de code te laten werken was de IRremote library van Shirriff te installeren. Maar voor we de knoppen in de afstandsbediening kunnen programmeren, moeten we eerst op zoek gaan naar de HEX-code van elke knop aanwezig op de afstandsbediening.
+
+Doordat we niet weten hoe we elke knop van de afstandsbediening moeten verbinden met een bepaald trilpatroon, moeten we eerst nog een ander programma maken. We moeten namelijk kunnen weten wat de HEX-code van elke knop is van de afstandsbediening. Bij elke afstandsbedieningen is dit anders, hierdoor kunnen we niet dezelfde HEX-code gebruiken als anderen.
 
 We moeten daarom een code maken die dus de HEX-code teruggeeft eenmaal op een bepaalde knop gedrukt wordt van je afstandsbediening.
 
@@ -334,9 +349,9 @@ void loop() {
 }
 ```
 
-Nu kunnen we het programma maken, waarbij de vibration motor verbonden is met de infrarood reciever.
+Nu kunnen we het programma maken, waarbij de vibration motor verbonden is met de infrarood receiver.
 
-Er zijn 9 verschillende trilpatronen die we tijdens de testen aan de gebruiker zullen toepassen. Het is de bedoeling dat wij de trilling tijdens het testen kunnen regelen. Dit wordt gedaan via de afstandsbediening die verbonden is met de infrarood ontvanger en de vibration motor. Eenmaal we dan op een knop drukken, zal er een trilpatroon starten en gaan we kijken naar de reacties van de testgebruikers. Zo zullen we het denkgedrag van de gebruiker achterhalen. (Wat zou dit trilpatroon betekenen volgens de gebruiker en dan zo dit patroon linken bij iets.)
+Er zijn 9 verschillende trilpatronen die we tijdens de testen aan de gebruiker zullen toepassen. Het is de bedoeling dat wij de trilling tijdens het testen kunnen regelen. Dit wordt gedaan via de afstandsbediening die verbonden is met de infrarood receiver en de vibration motor. Eenmaal we dan op een knop drukken, zal er een trilpatroon starten en gaan we kijken naar de reacties van de testgebruikers. Zo zullen we het denkgedrag van de gebruiker achterhalen. (Wat zou dit trilpatroon betekenen volgens de gebruiker en aan de hand van hun ideëen een patroon linken met de feedback.)
 
 ```python
 #include <IRremote.h>
@@ -533,20 +548,25 @@ void loop()
 ```
 
 Om gemakkelijker te weten welke knop op het afstandsbediening bij welk trilpatroon hoort, is er een klein excel bestandje gemaakt. Waar alles mooi geordend is en waarin de HEX-codes van elke knop staat. Hierdoor kunnen we gemakkelijk alles zien staan tijdens het testen en kunnen we ook gemakkelijk de bestaande HEX-codes gebruiken als we iets meer willen doen.
+<p align="center">
+  <img src="https://github.com/tcolenbi/UCD_SEM1/assets/157391495/dd8dcc75-fff4-4a2d-8c7b-52718f420ce7" width="100%">
+</p>
 
-<img src="https://github.com/tcolenbi/UCD_SEM1/assets/157391495/dd8dcc75-fff4-4a2d-8c7b-52718f420ce7" width="32%">
-
-Op dit moment is alles gereed van voorbereidingen en kan er eindelijk weer getest worden (N = 4). Het [protocol](https://docs.google.com/document/d/1JOIJ9xnvIzqsDzFoZRsf3RaK8y00bSsw/edit) voor deze testen zullen we doen aan de hand van een kleine [enquête](https://docs.google.com/forms/d/e/1FAIpQLScmizs75yjgCpesMGq3S0cR4rJNPPkFtNJaIQOXT0I43W4MGA/viewform) die de gebruikers op het einde van elk patroon (N = 9) zullen invullen.
+Hierna was alles klaar van voorbereidingen en kan er eindelijk weer getest worden (N = 4). Het [protocol](https://docs.google.com/document/d/1JOIJ9xnvIzqsDzFoZRsf3RaK8y00bSsw/edit) voor deze testen zullen we doen aan de hand van een kleine [enquête](https://docs.google.com/forms/d/e/1FAIpQLScmizs75yjgCpesMGq3S0cR4rJNPPkFtNJaIQOXT0I43W4MGA/viewform) die de gebruikers op het einde van elk patroon zullen invullen.
 Voor de verduidelijking zullen de gebruikers nog altijd rondlopen met het bandje aan hun pols/onderarm en zullen wij een patroon kunnen aanzetten (wanneer we willen) via de afstandsbediening. Eenmaal patroon 1 bezig is, zal de gebruiker de trillingen voelen en kunnen we hun reacties bekijken. Als het patroon dan gestopt is, zullen ze stoppen met lopen en mogen ze de enquête invullen. Waarna ze weeral mogen lopen, maar waarbij wij patroon 2 aan zullen zetten, enzovoort. 
-Ook werd er weer op het einde van alle testen een [reflectieblad](https://docs.google.com/document/d/1wNu0Ga2jCGNgYv4VUZ1TmaLEh9RdVE07/edit) meegegeven, waarin de gebruikers hun bevindingen en gedachten kwijt kunnen spelen.
+Ook werd er weer op het einde van alle testen een [reflectieblad](https://docs.google.com/document/d/1wNu0Ga2jCGNgYv4VUZ1TmaLEh9RdVE07/edit) meegegeven, waarin de gebruikers hun bevindingen en gedachten kwijt konden.
 
-<img src="https://github.com/tcolenbi/UCD_SEM1/assets/157391495/bed652c2-8778-426e-9711-5170011b3624" width="32%">
-<img src="https://github.com/tcolenbi/UCD_SEM1/assets/157391495/d67280b6-0c26-4a88-b390-36a35073f884" width="32%">
+<p align="center">
+  <img src="https://github.com/tcolenbi/MotionMate/assets/157377776/584c84ca-d651-4270-aed6-ebdc44f86006" width="33%">
+  <img src="https://github.com/tcolenbi/MotionMate/assets/157377776/17f1f9ec-54fc-4101-a0cd-e46d20c78c58" width="33%">
+</p>
 
-Tenslotte werden er hier ook nog 2 expert interviews uitgevoerd met medestudenten. Hier zitten we dan samen en overlopen we alle prototypes van het eerste semester tot nu. We laten ze de kous uitproberen en vragen we naar hun bedenkingen. Ook bespreken we ons armbandje door de verschillende patronen (N = 9) te testen en kijken we of zij eventueel een specifieke gedachte/opmerking geven bij bepaalde patronen. In deze [expert interviews](https://docs.google.com/document/d/1l1tshu3ePcZvtlrLZzoLAc0l129nyXmz/edit) wordt er dan ook voornamelijk nagedacht over de functionaliteit, de duidelijkheid en de aantrekkelijkheid van zowel het armbandje als de kous. De experts mogen dan bij allerlei belangrijke puntjes een score geven van 1 t.e.m. 5, waarbij 1 zeer slecht is en 5 zeer goed. Tenslotte wordt er bij elk puntje de mogelijke issues besproken en worden er recommendations gevraagt voor het verder proces. 
+<br><br>
+
+Tenslotte werden er hier ook nog 2 expert interviews uitgevoerd met medestudenten. Hier zitten we samen en overlopen we de prototypes. We laten ze de kous uitproberen en vragen we naar hun bedenkingen. Ook bespreken we ons armbandje door de verschillende patronen te testen en kijken we of zij eventueel een specifieke gedachte/opmerking geven bij bepaalde patronen. In deze [expert interviews](https://docs.google.com/document/d/1l1tshu3ePcZvtlrLZzoLAc0l129nyXmz/edit) wordt er dan ook voornamelijk nagedacht over de functionaliteit, de duidelijkheid en de aantrekkelijkheid van zowel het armbandje als de kous. De experts mogen dan bij allerlei belangrijke puntjes een score geven van 1 t.e.m. 5, waarbij 1 zeer slecht is en 5 zeer goed. Tenslotte wordt er bij elk puntje de mogelijke issues besproken en worden er recommendations gevraagt voor het verder proces. 
 
 #### Resultaten & implicaties
-Na het testen hebben we weer een analyse gemaakt van de verschillende patronen. Uit de [enquête](https://docs.google.com/forms/d/1X8MklZ_q24qZIWdhZlZYQ5OpKBskoupzgwrtiQBuvDQ/edit#responses) kunnen we zien wat iedereen ingevult geeft bij elke trilling. Ook wordt dit mooi weergegeven in grafieken en diagrammen, zodat alles direct duidelijk wordt. Eenmaal we dit omgezet hadden naar excel, begon alles onduidelijk te worden. Hierdoor hebben we dan de [analyse](https://docs.google.com/document/d/1QsILvopdEdqrfOkRe_zd-7_griBv-TFvSfwogOyeunI/edit) nog eens kort en krachtig samengevat in 1 document, samen met de staafdiagram voor het reageren op elk patroon.  
+Na het testen hebben we weer een analyse gemaakt van de verschillende patronen. Uit de [enquête](https://docs.google.com/forms/d/1X8MklZ_q24qZIWdhZlZYQ5OpKBskoupzgwrtiQBuvDQ/edit#responses) kunnen we zien wat iedereen ingevult geeft bij elke trilling. Ook wordt dit mooi weergegeven in grafieken en diagrammen, zodat alles direct duidelijk wordt. Eenmaal we dit omgezet hadden naar excel, begon alles onduidelijk te worden. Hierdoor hebben we dan de [analyse](https://docs.google.com/document/d/1QsILvopdEdqrfOkRe_zd-7_griBv-TFvSfwogOyeunI/edit) nog eens kort samengevat in 1 document, samen met de staafdiagram voor het reageren op elk patroon.  
 
 We kwamen dan tot de conclusie dat veel patronen moeilijk te begrijpen zijn, zoals patronen 2, 8 en 9. Deze vond men zeer complex om te begrijpen, waardoor men ook geen reacties/gedachten over had. De patronen 3,4 en 5 daarentegen zijn een ander verhaal. Deze patronen vond men zeer aangenaam en begrijpelijk, waardoor de score over deze ook zeer goed waren. Ook uit de [reflectiebladen](https://docs.google.com/document/d/1cWzHusq3pfrT-VqizPmpFu9x6hPAurYhEpr6RkHcO7I/edit) was dit allemaal goed zichtbaar.
 
@@ -555,96 +575,110 @@ Tenslotte kan men hier ook de 2 expert interviews terugvinden met de medestudent
 - [Expert interview Daan Mol](https://docs.google.com/document/d/1K1jLO81gPbMWL8dE-gqqWKObYCxaOo2p/edit)
 - [Expert interview Sam Deprez](https://docs.google.com/document/d/1TcExHg7gHaKmBFPjrnaUhdVDp7qLbcxQ/edit)
 
-Hieruit kunnen we dan weer concluderen dat het deel van de patronen testen samenvalt met de analyse van de gebruikerstesten.
+Hieruit kunnen we dan weer concluderen dat het deel van de patroon testen samenvalt met de analyse van de gebruikerstesten.
 
-Voor dan de volgende stap hebben we besloten om 4 van die 9 patronen te gebruiken in het eindproduct, waaronder een patroon die aangeeft dat je gestart bent met lopen, een patroon dat je moet stoppen met lopen door overbelasting in de botten en patronen die zeggen dat je iets sneller of trager moet lopen. Hierbij is er dan besloten om patronen 3, 4, 5 en 6 te gebruiken voor het verdere verloop.
+Voor dan de volgende stap hebben we besloten om 4 van die 9 patronen te gebruiken in het eindproduct, waaronder een patroon die aangeeft dat je gestart bent met lopen, een patroon dat je moet stoppen met lopen door overbelasting in de botten en patronen die zeggen dat je iets sneller of trager moet lopen. Hierbij is er dan besloten om patronen 3, 4, 5 en 6 te gebruiken voor het verdere verloop, deze kwamen uit de testen als de meest duidelijke patronen waar de gebruikers zich al iets konden voorstellen.
 
-Patroon 3 (lang, kort, kort, kort) wordt gelinkt met "start van een looptraining".
+**Patroon 3** (lang, kort, kort, kort) wordt gelinkt met "start van een looptraining".
 
-Patroon 4 (ultralang, ultralang, kort, kort) wordt gelinkt met "stop met lopen".
+**Patroon 4** (ultralang, ultralang, kort, kort) wordt gelinkt met "stop met lopen".
 
-Patroon 5 (kort, kort, kort) wordt gelinkt met "Ik ben te snel aan het lopen, dus moet nu vertragen.".
+**Patroon 5** (kort, kort, kort) wordt gelinkt met "Ik ben te snel aan het lopen, dus moet nu vertragen.".
 
-Patroon 6 (middel, middel, middel) wordt gelinkt met "Ik ben behoorlijk traag aan het lopen en kan/mag eventueel nog versnellen.".
+**Patroon 6** (middel, middel, middel) wordt gelinkt met "Ik ben behoorlijk traag aan het lopen en kan/mag eventueel nog versnellen.".
 
 ### Interaction design
 #### Doelstellingen
 Voor de deelopdracht 5 zullen we ons voornamelijk focussen op het optimaliseren van de interactie tussen de gebruiker, de app en de trillingen. We gaan hier dan kijken naar de user journey, waarbij de gebruiker de loopapp zal doorlopen. Ook gaan we opzoek of de human-product interaction goed verloopt. En tenslotte zullen controleren of de trillingspatronen goed past bij onze conclusies van voorheen.
 
 #### Materiaal en methoden
-Achter dat we de verschillende trillingspatronen getest hebben, konden we dan beslissen welk 4 patronen de beste zijn. Deze zijn patronen 3, 4, 5 en 6. 
+Nadat we de verschillende trillingspatronen getest hebben, konden we beslissen welke 4 patronen de beste zijn. Deze zijn patronen 3, 4, 5 en 6. 
 
-Als eerste van voorbereidingen op de testen hebben we een hiërarchische taakanalyse gemaakt ([HTA](https://github.com/tcolenbi/UCD_SEM1/assets/157391495/62e31b98-9f4d-4df5-b12c-dae5d722c34d)). Hierdoor konden we gemakkelijk zien wat de stappen in de interactie tussen product en gebruiker. 
+Als voorbereiding op de testen hebben we een hiërarchische taakanalyse gemaakt ([HTA](https://github.com/tcolenbi/UCD_SEM1/assets/157391495/62e31b98-9f4d-4df5-b12c-dae5d722c34d)). Hierdoor konden we gemakkelijk zien wat de stappen zijn in de interactie tussen ons product en gebruiker. 
 
 Om dan een human-product interactie te hebben via digitale aspecten, moeten we een app creëren die zogezegd je loopactiviteit kan registreren. Ook zou de app een functie moeten hebben, waarbij de data van de schoksensor weergegeven kan zijn. Doordat wij ons in de gehele 2de semester hebben gefocust op de feedback te geven onder de vorm van vibraties/trillingen, zal er ook in de app deze vibraties/trillingen voorkomen. 
 
-Dit allemaal is ontworpen geweest in ProtoPie, waarbij er dus een gesimuleerde app is ontworpen. Jammer genoeg door tijdsgebrek hebben we geen volledige app kunnen ontworpen. We hebben namelijk alleen de homepage, een activity page en een page waar je dus je looptraining kan opnemen (record) ontworpen. Het grootste deel van de app is dan ook de record, de activity page heeft ook wat extra scenes, maar voor het inloggen in de app en registreren hebben we niets voor kunnen doen. We hebben wel nog een simpele instellingen categorie gemaakt, maar deze is wel beperkt tot de instellingen van de trillingspatronen enzovoort.
+Dit allemaal is ontworpen geweest in ProtoPie, waarbij er dus een gesimuleerde app is ontworpen. We hebben een homepage, een activity page en een page waar je je looptraining kan opnemen (record) ontworpen. Het grootste deel van de app is dan ook de record, de activity page heeft ook wat extra scenes. We hebben ook nog een simpele instellingen categorie gemaakt, deze is beperkt tot de instellingen van de trillingspatronen en intensiteit.
 
-<img src="https://github.com/tcolenbi/UCD_SEM1/assets/157391495/c0ddd6af-71fb-4617-b1ff-dbf97933b53b" width="20%">
-<img src="https://github.com/tcolenbi/UCD_SEM1/assets/157391495/49631b21-380b-4f77-b002-d8da016cebb2" width="50%">
-
-
+<p align="center">
+  <img src="https://github.com/tcolenbi/UCD_SEM1/assets/157391495/c0ddd6af-71fb-4617-b1ff-dbf97933b53b" width="20%">
+  <img src="https://github.com/tcolenbi/UCD_SEM1/assets/157391495/49631b21-380b-4f77-b002-d8da016cebb2" width="75%">
+</p>
+<br>
 Bij het deel van record hebben we een scenario ontworpen, waarbij men dus eerst start met een looptraining. Hierbij zal de gebruiker, eenmaal hij/zij op start gedrukt heeft, een melding krijgen op de app dat men zou moeten starten met lopen. In deze melding zal er een kleine tekst komen die zegt "Start running" en zal er ook een afbeelding bij staan. Ook zal de gebruiker op datzelfde moment een trilling voelen. Deze trilling zal dus patroon 3 zijn. (zie vorige test)
-
-<img src="https://github.com/tcolenbi/UCD_SEM1/assets/157391495/7e3239dc-9c1e-4780-a990-a8a429784858" width="40%">
-
-Eenmaal de gebruiker gestart is met lopen, zal men eerste beeld krijgen van wat er in de app te zien is als men zonder moeilijkheden loopt. Niet veel later zal men dan een tweede melding krijgen op de app, met natuurlijk een trilling aan de pols. Deze trilling zal hier patroon 6 zijn. (zie vorige test) Ook de ontvangen melding zal weer een kleine tekst bevatten, namelijk "Note: you can run faster" en enkele afbeeldingen om het visueel te illustreren. Met deze melding willen we eigenlijk zeggen dat de gebruikers eventueel kunnen en mogen versnellen, maar dat is zeker geen verplichting. Daardoor is het ook maar een notefication en geen warning. 
-
-<img src="https://github.com/tcolenbi/UCD_SEM1/assets/157391495/fccbb73a-e52e-4844-a8c7-44d38d374830" width="32%">
-
+<br><br>
+<p align="center">
+  <img src="https://github.com/tcolenbi/UCD_SEM1/assets/157391495/7e3239dc-9c1e-4780-a990-a8a429784858" width="70%">
+</p>
+<br>
+Eenmaal de gebruiker gestart is met lopen, zal men eerste beeld krijgen van wat er in de app te zien is als men zonder moeilijkheden loopt. Niet veel later zal men dan een tweede melding krijgen op de app, met natuurlijk een trilling aan de pols. Deze trilling zal hier patroon 6 zijn. (zie vorige test) Ook de ontvangen melding zal weer een kleine tekst bevatten, namelijk "Note: you can run faster" en enkele afbeeldingen om het visueel te illustreren. Met deze melding willen we eigenlijk zeggen dat de gebruikers eventueel kunnen en mogen versnellen, maar dat is zeker geen verplichting. Daardoor is het ook maar een note en geen warning. 
+<br><br>
+<p align="center">
+  <img src="https://github.com/tcolenbi/UCD_SEM1/assets/157391495/fccbb73a-e52e-4844-a8c7-44d38d374830" width="60%">
+</p>
+<br>
 Voordat de derde melding tevoorschijn komt op de app, moet de gebruiker eerst aan een veel te hoge snelheid lopen. Dit is te zien op de eerste 2 scenes, waarbij de snelheid van de gebruiker toegenomen is van 5:25 per km (+- 11 km/u) naar 4:41 per km (+- 13 km/u). Dit is natuurlijk veel te hoog voor een gerevaliderende sporter, dus zal er een melding verschijnen in de vorm van een warning. In deze melding staat er ook weer een tekstje, die zegt: "Warning, please slow down" en enkele afbeeldingen om alles nog eens visueel te versterken. Daarbij zal de gebruiker nog een trilling ontvangen aan de pols, namelijk patroon 5. (zie vorige test) 
-Het is dan natuurlijk de bedoeling dat de gebruiker effectief vertraagt als men deze melding krijgt (4de scene). Om dit te verzekeren werd er nog iets extra toegevoegt wat de andere 2 niet hadden. Hier zal de melding constant vergroten en verkleinen, zodat het springt in het gezicht van de gebruiker en waardoor hij het niet kan negeren. Normaal gezien zou deze melding dan, in de realiteit, constant moeten springen en trillen. Maar doordat we werken met een gesimuleerde app is dit jammer genoeg niet echt mogelijk, dus zal het bij de testen via tijd gedaan worden.
-
-<img src="https://github.com/tcolenbi/UCD_SEM1/assets/157391495/caddd037-9370-46c0-a241-4edce8fd595a" width="50%">
-
-De laatste melding zal dan gegeven worden wanneer er een overbelasting gedetecteerd wordt door de schoksensor. Deze overbelasting kan gedetecteerd worden door de schoksensor bij de enkel, dit kan gebeuren door slechte houding tijdens lopen of door een te grote afstand. Ook hier zal er een trilling ontvangen worden door de gebruikers. Patroon 4 is bij deze melding de geontvangde vibratie. Net als bij de andere meldingen is er weer een tekstje, waarin gezegd wordt: "Warning: stop running". Dit heeft eigenlijk dezelfde functie als de 3de melding (te snel lopen), waar men aanraadt om zo snel mogelijk te stoppen. Dit wil niet persee zeggen dat men een blessure heeft, maar voornamelijk dat men blessure gevoelig is. Doordat het een beetje dezelfde functie heeft als de 3de melding, zal deze warning ook vergroten en verkleinen in het gezicht van de gebruiker. Op de foto hieronder ziet men hoe een gebruiker dan de melding zou ontvangen.
-
-<img src="https://github.com/tcolenbi/UCD_SEM1/assets/157391495/dd9270c1-7370-4eca-8c95-12939caf6e06" width="32%">
-
+Het is dan natuurlijk de bedoeling dat de gebruiker effectief vertraagt als men deze melding krijgt (4de scene). Om dit te verzekeren werd er nog iets extra toegevoegd wat de andere 2 niet hadden. Hier zal de melding constant vergroten en verkleinen, zodat het springt in het gezicht van de gebruiker en waardoor hij het niet kan negeren. Normaal gezien zou deze melding dan, in de realiteit, constant moeten springen en trillen. Maar doordat we werken met een gesimuleerde app is dit jammer genoeg niet echt mogelijk, dus zal het bij de testen via tijd gedaan worden.
+<br><br>
+<p align="center">
+  <img src="https://github.com/tcolenbi/UCD_SEM1/assets/157391495/caddd037-9370-46c0-a241-4edce8fd595a" width="70%">
+</p>
+<br>
+De laatste melding zal dan gegeven worden wanneer er een overbelasting gedetecteerd wordt door de schoksensor. Deze overbelasting kan gedetecteerd worden door de schoksensor bij de enkel, dit kan gebeuren door slechte houding tijdens lopen of door een te grote afstand. Ook hier zal er een trilling ontvangen worden door de gebruikers. Patroon 4 is bij deze melding de trilling. Net als bij de andere meldingen is er weer een tekstje, waarin gezegd wordt: "Warning: stop running". Dit heeft eigenlijk dezelfde functie als de 3de melding (te snel lopen), waar men aanraadt om zo snel mogelijk te stoppen. Dit wil niet per se zeggen dat men een blessure heeft, maar voornamelijk dat men blessure gevoelig is op dat moment. Doordat het een beetje dezelfde functie heeft als de 3de melding, zal deze warning ook vergroten en verkleinen in het gezicht van de gebruiker. Op de foto hieronder ziet men hoe een gebruiker dan de melding zou ontvangen.
+<br><br>
+<p align="center">
+  <img src="https://github.com/tcolenbi/UCD_SEM1/assets/157391495/dd9270c1-7370-4eca-8c95-12939caf6e06" width="60%">
+</p>
+<br>
 Na het bericht te krijgen "stop running", zal men een algemene scherm krijgen, waarin de gebruikers hun looptraining kunnen zien. De gebruikers kunnen dan zowel op de stop knop drukken of op de start knop, om eventueel weer verder te lopen. Eenmaal op de stop knop gedrukt wordt, zal men kunnen beslissen om hun looptraining op te slaan of niet. Als er op no geklikt, keert men terug naar de homepage en als er op yes geklikt wordt, zal de gebruiker in de activity page terechtkomen.
-
-<img src="https://github.com/tcolenbi/UCD_SEM1/assets/157391495/1c43690a-69f4-4ca4-88c8-bcb24a9d9e89" width="65%">
-
-Nu dat de looptraining afgewerkt en opgeslagen is, kunnen gebruikers hun recente activiteiten terugvinden. Hiervoor moeten ze wel in de activity page zitten als dat nog niet geval zou zijn, anders van de homepage naar de activity page is de eerste afbeelding. Om dan dieper in een bepaalde activiteit te gaan, moet men gewoon op de gewenste activiteit klikken. Zo komt men op een verbrederde pagina van de activiteit en door verder te klikken op bepaalde afbeelding, kan men de kaart zien en de data van de schoksensor. Dit wordt getoont via de splitsing in de scenes. Ook zijn er bij deze scenes een terugkeer functie, waarbij men kan terugkeren naar de vorige pagina.
-
-<img src="https://github.com/tcolenbi/UCD_SEM1/assets/157391495/0997b3fc-6436-4b37-8996-7e8ee599af4f" width="55%">
-
-Tenslotte is er nog een kleine pagina voor de instellingen. Deze instellingen zijn bereikbaar in de homepage en de gehele activity page, niet in de record page. Bij de instellingen kan men dan hun trillingspatronen wijzigen voor elke feedback. Ook is er een mogelijkheid om de intensiteit van de vibraties aan te passen en de duur van de trillingen. Met de duur worden de herhalingen bedoelt, hoe veel keer men een trillingspatroon wil voelen.
-
-<img src="https://github.com/tcolenbi/UCD_SEM1/assets/157391495/01598e26-1fee-438b-acbe-15a877f4321b" width="40%">
-
-Op dit moment zijn de voorbereiding voor de laatste testen gereed en kan er weer getest worden. Deze testen (N = 3) zullen gedaan worden volgens dit [protocol](https://docs.google.com/document/d/1pYJ-G3YoUnvUZN3zs3Tbsq_3omoc4lQR/edit). Hier zullen de gebruikers het prototypebandje aan de pols doen en zullen we samen de loopapp overlopen. Daarover mogen ze hun meningen en opmerkingen over geven en zullen wij hun reacties proberen te observeren, terwijl ze bezig zijn. Tijdens het loopgedeelt van de app gaan de gebruikers een klein toertje lopen en zullen wij op het juiste moment, met de app, de correcte vibraties patroon geven aan de gebruiker. Achteraf gaat er dan een gesprek gevoerd worden over wat ze allemaal goed en slecht vonden aan de loopapp en trillingen. Dit kunnen vragen zijn over de lay-out, kleurencombinatie, enzovoort.
-
-<img src="https://github.com/tcolenbi/UCD_SEM1/assets/157391495/cafb403d-76f2-4e24-ac1c-307bd5b9e4bd" width="18%">
-<img src="https://github.com/tcolenbi/UCD_SEM1/assets/157391495/bcfdfa45-67ad-46a6-a7fe-3078967a8312" width="18%">
-<img src="https://github.com/tcolenbi/UCD_SEM1/assets/157391495/f935a23c-94ef-4339-832a-4386fd93c8be" width="18%">
-<img src="https://github.com/tcolenbi/UCD_SEM1/assets/157391495/0b466335-0039-4ad8-8df4-67ea3655dd1d" width="18%">
-<img src="https://github.com/tcolenbi/UCD_SEM1/assets/157391495/385f039b-1720-4d97-8458-99371bbf91ec" width="18%">
-
+<br><br>
+<p align="center">
+  <img src="https://github.com/tcolenbi/UCD_SEM1/assets/157391495/1c43690a-69f4-4ca4-88c8-bcb24a9d9e89" width="60%">
+</p>
+<br>
+Nu dat de looptraining afgewerkt en opgeslagen is, kunnen gebruikers hun recente activiteiten terugvinden. Hiervoor moeten ze wel in de activity page zitten als dat nog niet geval zou zijn, anders is het ook mogelijk om van de homepage naar de activity page te gaan (zie eerste afbeelding). Om dan dieper op een bepaalde activiteit in te gaan, moet men gewoon op de gewenste activiteit klikken. Zo komt men op een algeme pagina van die activiteit en door verder te klikken op bepaalde afbeelding, kan men de kaart zien en de data van de schoksensor. Dit wordt getoond via de splitsing in de scenes. Ook zijn er bij deze scenes een terugkeer functie, waarbij men kan terugkeren naar de vorige pagina.
+<br>
+<p align="center">
+  <img src="https://github.com/tcolenbi/UCD_SEM1/assets/157391495/0997b3fc-6436-4b37-8996-7e8ee599af4f" width="55%">
+</p>
+<br>
+Tenslotte is er nog een kleine pagina voor de instellingen. Deze instellingen zijn bereikbaar in de homepage en de activity pages, niet in de record page. Bij de instellingen kan men dan hun trillingspatronen wijzigen voor elke feedback. Ook is er een mogelijkheid om de intensiteit van de vibraties aan te passen en de duur van de trillingen. Met de duur worden de herhalingen bedoeld, hoeveel keer men een trillingspatroon wil voelen.
+<br>
+<p align="center">
+  <img src="https://github.com/tcolenbi/UCD_SEM1/assets/157391495/01598e26-1fee-438b-acbe-15a877f4321b" width="50%">
+</p>
+<br>
+Zo zijn de voorbereidingen voor de laatste testen klaar en kan er weer getest worden. Deze testen (N = 3) zullen gedaan worden volgens dit [protocol](https://docs.google.com/document/d/1pYJ-G3YoUnvUZN3zs3Tbsq_3omoc4lQR/edit). Hier zullen de gebruikers het prototypebandje aan de pols doen en zullen we samen de loopapp overlopen. Daarover mogen ze hun meningen en opmerkingen over geven en zullen wij hun reacties proberen te observeren terwijl ze bezig zijn. Tijdens het loopgedeelte van de app gaan de gebruikers een klein toertje lopen en zullen wij op het juiste moment, met de app, de correcte vibraties patroon geven aan de gebruiker. Achteraf gaat er dan een gesprek gevoerd worden over wat ze allemaal goed en slecht vonden aan de loopapp en trillingen. Dit kunnen vragen zijn over de lay-out, kleurencombinatie, enzovoort.
+<p align="center">
+  <img src="https://github.com/tcolenbi/UCD_SEM1/assets/157391495/cafb403d-76f2-4e24-ac1c-307bd5b9e4bd" width="18%">
+  <img src="https://github.com/tcolenbi/UCD_SEM1/assets/157391495/bcfdfa45-67ad-46a6-a7fe-3078967a8312" width="18%">
+  <img src="https://github.com/tcolenbi/UCD_SEM1/assets/157391495/f935a23c-94ef-4339-832a-4386fd93c8be" width="18%">
+  <img src="https://github.com/tcolenbi/UCD_SEM1/assets/157391495/0b466335-0039-4ad8-8df4-67ea3655dd1d" width="18%">
+  <img src="https://github.com/tcolenbi/UCD_SEM1/assets/157391495/385f039b-1720-4d97-8458-99371bbf91ec" width="19%">
+</p>
 Doordat het observeren van de app tijdens het lopen wat moeilijk was, werd er ook nog eens al zittend de app overlopen. Dit is te zien op afbeelding 3, 4 en 5 van hierboven. Afbeeldingen 1 en 2 zijn wel tijdens het lopen.
 
 #### Resultaten & implicaties
-Uit de [uitgebreide analyse](https://docs.google.com/document/d/1AyZOp7fx8pHlt8UNO9qCsv8lQUDLi1Se3oSx1YXXuHY/edit) van de loopapp kan er geconcludeerd worden dat de app over het algemeen wel nog redelijk scoorde bij de gebruikers. Men vond het een behoorlijk simpele app, wat men zeker niet erg vond. Het deel van de vibraties was dan iets meer uitgewerkt, waardoor de opmerkingen vooral over dit ging. Deze korte [analyse](https://docs.google.com/document/d/1FEMCKRvzInP12LujY3tuCoxOQtByh8BFw_1a8ZG0jn8/edit) geeft dan nog eens een samenvatting van wat er allemaal nog gewijzigt/verbeterd kan worden. Wat we zeker nog zouden verbeteren is de functie in de instellingen, waar men de intensiteit kan aanpassen, veranderen naar 4 mogelijke intensiteiten voor de 4 verschillende patronen. Ook zal zeker de duration aangepast moeten worden, want deze was zeker niet duidelijk voor de gebruikers. Het scrollen in de homepage en activity page zou ook nog handig zijn, net als het inzoemen en scrollen op de kaart en data van de schoksensor. Het is misschien ook beter om de physical pressure duidelijker te maken. Eventueel zou het ook mooi zijn dat de gebruikers hun eigen profiel kunnen maken en aanpassen. Hiervoor moet er dan wel een page bestaan, waar je zowel kan inloggen als registreren.
+Uit de [uitgebreide analyse](https://docs.google.com/document/d/1AyZOp7fx8pHlt8UNO9qCsv8lQUDLi1Se3oSx1YXXuHY/edit) van de loop app kan er geconcludeerd worden dat de app over het algemeen wel nog redelijk scoorde bij de gebruikers. Men vond het een behoorlijk simpele app, wat men zeker niet erg vond. Het deel van de vibraties was dan iets meer uitgewerkt, waardoor de opmerkingen vooral over dit ging. Deze korte [analyse](https://docs.google.com/document/d/1FEMCKRvzInP12LujY3tuCoxOQtByh8BFw_1a8ZG0jn8/edit) geeft dan nog eens een samenvatting van wat er allemaal nog gewijzigd/verbeterd kan worden. Wat we zeker nog zouden verbeteren is de functie in de instellingen, waar men de intensiteit kan aanpassen, veranderen naar 4 mogelijke intensiteiten voor de 4 verschillende patronen. Ook zal zeker de duration aangepast moeten worden, want deze was zeker niet duidelijk voor de gebruikers. Het scrollen in de homepage en activity page zou ook nog handig zijn, net als het inzoomen en scrollen op de kaart en data van de schoksensor. Het is misschien ook beter om de physical pressure duidelijker te maken. Eventueel zou het ook mooi zijn dat de gebruikers hun eigen profiel kunnen maken en aanpassen. Hiervoor moet er dan wel een page bestaan, waar je zowel kan inloggen als registreren.
 
 Wat dan wel zeer goed was, waren de teksten aanwezig in alle meldingen. De afbeeldingen daarentegen waren soms verwarrend, vooral bij versnellen en vertragen. Ook de terugkeer knop was direct duidelijk voor alle gebruikers. Vervolgens was de trilling van het starten en het stoppen (overbelasting) behoorlijk duidelijk en een beetje herkenbaar (voor 1 iemand). De lay-out, waar de afstand, tijd en snelheid stond, is ook zeer goed. 
 
 Er werden tenslotte nog enkele [design requirements](https://docs.google.com/spreadsheets/d/1-VEMlg6IAZZ4I1zlgTZduv2rPAScUwo0/edit#gid=1329220208) gemaakt voor de testen van de interactie gebruiker-loopapp.
 
 ### Conclusies
-Uit heel deze 2 semester kunnen we concluderen dat het concept van feedback geven onder vorm van een vibratie/trilling nogal moeizaam verloopt. In de eerste test konden we redelijk gemakkelijk beslissen waar de trillingen goed en slecht voelbaar zijn. Bij de tweede testen daarentegen was het meteen al moeilijk om beslissingen te maken naar die verschillende patronen. Veel van die patronen hadden wat mixt reacties en opmerkingen, waardoor het moeilijk was om te beslissen welk patroon bij elke feedback hoort. Voor de laatste testen hadden we een beetje te weinig tijd, waardoor de app nooit een volledige app was en waarbij we ons volledige gefocust hebben op het trillingsgedeelte van de app. Ook hebben we maar 3 van de 4 interviews kunnen uitvoeren.
+Uit heel deze 2 semester kunnen we concluderen dat het concept van feedback geven onder vorm van een vibratie/trilling nogal moeizaam verloopt. In de eerste test konden we redelijk gemakkelijk beslissen waar de trillingen goed en slecht voelbaar zijn. Bij de tweede testen daarentegen was het meteen al moeilijk om beslissingen te maken naar die verschillende patronen. Veel van die patronen hadden wat mixed reacties en opmerkingen, waardoor het moeilijk was om te beslissen welk patroon bij elke feedback hoort. Voor de laatste testen hadden we een beetje te weinig tijd, waardoor de app nooit een volledige app was en waarbij we ons volledige gefocust hebben op het trillingsgedeelte van de app. Ook hebben we maar 3 van de 4 interviews kunnen uitvoeren.
 
 ## Kritische reflectie
-Na de discovery en definition fase zijn we vooral tot een vrij goed idee gekomen van hoe ons product eruit zal zien. Er zijn zeker nog verbeteringen aan mogelijk, maar die zullen gaandeweg volgend semester mee aangepast worden. Door toch een klein tijdsgebrek in de testing fase, hebben we niet alles kunnen testen wat we wilden doen. Hierdoor besloten we meteen voor de plaatsing van de sensor dat deze zich zal bevinden aan de pols.
+Na al de gemaakte testen kwam er uit dat trillingen toch vrij subjectief waren. Zo was er vaak geen volledige consensus over welke wat betekenden en moesten we goed nadenken over hoe we dit kunnen overbrengen naar de gebruikers. Uiteindelijk kwamen we op het idee van een learning curve door de industry consult. Zo konden we gebruik maken van de app om de trillingen voor de gebruikers toch duidelijk te kunnen maken.
 
-Zo is het testen van de trillingen een zeer belangrijk onderdeel waar we volgend semester mee zullen starten. Zowel de plaatsing als het feedbacksysteem zal getest moeten worden. Zo kunnen we bijvoorbeeld 1 trilling gebruiken als te snel gelopen wordt, 2 trillingen een slechte loopstijl…
-Maar we kunnen ook een langdurige trilling gebruiken als het probleem blijft aanhouden, dit moet nog getest worden of het niet eerder een negatieve impact zal hebben op de gebruiker. Ook de plaatsing zal ook bij de volgende testen aan te pas komen, dit kan overal zijn; het logische via polshorloge, aan het been, de vingers…
-Ook is de app een zeer belangrijk onderdeel dat nog getest moet worden op de user interface en belangrijke functies die erin moeten zitten. Daarmee zullen we onze sensor en ‘kous’ linken met het trillingssysteem en zal dit samen kunnen komen tot 1 groot geheel, aangezien het nu vooral nog wat aparte onderdelen zijn.
+Door uiteindelijk toch wa tijdsgebrek, konden we onze loop app niet uitwerken hoe we wouden. Ook was het niet mogelijk om aan de 4 testen te geraken. We hebben wel veel uit die testen kunnen halen om de mogelijke verbeteringen te kunnen doen. Maar effectief deze gebruiken en de aanpassingen door te voeren kon niet door dat tijdsgebrek.
 
-Wat ook belangrijk zal blijken in de volgende fase, is het wettelijke en economische aspect. Dus daar zullen we zeker rekening mee moeten houden.
-Er is dus nog veel werk aan de winkel voor volgend semester, maar we hebben er zeker het vertrouwen in dat dit zal lukken met een goede planning en afspraken.
+Graag hadden we nog een effectief product kunnen maken van het trillingsbandje, waar we aan de gebruikers konden vragen welke hun voorkeur was. Of ze liever een extra bandje puur alleen voor de trillingen te hebben of we deze verwerken in een sporthorloge, waar zeer veel lopers toch al mee lopen. Indien we dit hadden kunnen uitwerken, zouden we een soort modulair systeem gemaakt waar verschillende versies van de vibratiemotor op 1 bandje konden geplaatst worden. Zo kon er dan vooral naar het esthetische getest kunnen worden, maar ook naar de plaatsing en functie van bepaalde knoppen gekeken kunnen worden (intensiteit, aan-/uitknop, bluetooth...). Moesten we dit kunnen afwerken hadden we een meer volledig eindproduct kunnen krijgen dan wat we nu hebben. Aangezien ons trillingsbandje nog steeds een echt prototypes is, waar hulp voor nodig was om het aan te doen.
 
+Wat ook nog iets was om rekening mee te houden is meerdere versies van de kous is verschillende maten te maken. Bij sommige testpersonen zat de kous iets te los, terwijl het bij anderen steviger vast zat. Maar ook opties overwegen om andere versies te maken die bijvoorbeeld iets korter zijn voor in de zomer enz. 
+Indien we een echt goed eindproduct moesten neerleggen, zouden er toch nog wat aanpassingen moeten gedaan worden aan de prototypes. Deze hebben soms wat afgezien bij het testen en zo zouden we tot een mooier eindproduct kunnen komen.
 
-In de toekomst zouden we graag nog een paar wijzigingen willen doen voor het eindprototype. Zeker het bandje van het trillingsprototype moet gewijzigd worden, want deze is behoorlijk moeilijk om aan te doen met 1 hand. Vervolgens zou de kous ook enkele wijzigingen krijgen, waaronder dat de kous iets meer aanspant aan de kuiten. Ook de positie van de sensor is niet optimaal, want deze kan nog eens verschuiven. Het zakje waar we de sensor in wilden steken, kan ook iets beter ontworpen worden. Tenslotte
+Uiteindelijk zijn we wel overtuigd van ons eindproduct en zeker van het potentieel ervan. Maar er zijn dus nog wel dingen die het beter en meer afgewerkt zouden kunnen maken.
 
 ## Bronnen
 De Mey, K. (2022, 21 januari). Music-based biofeedback system for lower impact running - Victoris - Ghent University. Victoris - Ghent University.                               https://www.victoris.be/lower-impact-running/
@@ -687,8 +721,8 @@ Dim, N. K., & Ren, X. (2017b). Investigation of suitable body parts for wearable
 - [Expert interview Daan Mol](https://docs.google.com/document/d/1K1jLO81gPbMWL8dE-gqqWKObYCxaOo2p/edit)
 - [Expert interview Sam Deprez](https://docs.google.com/document/d/1TcExHg7gHaKmBFPjrnaUhdVDp7qLbcxQ/edit)
 - [uitgebreide analyse](https://docs.google.com/document/d/1AyZOp7fx8pHlt8UNO9qCsv8lQUDLi1Se3oSx1YXXuHY/edit)
-- [Analyse wijzigingen loopapp](https://docs.google.com/document/d/1FEMCKRvzInP12LujY3tuCoxOQtByh8BFw_1a8ZG0jn8/edit)
-- [Design requirements loopapp](https://docs.google.com/spreadsheets/d/1-VEMlg6IAZZ4I1zlgTZduv2rPAScUwo0/edit#gid=1329220208) 
+- [Analyse wijzigingen loop app](https://docs.google.com/document/d/1FEMCKRvzInP12LujY3tuCoxOQtByh8BFw_1a8ZG0jn8/edit)
+- [Design requirements loop app](https://docs.google.com/spreadsheets/d/1-VEMlg6IAZZ4I1zlgTZduv2rPAScUwo0/edit#gid=1329220208) 
 ### Bronnen
 - [Foto artikel](https://drive.google.com/file/d/14z9DMBd4uKEKwwcEzfh-XkQDCOTmf4BB/view?usp=drive_link)
 - https://www.victoris.be/lower-impact-running/
