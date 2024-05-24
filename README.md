@@ -624,10 +624,14 @@ Op dit moment zijn de voorbereiding voor de laatste testen gereed en kan er weer
 Doordat het observeren van de app tijdens het lopen wat moeilijk was, werd er ook nog eens al zittend de app overlopen. Dit is te zien op afbeelding 3, 4 en 5 van hierboven. Afbeeldingen 1 en 2 zijn wel tijdens het lopen.
 
 #### Resultaten & implicaties
-Uit de analyse van de loopapp konden we concluderen dat men de app behoorlijk basic vond. 
+Uit de [uitgebreide analyse](https://docs.google.com/document/d/1AyZOp7fx8pHlt8UNO9qCsv8lQUDLi1Se3oSx1YXXuHY/edit) van de loopapp kan er geconcludeerd worden dat de app over het algemeen wel nog redelijk scoorde bij de gebruikers. Men vond het een behoorlijk simpele app, wat men zeker niet erg vond. Het deel van de vibraties was dan iets meer uitgewerkt, waardoor de opmerkingen vooral over dit ging. Deze korte [analyse](https://docs.google.com/document/d/1FEMCKRvzInP12LujY3tuCoxOQtByh8BFw_1a8ZG0jn8/edit) geeft dan nog eens een samenvatting van wat er allemaal nog gewijzigt/verbeterd kan worden. Wat we zeker nog zouden verbeteren is de functie in de instellingen, waar men de intensiteit kan aanpassen, veranderen naar 4 mogelijke intensiteiten voor de 4 verschillende patronen. Ook zal zeker de duration aangepast moeten worden, want deze was zeker niet duidelijk voor de gebruikers. Het scrollen in de homepage en activity page zou ook nog handig zijn, net als het inzoemen en scrollen op de kaart en data van de schoksensor. Het is misschien ook beter om de physical pressure duidelijker te maken.
+
+Wat dan wel zeer goed was, waren de teksten aanwezig in alle meldingen. De afbeeldingen daarentegen waren soms verwarrend, vooral bij versnellen en vertragen. Ook de terugkeer knop was direct duidelijk voor alle gebruikers. Vervolgens was de trilling van het starten en het stoppen (overbelasting) behoorlijk duidelijk en een beetje herkenbaar (voor 1 iemand). De lay-out, waar de afstand, tijd en snelheid stond, is ook zeer goed. 
+
+Er werden tenslotte nog enkele [design requirements](https://docs.google.com/spreadsheets/d/1-VEMlg6IAZZ4I1zlgTZduv2rPAScUwo0/edit#gid=1329220208) gemaakt voor de testen van de interactie gebruiker-loopapp.
 
 ### Conclusies
-
+Uit heel deze 2 semester kunnen we concluderen dat het concept van feedback geven onder vorm van een vibratie/trilling nogal moeizaam verloopt. In de eerste test konden we redelijk gemakkelijk beslissen waar de trillingen goed en slecht voelbaar zijn. Bij de tweede testen daarentegen was het meteen al moeilijk om beslissingen te maken naar die verschillende patronen. Veel van die patronen hadden wat mixt reacties en opmerkingen, waardoor het moeilijk was om te beslissen welk patroon bij elke feedback hoort. Voor de laatste testen hadden we een beetje te weinig tijd, waardoor de app nooit een volledige app was en waarbij we ons volledige gefocust hebben op het trillingsgedeelte van de app. Ook hebben we maar 3 van de 4 interviews kunnen uitvoeren.
 
 ## Kritische reflectie
 Na de discovery en definition fase zijn we vooral tot een vrij goed idee gekomen van hoe ons product eruit zal zien. Er zijn zeker nog verbeteringen aan mogelijk, maar die zullen gaandeweg volgend semester mee aangepast worden. Door toch een klein tijdsgebrek in de testing fase, hebben we niet alles kunnen testen wat we wilden doen. Hierdoor besloten we meteen voor de plaatsing van de sensor dat deze zich zal bevinden aan de pols.
@@ -638,6 +642,9 @@ Ook is de app een zeer belangrijk onderdeel dat nog getest moet worden op de use
 
 Wat ook belangrijk zal blijken in de volgende fase, is het wettelijke en economische aspect. Dus daar zullen we zeker rekening mee moeten houden.
 Er is dus nog veel werk aan de winkel voor volgend semester, maar we hebben er zeker het vertrouwen in dat dit zal lukken met een goede planning en afspraken.
+
+
+In de toekomst zouden we graag nog een paar wijzigingen willen doen voor het eindprototype. Zeker het bandje van het trillingsprototype moet gewijzigd worden, want deze is behoorlijk moeilijk om aan te doen met 1 hand. Vervolgens zou de kous ook enkele wijzigingen krijgen, waaronder dat de kous iets meer aanspant aan de kuiten. Ook de positie van de sensor is niet optimaal, want deze kan nog eens verschuiven. Het zakje waar we de sensor in wilden steken, kan ook iets beter ontworpen worden. Tenslotte
 
 ## Bronnen
 De Mey, K. (2022, 21 januari). Music-based biofeedback system for lower impact running - Victoris - Ghent University. Victoris - Ghent University.                               https://www.victoris.be/lower-impact-running/
@@ -670,7 +677,7 @@ Dim, N. K., & Ren, X. (2017b). Investigation of suitable body parts for wearable
 - [Enquête trilpatronen](https://docs.google.com/forms/d/e/1FAIpQLScmizs75yjgCpesMGq3S0cR4rJNPPkFtNJaIQOXT0I43W4MGA/viewform)
 - [Reflectieblad trilpatronen](https://docs.google.com/document/d/1wNu0Ga2jCGNgYv4VUZ1TmaLEh9RdVE07/edit)
 - [Expert interview protocol](https://docs.google.com/document/d/1l1tshu3ePcZvtlrLZzoLAc0l129nyXmz/edit)
-- [protocol loopapp en interactie](https://docs.google.com/document/d/1pYJ-G3YoUnvUZN3zs3Tbsq_3omoc4lQR/edit)
+- [Protocol loopapp en interactie](https://docs.google.com/document/d/1pYJ-G3YoUnvUZN3zs3Tbsq_3omoc4lQR/edit)
 #### Resultaten & implicaties
 - [design requirements trillingen](https://drive.google.com/file/d/1oGtC-9SZvx6FypRc7NpTEypIYxYLATkD/view?usp=drive_link)
 - [Analyse positie trillingen](https://docs.google.com/document/d/1CNyfjw0nFtA4_fF_JsgoV67jAOPYfLT4v7V0rgOIwPo/edit)
@@ -679,6 +686,9 @@ Dim, N. K., & Ren, X. (2017b). Investigation of suitable body parts for wearable
 - [Analyse reflectieblad trilpatronen](https://docs.google.com/document/d/1cWzHusq3pfrT-VqizPmpFu9x6hPAurYhEpr6RkHcO7I/edit)
 - [Expert interview Daan Mol](https://docs.google.com/document/d/1K1jLO81gPbMWL8dE-gqqWKObYCxaOo2p/edit)
 - [Expert interview Sam Deprez](https://docs.google.com/document/d/1TcExHg7gHaKmBFPjrnaUhdVDp7qLbcxQ/edit)
+- [uitgebreide analyse](https://docs.google.com/document/d/1AyZOp7fx8pHlt8UNO9qCsv8lQUDLi1Se3oSx1YXXuHY/edit)
+- [Analyse wijzigingen loopapp](https://docs.google.com/document/d/1FEMCKRvzInP12LujY3tuCoxOQtByh8BFw_1a8ZG0jn8/edit)
+- [Design requirements loopapp](https://docs.google.com/spreadsheets/d/1-VEMlg6IAZZ4I1zlgTZduv2rPAScUwo0/edit#gid=1329220208) 
 ### Bronnen
 - [Foto artikel](https://drive.google.com/file/d/14z9DMBd4uKEKwwcEzfh-XkQDCOTmf4BB/view?usp=drive_link)
 - https://www.victoris.be/lower-impact-running/
