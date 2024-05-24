@@ -254,11 +254,15 @@ We hebben een eerste prototype gemaakt voor de trillingen (links), maar deze ble
 ##### Borst
 Voor de trillingen op de borst zouden we ook Arduino moeten gebruiken, maar met een langere band zodanig dat de afmetingen voor de gemiddelde mens kunnen behaald worden. Een mooi voorbeeld hierbij is een hartslagmeter. 
 <p align="center">
-  <img src="https://github.com/tcolenbi/UCD_SEM1/assets/157391495/ae9141e1-f149-4341-86f3-49022dac53d3" width="35%">
+  <img src="https://github.com/tcolenbi/UCD_SEM1/assets/157391495/ae9141e1-f149-4341-86f3-49022dac53d3" width="50%">
+  <img src="https://github.com/tcolenbi/MotionMate/assets/157377776/7cab2e16-8cfe-4bc8-ba91-b097a4e65335" width="21%">
 </p>
 
 ##### Enkel
 We gaan ook de trillingen op de enkel testen, ondanks dat het artikel (Dim, N. K., & Ren, X.) vermeldt dat trillingen niet meer aangenaam werden ervaren onder de heup. Zouden we graag toch eens testen of dit effectief ook het geval is bij ons. Dit gaan we ook testen aan de hand van ons bandje en de Arduino Nano. Hierbij is ook rekening gehouden met de anthropometrische waarden van de gemiddelde mens.
+<p align="center">
+  <img src="https://github.com/tcolenbi/MotionMate/assets/157377776/77616f8b-860a-44e7-a759-9396da683042" width="25%">
+</p>
 
 
 Al deze posities hebben we getest op dezelfde manier, volgens hetzelfde [protocol](https://docs.google.com/document/d/1lXbS9jN76cUr3vju8mQVeZ8K8YjpnvmN/edit). Op het einde van de gebruikerstesten hebben we dan nog een [reflectieblad](https://drive.google.com/file/d/1Nsha_xjgBmR1ecXfb2hWs4F0LypFR_ki/view?usp=sharing) gegeven aan de gebruikers, zodat zij hun meningen daarover kunnen geven. 
