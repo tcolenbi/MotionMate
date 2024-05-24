@@ -11,7 +11,7 @@ Dit probleem is grondig onderzocht en onderbouwd door onderzoekers aan de UGent.
 
 We gaan de sensor in een kous/beenwarmer/steunverband verwerken om de sensor altijd op de juiste plek te kunnen houden en makkelijk aan te kunnen brengen.
 Ook het feedbacksysteem zullen we aanpassen, we gaan trillingen gebruiken zodat ook mensen die zonder muziek lopen gebruik kunnen maken van dit systeem. Daarnaast zal er ook een app gemaakt worden waarin alle statistieken en verbeteringen in de loopstijl te vinden zullen zijn. Via de app zouden we de loper ook willen motiveren om meer te gaan en durven lopen. 
-Aan de hand van de sensor en het feedback systeem dat aan de arm bevestigd wordt zal de loper uiteindelijk zijn loopstijl kunnen verbeteren, beter kunnen revalideren met duidelijke informatie en blessures kunnen vermijden.
+Aan de hand van de sensor en het feedback systeem, dat aan de arm bevestigd wordt, zal de loper uiteindelijk zijn loopstijl kunnen verbeteren, beter kunnen revalideren met duidelijke informatie en blessures kunnen vermijden.
 <p align="center">
 <img src="https://github.com/tcolenbi/MotionMate/assets/157377776/ba14f849-2ebd-4e9f-8d64-237e9141febd" width="40%">
 </p>
